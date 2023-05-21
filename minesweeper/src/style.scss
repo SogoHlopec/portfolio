@@ -1,1 +1,22 @@
 @import "./styles/normalize";
+
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+
+.checked {
+  background-color: red;
+}
+
+.bomb {
+  background-color: orange;
+}
