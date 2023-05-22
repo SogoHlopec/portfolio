@@ -7,14 +7,13 @@ class Timer {
 
   start() {
     if (this.timerId) {
-      console.log("Таймер уже запущен.");
       return;
     }
 
     const tick = () => {
+      this.addText();
+      this.sec++;
       this.timerId = setTimeout(() => {
-        this.sec++;
-        this.addText();
         tick();
       }, 1000);
     };

@@ -24,6 +24,18 @@ const createHtml = (body) => {
 
   const grid = createElement("div", "grid");
   main.append(grid);
+
+  const modal = createElement("div", "modal");
+  main.append(modal);
+
+  const modalContent = createElement("div", "modal__content");
+  modalContent.textContent =
+    "Hooray! You found all mines in ## seconds and N moves!";
+  modal.append(modalContent);
+
+  const modalClose = createElement("span", "modal__close");
+  modalClose.textContent = "close";
+  modalContent.append(modalClose);
 };
 
 export { createHtml };

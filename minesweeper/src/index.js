@@ -6,3 +6,5 @@ const body = document.querySelector("body");
 const app = new App(body);
 app.render();
 app.newGame();
+
+export { app };

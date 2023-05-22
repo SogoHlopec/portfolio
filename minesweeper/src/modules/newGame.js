@@ -1,3 +1,5 @@
+import { app } from "..";
+import { Modal } from "./modal";
 import { Timer } from "./timer";
 
 class NewGame {
@@ -14,6 +16,10 @@ class NewGame {
   }
 
   start() {
+    this.grid.innerHTML = "";
+    this.countMove = 0;
+    this.moves.textContent = `Moves: ${this.countMove}`;
+    this.timer.stop();
     this.createBoard();
   }
 
@@ -229,8 +235,15 @@ class NewGame {
         matches++;
       }
       if (matches === this.bombAmount) {
-        console.log("YOU WIN!");
         this.isGameOver = true;
+        const modal = new Modal();
+        modal.open();
+        modal.modal
+          .querySelector(".modal__close")
+          .addEventListener("click", () => {
+            modal.close();
+            app.newGame();
+          });
       }
     }
   }
