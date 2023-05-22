@@ -15,7 +15,7 @@ const createHtml = (body) => {
   time.textContent = "Time: 000";
   counter.append(time);
 
-  const moves = createElement("div", "moves");
+  const moves = createElement("div", "counter__moves");
   moves.textContent = "Moves: 0";
   counter.append(moves);
 

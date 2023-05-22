@@ -12,9 +12,11 @@ class Timer {
     }
 
     const tick = () => {
-      this.sec++;
-      this.addText();
-      this.timerId = setTimeout(tick, 1000);
+      this.timerId = setTimeout(() => {
+        this.sec++;
+        this.addText();
+        tick();
+      }, 1000);
     };
     tick();
   }

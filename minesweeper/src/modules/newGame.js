@@ -8,12 +8,13 @@ class NewGame {
     this.squares = [];
     this.flags = 0;
     this.isGameOver = false;
-    this.time = new Timer(document.querySelector(".counter__time"));
+    this.timer = new Timer(document.querySelector(".counter__time"));
+    this.moves = document.querySelector(".counter__moves");
+    this.countMove = 0;
   }
 
   start() {
     this.createBoard();
-    this.time.start();
   }
 
   createBoard() {
@@ -36,12 +37,14 @@ class NewGame {
       // normal click
       square.addEventListener("click", (e) => {
         this.click(square);
+        this.addMove();
       });
 
       // right click
       square.oncontextmenu = (e) => {
         e.preventDefault();
         this.addFlag(square);
+        this.timer.start();
       };
     }
 
@@ -133,6 +136,9 @@ class NewGame {
   click(square) {
     let currentId = square.id;
     if (this.isGameOver) return;
+    if (square) {
+      this.timer.start();
+    }
     if (
       square.classList.contains("cell_checked") ||
       square.classList.contains("cell_flag")
@@ -227,6 +233,11 @@ class NewGame {
         this.isGameOver = true;
       }
     }
+  }
+
+  addMove() {
+    this.countMove++;
+    this.moves.textContent = `Moves: ${this.countMove}`;
   }
 }
 
