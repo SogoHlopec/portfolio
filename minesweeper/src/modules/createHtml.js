@@ -8,6 +8,17 @@ const createHtml = (body) => {
   title.textContent = "Minesweeper";
   header.append(title);
 
+  const counter = createElement("div", "counter");
+  header.append(counter);
+
+  const time = createElement("div", "counter__time");
+  time.textContent = "Time: 000";
+  counter.append(time);
+
+  const moves = createElement("div", "moves");
+  moves.textContent = "Moves: 0";
+  counter.append(moves);
+
   const main = createElement("main", "main");
   body.append(main);
 

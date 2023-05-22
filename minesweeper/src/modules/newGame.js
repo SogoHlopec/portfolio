@@ -1,3 +1,5 @@
+import { Timer } from "./timer";
+
 class NewGame {
   constructor(width, bombAmount) {
     this.grid = document.querySelector(".grid");
@@ -6,10 +8,12 @@ class NewGame {
     this.squares = [];
     this.flags = 0;
     this.isGameOver = false;
+    this.time = new Timer(document.querySelector(".counter__time"));
   }
 
   start() {
     this.createBoard();
+    this.time.start();
   }
 
   createBoard() {
@@ -119,7 +123,7 @@ class NewGame {
         this.flags++;
         this.checkForWin();
       } else {
-        square.classList.remove("flag");
+        square.classList.remove("cell_flag");
         square.innerHTML = "";
         this.flags--;
       }

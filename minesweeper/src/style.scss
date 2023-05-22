@@ -22,13 +22,21 @@ html {
 .header,
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .title {
   font-size: 3rem;
+}
+
+.counter {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
 }
 
 .grid {
