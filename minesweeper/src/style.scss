@@ -41,18 +41,18 @@ html {
 
 .grid {
   width: 600px;
-  min-height: 600px;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   background-color: $color-background;
 
   @media screen and (max-height: 768px) {
-    min-height: 500px;
+    height: 500px;
     width: 500px;
   }
 
   @media screen and (max-width: 768px) {
-    min-height: 80vh;
+    height: 80vh;
     width: 90vw;
   }
 
