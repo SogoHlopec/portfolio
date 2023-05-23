@@ -159,6 +159,7 @@ class NewGame {
       if (total != 0) {
         square.classList.add("cell_checked");
         square.innerHTML = total;
+        this.checkForWin();
         return;
       }
       this.checkSquare(currentId);
@@ -231,6 +232,7 @@ class NewGame {
 
   checkForWin() {
     let matches = 0;
+    let checked = 0;
     for (let i = 0; i < this.squares.length; i++) {
       if (
         this.squares[i].classList.contains("cell_flag") &&
@@ -238,13 +240,19 @@ class NewGame {
       ) {
         matches++;
       }
-    }
-    if (matches === this.bombAmount) {
-      this.isGameOver = true;
-      this.win = true;
-      const modal = new Modal();
-      modal.open(this.win);
-      this.timer.stop();
+      if (this.squares[i].classList.contains("cell_checked")) {
+        checked++;
+      }
+      if (
+        matches === this.bombAmount ||
+        checked === this.squares.length - this.bombAmount
+      ) {
+        this.isGameOver = true;
+        this.win = true;
+        const modal = new Modal();
+        modal.open(this.win);
+        this.timer.stop();
+      }
     }
   }
 
