@@ -25,23 +25,32 @@ class NewGame {
 
   createBoard() {
     //get shuffled game array with random bombs
-    const bombsArray = Array(this.bombAmount).fill("cell_bomb");
-    const emptyArray = Array(this.width * this.width - this.bombAmount).fill(
-      "cell_empty"
-    );
-    const gameArray = emptyArray.concat(bombsArray);
-    const shuffledArray = gameArray.sort(() => Math.random() - 0.5);
+    // const bombsArray = Array(this.bombAmount).fill("cell_bomb");
+    // const emptyArray = Array(this.width * this.width - this.bombAmount).fill(
+    //   "cell_empty"
+    // );
+    // const gameArray = emptyArray.concat(bombsArray);
+    // const shuffledArray = gameArray.sort(() => Math.random() - 0.5);
+
+    const emptyArray = Array(this.width * this.width).fill("cell_empty");
 
     for (let i = 0; i < this.width * this.width; i++) {
       const square = document.createElement("div");
       square.classList.add("grid__cell");
       square.setAttribute("id", i);
-      square.classList.add(shuffledArray[i]);
+      square.classList.add(emptyArray[i]);
       this.grid.appendChild(square);
       this.squares.push(square);
 
       // normal click
       square.addEventListener("click", (e) => {
+        if (this.countMove === 0) {
+          this.addBombs();
+          this.addMove();
+          this.addNumbers();
+          e.target.click();
+          return;
+        }
         this.click(square);
         this.addMove();
         if (!this.isGameOver) {
@@ -58,8 +67,10 @@ class NewGame {
         }
       };
     }
+    this.addNumbers();
+  }
 
-    // add numbers
+  addNumbers() {
     for (let i = 0; i < this.squares.length; i++) {
       let total = 0;
       const isLeftEdge = i % this.width === 0;
@@ -162,60 +173,78 @@ class NewGame {
         this.checkForWin();
         return;
       }
+      // if (this.countMove === 0) {
+      //   this.addBombs();
+      //   return
+      // }
       this.checkSquare(currentId);
     }
     square.classList.add("cell_checked");
+  }
+
+  addBombs() {
+    // get shuffled game array with random bombs
+    const bombsArray = Array(this.bombAmount).fill("cell_bomb");
+    const emptyArray = Array(
+      this.width * this.width - this.bombAmount - 1
+    ).fill("cell_empty");
+    const gameArray = emptyArray.concat(bombsArray);
+    const shuffledArray = gameArray.sort(() => Math.random() - 0.5);
+
+    for (let i = 0; i < this.squares.length - 1; i++) {
+      if (this.squares[i].classList.contains("cell_checked")) {
+        break;
+      }
+      this.squares[i].classList.add(shuffledArray[i]);
+    }
   }
 
   checkSquare(currentId) {
     const isLeftEdge = currentId % this.width === 0;
     const isRightEdge = currentId % this.width === this.width - 1;
 
+    const clickNewSquare = (newId) => {
+      const newSquare = document.getElementById(newId);
+      this.click(newSquare);
+    };
+
     setTimeout(() => {
       if (currentId > 0 && !isLeftEdge) {
-        const newId = [Number(currentId) - 1];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) - 1;
+        clickNewSquare(newId);
       }
       if (currentId > 9 && !isRightEdge) {
-        const newId = [Number(currentId) + 1 - this.width];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) + 1 - this.width;
+        clickNewSquare(newId);
       }
       if (currentId > 10) {
-        const newId = [Number(currentId) - this.width];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) - this.width;
+        clickNewSquare(newId);
       }
       if (currentId > 11 && !isLeftEdge) {
-        const newId = [Number(currentId) - 1 - this.width];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) - 1 - this.width;
+        clickNewSquare(newId);
       }
-      if (currentId < 98 && !isRightEdge) {
-        const newId = [Number(currentId) + 1];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+      if (currentId < 99 && !isRightEdge) {
+        const newId = Number(currentId) + 1;
+        clickNewSquare(newId);
       }
       if (currentId < 90 && !isLeftEdge) {
-        const newId = [Number(currentId) - 1 + this.width];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) - 1 + this.width;
+        clickNewSquare(newId);
       }
       if (currentId < 88 && !isRightEdge) {
-        const newId = [Number(currentId) + 1 + this.width];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) + 1 + this.width;
+        clickNewSquare(newId);
       }
       if (currentId < 89) {
-        const newId = [Number(currentId) + this.width];
-        const newSquare = document.getElementById(newId);
-        this.click(newSquare);
+        const newId = Number(currentId) + this.width;
+        clickNewSquare(newId);
       }
     }, 10);
   }
 
-  gameOver() {
+  gameOver(square) {
     this.isGameOver = true;
     const modal = new Modal();
     modal.open(this.win);
