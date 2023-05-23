@@ -26,6 +26,8 @@ class Modal {
 
     if (win === true) {
       this.text.textContent = `Hooray! You found all mines in ${this.seconds} seconds and ${this.moves} moves!`;
+    } else {
+      this.text.textContent = `Game over. Try again`;
     }
   }
 

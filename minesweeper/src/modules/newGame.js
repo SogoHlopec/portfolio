@@ -215,9 +215,10 @@ class NewGame {
   }
 
   gameOver() {
-    console.log("BOOM! Game Over!");
-    this.modal.open();
     this.isGameOver = true;
+    const modal = new Modal();
+    modal.open(this.win);
+    this.timer.stop();
 
     // show ALL the bombs
     this.squares.forEach((square) => {

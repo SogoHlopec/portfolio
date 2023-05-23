@@ -99,6 +99,9 @@ html {
 
   .modal__content {
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: $color-modal;
     margin: 15% auto;
     padding: 20px;
@@ -106,13 +109,10 @@ html {
     font-size: 1.5rem;
 
     .modal__text {
-      margin: 0;
     }
   }
 
   .modal__close {
-    display: flex;
-    justify-content: flex-end;
     color: $color-modal-close;
     font-weight: bold;
     cursor: pointer;
