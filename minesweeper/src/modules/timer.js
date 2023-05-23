@@ -10,14 +10,11 @@ class Timer {
       return;
     }
 
-    const tick = () => {
-      this.addText();
+    this.timerId = setInterval(() => {
       this.sec++;
-      this.timerId = setTimeout(() => {
-        tick();
-      }, 1000);
-    };
-    tick();
+      this.addText();
+    }, 1000);
+    console.log("Timer Start!");
   }
 
   addText() {
@@ -29,8 +26,10 @@ class Timer {
   }
 
   stop() {
+    console.log("Timer Stop!");
     this.sec = 0;
-    clearTimeout(this.timerId);
+    clearInterval(this.timerId);
+    this.timerId = null;
     this.addText();
   }
 }

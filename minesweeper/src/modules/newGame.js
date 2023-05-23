@@ -19,7 +19,6 @@ class NewGame {
     this.grid.innerHTML = "";
     this.countMove = 0;
     this.moves.textContent = `Moves: ${this.countMove}`;
-    this.timer.stop();
     this.createBoard();
   }
 
@@ -44,13 +43,18 @@ class NewGame {
       square.addEventListener("click", (e) => {
         this.click(square);
         this.addMove();
+        if (!this.isGameOver) {
+          this.timer.start();
+        }
       });
 
       // right click
       square.oncontextmenu = (e) => {
         e.preventDefault();
         this.addFlag(square);
-        this.timer.start();
+        if (!this.isGameOver) {
+          this.timer.start();
+        }
       };
     }
 
@@ -142,9 +146,6 @@ class NewGame {
   click(square) {
     let currentId = square.id;
     if (this.isGameOver) return;
-    if (square) {
-      this.timer.start();
-    }
     if (
       square.classList.contains("cell_checked") ||
       square.classList.contains("cell_flag")
@@ -234,17 +235,18 @@ class NewGame {
       ) {
         matches++;
       }
-      if (matches === this.bombAmount) {
-        this.isGameOver = true;
-        const modal = new Modal();
-        modal.open();
-        modal.modal
-          .querySelector(".modal__close")
-          .addEventListener("click", () => {
-            modal.close();
-            app.newGame();
-          });
-      }
+    }
+    if (matches === this.bombAmount) {
+      this.isGameOver = true;
+      this.timer.stop();
+      const modal = new Modal();
+      modal.open();
+      modal.modal
+        .querySelector(".modal__close")
+        .addEventListener("click", () => {
+          modal.close();
+          app.newGame();
+        });
     }
   }
 
