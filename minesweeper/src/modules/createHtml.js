@@ -29,9 +29,12 @@ const createHtml = (body) => {
   main.append(modal);
 
   const modalContent = createElement("div", "modal__content");
-  modalContent.textContent =
-    "Hooray! You found all mines in ## seconds and N moves!";
   modal.append(modalContent);
+
+  const modalText = createElement("p", "modal__text");
+  modalText.textContent =
+    "Hooray! You found all mines in ## seconds and N moves!";
+  modalContent.append(modalText);
 
   const modalClose = createElement("span", "modal__close");
   modalClose.textContent = "close";

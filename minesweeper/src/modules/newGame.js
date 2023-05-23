@@ -10,6 +10,7 @@ class NewGame {
     this.squares = [];
     this.flags = 0;
     this.isGameOver = false;
+    this.win = false;
     this.timer = new Timer(document.querySelector(".counter__time"));
     this.moves = document.querySelector(".counter__moves");
     this.countMove = 0;
@@ -215,6 +216,7 @@ class NewGame {
 
   gameOver() {
     console.log("BOOM! Game Over!");
+    this.modal.open();
     this.isGameOver = true;
 
     // show ALL the bombs
@@ -238,15 +240,10 @@ class NewGame {
     }
     if (matches === this.bombAmount) {
       this.isGameOver = true;
-      this.timer.stop();
+      this.win = true;
       const modal = new Modal();
-      modal.open();
-      modal.modal
-        .querySelector(".modal__close")
-        .addEventListener("click", () => {
-          modal.close();
-          app.newGame();
-        });
+      modal.open(this.win);
+      this.timer.stop();
     }
   }
 

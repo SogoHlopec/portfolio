@@ -98,17 +98,22 @@ html {
   background-color: $color-background-modal;
 
   .modal__content {
+    width: 80%;
     background-color: $color-modal;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid $color-border-modal;
-    width: 80%;
+    font-size: 1.5rem;
+
+    .modal__text {
+      margin: 0;
+    }
   }
 
   .modal__close {
+    display: flex;
+    justify-content: flex-end;
     color: $color-modal-close;
-    float: right;
-    font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
 
