@@ -7,5 +7,4 @@ const app = new App(body);
 app.render();
 app.newGame();
 
-alert("Пожалуйста, проверьте работу в последний день. Спасибо.")
 export { app };

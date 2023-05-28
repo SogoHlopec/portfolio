@@ -45,7 +45,7 @@ class NewGame {
       // normal click
       square.addEventListener("click", (e) => {
         if (this.countMove === 0) {
-          this.addBombs();
+          this.addBombs(e.target.id);
           this.addMove();
           this.addNumbers();
           e.target.click();
@@ -105,7 +105,7 @@ class NewGame {
           total++;
         }
         if (
-          i < 98 &&
+          i < 99 &&
           !isRightEdge &&
           this.squares[i + 1].classList.contains("cell_bomb")
         ) {
@@ -119,14 +119,14 @@ class NewGame {
           total++;
         }
         if (
-          i < 88 &&
+          i <= 88 &&
           !isRightEdge &&
           this.squares[i + 1 + this.width].classList.contains("cell_bomb")
         ) {
           total++;
         }
         if (
-          i < 89 &&
+          i <= 89 &&
           this.squares[i + this.width].classList.contains("cell_bomb")
         ) {
           total++;
@@ -182,19 +182,26 @@ class NewGame {
     square.classList.add("cell_checked");
   }
 
-  addBombs() {
+  addBombs(id) {
     // get shuffled game array with random bombs
-    const bombsArray = Array(this.bombAmount).fill("cell_bomb");
-    const emptyArray = Array(
-      this.width * this.width - this.bombAmount - 1
-    ).fill("cell_empty");
-    const gameArray = emptyArray.concat(bombsArray);
-    const shuffledArray = gameArray.sort(() => Math.random() - 0.5);
 
-    for (let i = 0; i < this.squares.length - 1; i++) {
-      if (this.squares[i].classList.contains("cell_checked")) {
-        break;
+    const createShuffledArray = (id) => {
+      const bombsArray = Array(this.bombAmount).fill("cell_bomb");
+      const emptyArray = Array(this.width * this.width - this.bombAmount).fill(
+        "cell_empty"
+      );
+      const gameArray = emptyArray.concat(bombsArray);
+      const shuffledArray = gameArray.sort(() => Math.random() - 0.5);
+      if (shuffledArray[id] === "cell_bomb") {
+        return createShuffledArray(id);
+      } else {
+        return shuffledArray;
       }
+    };
+    const shuffledArray = createShuffledArray(id);
+    console.log(shuffledArray);
+
+    for (let i = 0; i < this.squares.length; i++) {
       this.squares[i].classList.add(shuffledArray[i]);
     }
   }
