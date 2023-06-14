@@ -1,4 +1,4 @@
-export interface SourcesNews {
+interface ISources {
     id: string;
     name: string;
     description: string;
@@ -8,18 +8,18 @@ export interface SourcesNews {
     country: string;
 }
 
-export interface Resp {
+interface IResp {
     status: string;
-    sources: SourcesNews[];
+    sources: ISources[];
 }
 
-export interface Source {
+interface ISource {
     id: string;
     name: string;
 }
 
-export interface Article {
-    source: Source;
+interface IArticle {
+    source: ISource;
     author: string;
     content: string;
     description: string;
@@ -29,8 +29,10 @@ export interface Article {
     urlToImage: string;
 }
 
-export interface RespArticles {
-    articles: Article[];
+interface INews {
+    articles: IArticle[];
     status: string;
     totalResults: number;
 }
+
+export { ISources, IResp, ISource, IArticle, INews };
