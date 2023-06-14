@@ -1,3 +1,18 @@
+export interface SourcesNews {
+    id: string;
+    name: string;
+    description: string;
+    url: string;
+    category: string;
+    language: string;
+    country: string;
+}
+
+export interface Resp {
+    status: string;
+    sources: SourcesNews[];
+}
+
 export interface Source {
     id: string;
     name: string;
@@ -14,7 +29,7 @@ export interface Article {
     urlToImage: string;
 }
 
-export interface Resp {
+export interface RespArticles {
     articles: Article[];
     status: string;
     totalResults: number;
