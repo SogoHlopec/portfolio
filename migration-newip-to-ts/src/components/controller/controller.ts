@@ -2,7 +2,7 @@ import { IResp } from '../../interfaces/interfaces';
 import AppLoader from './appLoader';
 
 class AppController extends AppLoader {
-    getSources(callback: (data: IResp) => void) {
+    public getSources(callback: (data: IResp) => void): void {
         super.getResp(
             {
                 endpoint: 'sources',
@@ -11,28 +11,30 @@ class AppController extends AppLoader {
         );
     }
 
-    getNews(e: Event, callback: (data: IResp) => void) {
-        let target = e.target as HTMLTemplateElement;
-        const newsContainer = e.currentTarget as HTMLTemplateElement;
+    public getNews(e: Event, callback: (data: IResp) => void): void {
+        let target: EventTarget | null = e.target;
+        const newsContainer: EventTarget | null = e.currentTarget;
 
         while (target !== newsContainer) {
-            if (target.classList.contains('source__item')) {
-                const sourceId = target.getAttribute('data-source-id');
-                if (sourceId && newsContainer.getAttribute('data-source') !== sourceId) {
-                    newsContainer.setAttribute('data-source', sourceId);
-                    super.getResp(
-                        {
-                            endpoint: 'everything',
-                            options: {
-                                sources: sourceId,
+            if (target instanceof HTMLElement && newsContainer instanceof HTMLElement) {
+                if (target?.classList.contains('source__item')) {
+                    const sourceId: string | null = target.getAttribute('data-source-id');
+                    if (sourceId && newsContainer.getAttribute('data-source') !== sourceId) {
+                        newsContainer.setAttribute('data-source', sourceId);
+                        super.getResp(
+                            {
+                                endpoint: 'everything',
+                                options: {
+                                    sources: sourceId,
+                                },
                             },
-                        },
-                        callback
-                    );
+                            callback
+                        );
+                    }
+                    return;
                 }
-                return;
+                target = target.parentNode;
             }
-            target = target.parentNode as HTMLTemplateElement;
         }
     }
 }

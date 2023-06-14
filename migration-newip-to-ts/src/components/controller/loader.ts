@@ -33,7 +33,7 @@ class Loader {
         return url.slice(0, -1);
     }
 
-    private load(method: string, endpoint: string, callback: (data: IResp) => void, options: IOptions = {}) {
+    private load(method: string, endpoint: string, callback: (data: IResp) => void, options: IOptions = {}): void {
         fetch(this.makeUrl(options, endpoint), { method })
             .then(this.errorHandler)
             .then((res) => res.json())
