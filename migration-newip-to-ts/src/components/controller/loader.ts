@@ -1,24 +1,18 @@
 import { IResp, IOptions } from '../../interfaces/interfaces';
 
 class Loader {
-    baseLink: string;
-    options: IOptions;
+    constructor(private baseLink: string, private options: IOptions) {}
 
-    constructor(baseLink: string, options: IOptions) {
-        this.baseLink = baseLink;
-        this.options = options;
-    }
-
-    getResp(
-        { endpoint, options = {} }: { endpoint: string; options?: IOptions },
+    public getResp(
+        { endpoint, options }: { endpoint: string; options?: IOptions },
         callback: (data: IResp) => void = () => {
             console.error('No callback for GET response');
         }
-    ) {
+    ): void {
         this.load('GET', endpoint, callback, options);
     }
 
-    errorHandler(res: Response) {
+    private errorHandler(res: Response): Response {
         if (!res.ok) {
             if (res.status === 401 || res.status === 404)
                 console.log(`Sorry, but there is ${res.status} error: ${res.statusText}`);
@@ -28,23 +22,23 @@ class Loader {
         return res;
     }
 
-    makeUrl(options: IOptions, endpoint: string) {
-        const urlOptions = { ...this.options, ...options };
+    private makeUrl(options: IOptions, endpoint: string): string {
+        const urlOptions: IOptions = { ...this.options, ...options };
         let url = `${this.baseLink}${endpoint}?`;
 
-        (Object.keys(urlOptions) as (keyof IOptions)[]).forEach((key) => {
+        (Object.keys(urlOptions) as (keyof IOptions)[]).forEach((key: keyof IOptions) => {
             url += `${key}=${urlOptions[key]}&`;
         });
 
         return url.slice(0, -1);
     }
 
-    load(method: string, endpoint: string, callback: (data: IResp) => void, options = {}) {
+    private load(method: string, endpoint: string, callback: (data: IResp) => void, options: IOptions = {}) {
         fetch(this.makeUrl(options, endpoint), { method })
             .then(this.errorHandler)
             .then((res) => res.json())
-            .then((data) => callback(data))
-            .catch((err) => console.error(err));
+            .then((data: IResp) => callback(data))
+            .catch((err: Error) => console.error(err));
     }
 }
 
