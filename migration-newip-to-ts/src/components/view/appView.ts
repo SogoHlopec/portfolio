@@ -1,4 +1,4 @@
-import { INews, IResp } from '../../interfaces/index';
+import { INews, IResp } from '../../interfaces/interfaces';
 import News from './news/news';
 import Sources from './sources/sources';
 

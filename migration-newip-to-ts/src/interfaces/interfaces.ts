@@ -35,4 +35,14 @@ interface INews {
     totalResults: number;
 }
 
-export { ISources, IResp, ISource, IArticle, INews };
+interface IOptions {
+    sources?: string;
+    apiKey?: string;
+}
+
+enum OptionsFields {
+    sources = 'sources',
+    apiKey = 'apiKey',
+}
+
+export { ISources, IResp, ISource, IArticle, INews, IOptions, OptionsFields };
