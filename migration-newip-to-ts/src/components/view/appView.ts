@@ -1,23 +1,23 @@
-import { IResp } from '../../interfaces/interfaces';
+import { IArticle, IResp, ISource } from '../../interfaces/interfaces';
 import News from './news/news';
 import Sources from './sources/sources';
 
 export class AppView {
-    news: News;
-    sources: Sources;
+    private news: News;
+    private sources: Sources;
 
     constructor() {
         this.news = new News();
         this.sources = new Sources();
     }
 
-    drawNews(data: IResp) {
-        const values = data?.articles ? data?.articles : [];
+    public drawNews(data: IResp) {
+        const values: IArticle[] = data.articles ? data.articles : [];
         this.news.draw(values);
     }
 
-    drawSources(data: IResp) {
-        const values = data?.sources ? data?.sources : [];
+    public drawSources(data: IResp) {
+        const values: ISource[] = data.sources ? data.sources : [];
         this.sources.draw(values);
     }
 }
