@@ -1,23 +1,12 @@
-interface ISources {
-    id: string;
-    name: string;
-    description: string;
-    url: string;
-    category: string;
-    language: string;
-    country: string;
-}
-
-interface IResp {
-    status: string;
-    sources: ISources[];
-}
-
 interface ISource {
     id: string;
     name: string;
+    description?: string;
+    url?: string;
+    category?: string;
+    language?: string;
+    country?: string;
 }
-
 interface IArticle {
     source: ISource;
     author: string;
@@ -29,10 +18,11 @@ interface IArticle {
     urlToImage: string;
 }
 
-interface INews {
-    articles: IArticle[];
+interface IResp {
     status: string;
-    totalResults: number;
+    sources?: ISource[];
+    totalResults?: number;
+    articles?: IArticle[];
 }
 
 interface IOptions {
@@ -45,4 +35,4 @@ enum OptionsFields {
     apiKey = 'apiKey',
 }
 
-export { ISources, IResp, ISource, IArticle, INews, IOptions, OptionsFields };
+export { IResp, ISource, IArticle, IOptions, OptionsFields };

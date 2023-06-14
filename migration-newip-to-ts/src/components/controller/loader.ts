@@ -1,4 +1,4 @@
-import { IOptions } from '../../interfaces/interfaces';
+import { IResp, IOptions } from '../../interfaces/interfaces';
 
 class Loader {
     baseLink: string;
@@ -11,7 +11,7 @@ class Loader {
 
     getResp(
         { endpoint, options = {} }: { endpoint: string; options?: IOptions },
-        callback = () => {
+        callback: (data: IResp) => void = () => {
             console.error('No callback for GET response');
         }
     ) {
@@ -39,7 +39,7 @@ class Loader {
         return url.slice(0, -1);
     }
 
-    load(method: string, endpoint: string, callback: (data: JSON) => void, options = {}) {
+    load(method: string, endpoint: string, callback: (data: IResp) => void, options = {}) {
         fetch(this.makeUrl(options, endpoint), { method })
             .then(this.errorHandler)
             .then((res) => res.json())

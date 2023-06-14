@@ -1,8 +1,8 @@
-import { INews, IResp } from '../../interfaces/interfaces';
+import { IResp } from '../../interfaces/interfaces';
 import AppLoader from './appLoader';
 
 class AppController extends AppLoader {
-    getSources(callback: (data?: IResp) => void) {
+    getSources(callback: (data: IResp) => void) {
         super.getResp(
             {
                 endpoint: 'sources',
@@ -11,7 +11,7 @@ class AppController extends AppLoader {
         );
     }
 
-    getNews(e: Event, callback: (data?: INews) => void) {
+    getNews(e: Event, callback: (data: IResp) => void) {
         let target = e.target as HTMLTemplateElement;
         const newsContainer = e.currentTarget as HTMLTemplateElement;
 

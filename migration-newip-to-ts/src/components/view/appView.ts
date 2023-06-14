@@ -1,4 +1,4 @@
-import { INews, IResp } from '../../interfaces/interfaces';
+import { IResp } from '../../interfaces/interfaces';
 import News from './news/news';
 import Sources from './sources/sources';
 
@@ -11,12 +11,12 @@ export class AppView {
         this.sources = new Sources();
     }
 
-    drawNews(data?: INews) {
+    drawNews(data: IResp) {
         const values = data?.articles ? data?.articles : [];
         this.news.draw(values);
     }
 
-    drawSources(data?: IResp) {
+    drawSources(data: IResp) {
         const values = data?.sources ? data?.sources : [];
         this.sources.draw(values);
     }
