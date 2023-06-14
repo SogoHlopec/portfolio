@@ -30,9 +30,4 @@ interface IOptions {
     apiKey?: string;
 }
 
-enum OptionsFields {
-    sources = 'sources',
-    apiKey = 'apiKey',
-}
-
-export { IResp, ISource, IArticle, IOptions, OptionsFields };
+export { IResp, ISource, IArticle, IOptions };
