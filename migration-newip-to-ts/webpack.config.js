@@ -14,6 +14,20 @@ const baseConfig = {
                 use: ['style-loader', 'css-loader'],
             },
             { test: /\.ts$/i, use: 'ts-loader' },
+            {
+                test: /\.(png|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+                generator: {
+                    filename: path.join('[name].[ext]'),
+                },
+            },
+            {
+                test: /\.svg$/,
+                type: 'asset/resource',
+                generator: {
+                    filename: path.join('[name].[ext]'),
+                },
+            },
         ],
     },
     resolve: {

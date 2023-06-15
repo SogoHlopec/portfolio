@@ -33,3 +33,40 @@ footer .copyright a:hover {
 footer .copyright:before {
     content: '©';
 }
+.footer__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__year {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.footer__link-github {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.footer__link-github:hover {
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+
+.footer__rss-logo {
+    min-width: 120px;
+    min-height: 40px;
+    text-decoration: none;
+    background-image: url(./assets/images/rss-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.footer__rss-logo:hover {
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
