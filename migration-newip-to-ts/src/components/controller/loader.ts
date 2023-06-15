@@ -1,7 +1,7 @@
 import { IResp, IOptions, Endpoints } from '../../interfaces/interfaces';
 
 class Loader {
-    constructor(private baseLink: string, private options: IOptions) {}
+    constructor(private readonly baseLink: string, private options: IOptions) {}
 
     public getResp(
         { endpoint, options }: { endpoint: Endpoints; options?: IOptions },
