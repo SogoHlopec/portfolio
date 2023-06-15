@@ -1,11 +1,11 @@
-import { IResp } from '../../interfaces/interfaces';
+import { Endpoints, IResp } from '../../interfaces/interfaces';
 import AppLoader from './appLoader';
 
 class AppController extends AppLoader {
     public getSources(callback: (data: IResp) => void): void {
         super.getResp(
             {
-                endpoint: 'sources',
+                endpoint: Endpoints.sources,
             },
             callback
         );
@@ -23,7 +23,7 @@ class AppController extends AppLoader {
                         newsContainer.setAttribute('data-source', sourceId);
                         super.getResp(
                             {
-                                endpoint: 'everything',
+                                endpoint: Endpoints.everything,
                                 options: {
                                     sources: sourceId,
                                 },

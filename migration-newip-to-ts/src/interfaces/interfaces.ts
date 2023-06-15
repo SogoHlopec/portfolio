@@ -1,4 +1,4 @@
-interface ISource {
+export interface ISource {
     id: string;
     name: string;
     description?: string;
@@ -7,7 +7,7 @@ interface ISource {
     language?: string;
     country?: string;
 }
-interface IArticle {
+export interface IArticle {
     source: ISource;
     author: string;
     content: string;
@@ -18,16 +18,19 @@ interface IArticle {
     urlToImage: string;
 }
 
-interface IResp {
+export interface IResp {
     status: string;
     sources?: ISource[];
     totalResults?: number;
     articles?: IArticle[];
 }
 
-interface IOptions {
+export interface IOptions {
     sources?: string;
-    apiKey?: string;
+    readonly apiKey?: string;
 }
 
-export { IResp, ISource, IArticle, IOptions };
+export enum Endpoints {
+    sources = 'sources',
+    everything = 'everything',
+}

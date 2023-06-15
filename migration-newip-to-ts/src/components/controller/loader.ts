@@ -1,10 +1,10 @@
-import { IResp, IOptions } from '../../interfaces/interfaces';
+import { IResp, IOptions, Endpoints } from '../../interfaces/interfaces';
 
 class Loader {
     constructor(private baseLink: string, private options: IOptions) {}
 
     public getResp(
-        { endpoint, options }: { endpoint: string; options?: IOptions },
+        { endpoint, options }: { endpoint: Endpoints; options?: IOptions },
         callback: (data: IResp) => void = () => {
             console.error('No callback for GET response');
         }
@@ -22,7 +22,7 @@ class Loader {
         return res;
     }
 
-    private makeUrl(options: IOptions, endpoint: string): string {
+    private makeUrl(options: IOptions, endpoint: Endpoints): string {
         const urlOptions: IOptions = { ...this.options, ...options };
         let url = `${this.baseLink}${endpoint}?`;
 
@@ -33,7 +33,7 @@ class Loader {
         return url.slice(0, -1);
     }
 
-    private load(method: string, endpoint: string, callback: (data: IResp) => void, options: IOptions = {}): void {
+    private load(method: string, endpoint: Endpoints, callback: (data: IResp) => void, options: IOptions = {}): void {
         fetch(this.makeUrl(options, endpoint), { method })
             .then(this.errorHandler)
             .then((res) => res.json())
