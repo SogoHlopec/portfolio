@@ -12,10 +12,11 @@ class App {
     }
 
     public start(): void {
-        const sources: HTMLTemplateElement | null = document.querySelector('.sources');
-        sources?.addEventListener('click', (e: MouseEvent) =>
-            this.controller.getNews(e, (data: IResp) => this.view.drawNews(data))
-        );
+        document
+            .querySelector<HTMLTemplateElement>('.sources')
+            ?.addEventListener('click', (e: MouseEvent) =>
+                this.controller.getNews(e, (data: IResp) => this.view.drawNews(data))
+            );
         this.controller.getSources((data: IResp) => this.view.drawSources(data));
     }
 }

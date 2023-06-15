@@ -38,7 +38,7 @@ class Loader {
             .then(this.errorHandler)
             .then((res) => res.json())
             .then((data: IResp) => callback(data))
-            .catch((err: Error) => console.error(err));
+            .catch(<T>(err: T) => console.error(err));
     }
 }
 
