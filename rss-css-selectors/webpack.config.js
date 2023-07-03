@@ -2,7 +2,7 @@ const path = require("path");
 const devtool = "source-map";
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const EslingPlugin = require("eslint-webpack-plugin");
+const EslintPlugin = require("eslint-webpack-plugin");
 
 module.exports = {
   devtool,
@@ -69,6 +69,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
     }),
-    new EslingPlugin({ extensions: "ts" }),
+    new EslintPlugin({ extensions: "ts" }),
   ],
 };
