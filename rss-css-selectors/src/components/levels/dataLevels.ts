@@ -2,9 +2,13 @@ const dataLevels = [
   {
     level: 1,
     titleTask: "Select the flower pot",
-    html: `
+    html: `<pot class="animated"></pot>
     <pot class="animated"></pot>
-    <pot class="animated"></pot>
+    `,
+    htmlForViewer: `  <div class="table">
+    <pot></pot>
+    <pot></pot>
+  </div>
     `,
     description: {
       selectorName: "Type Selector",

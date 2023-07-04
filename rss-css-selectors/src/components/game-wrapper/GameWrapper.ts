@@ -1,6 +1,7 @@
 import { CreateElement } from "../../modules/CreateElement";
 import { Board } from "../board/Board";
 import { CssEditor } from "../css-editor/CssEditor";
+import { HtmlViewer } from "../html-viewer/HtmlViewer";
 
 class GameWrapper {
   main: HTMLTemplateElement | null;
@@ -30,6 +31,8 @@ class GameWrapper {
       cssEditor.createCssEditor(1);
 
       // TODO create block 3 HTML Viewer
+      const htmlViewer = new HtmlViewer(codeWrapper);
+      htmlViewer.createCssEditor(1);
       // TODO Create block 4 Levels
     }
   }

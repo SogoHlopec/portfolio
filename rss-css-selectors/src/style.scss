@@ -16,6 +16,7 @@
   .table {
     display: flex;
     justify-content: space-evenly;
+    background-color: #f6cd97;
 
     pot {
       display: inline-block;
@@ -28,31 +29,42 @@
   }
 }
 
-// ! CSS Editor
+// ! CSS Editor adn HTML Viewer
 .code-wrapper {
   width: 100%;
+  display: flex;
 
-  .editor {
+  .editor,
+  .viewer {
     width: 50%;
     background-color: antiquewhite;
 
-    .editor__file-name {
+    .editor__header,
+    .viewer__header {
+      padding: 10px 30px;
+    }
+
+    .editor__file-name,
+    .viewer__file-name {
       float: right;
     }
 
-    .editor__code {
+    .editor__code,
+    .viewer__code {
       display: flex;
       background-color: aliceblue;
-      padding-top: 10px;
     }
 
     .code__line-numbers {
       margin: 0;
       list-style-type: none;
       background-color: #d5e6f6;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding: 10px 10px 0 10px;
       text-align: right;
+    }
+
+    .code__window {
+      padding-top: 10px;
     }
 
     .code__input {
@@ -60,6 +72,16 @@
     }
 
     .code__comments {
+      margin: 0;
+    }
+  }
+
+  .viewer {
+    .viewer__code {
+      background-color: #c1c8ce;
+    }
+
+    .code__window {
       margin: 0;
     }
   }
