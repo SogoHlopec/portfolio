@@ -1,5 +1,5 @@
 import { CreateElement } from "../modules/CreateElement";
-import { GameWrapper } from "./GameWrapper";
+import { GameWrapper } from "./game-wrapper/GameWrapper";
 
 class App {
   body: HTMLElement = document.querySelector("body") as HTMLElement;

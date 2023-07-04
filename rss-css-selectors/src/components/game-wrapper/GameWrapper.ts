@@ -1,5 +1,6 @@
-import { CreateElement } from "../modules/CreateElement";
-import { Board } from "./board/Board";
+import { CreateElement } from "../../modules/CreateElement";
+import { Board } from "../board/Board";
+import { CssEditor } from "../css-editor/CssEditor";
 
 class GameWrapper {
   main: HTMLTemplateElement | null;
@@ -16,7 +17,6 @@ class GameWrapper {
       );
       this.main.append(gameWrapper.getElement());
 
-      //  TODO create block 1 table
       const board: Board = new Board(gameWrapper);
       board.createBoard(1);
 
@@ -25,11 +25,13 @@ class GameWrapper {
         "code-wrapper"
       );
       gameWrapper.appendElement(codeWrapper.getElement());
-    }
+      // TODO create block 2 CSS editor
+      const cssEditor = new CssEditor(codeWrapper);
+      cssEditor.createCssEditor(1);
 
-    // TODO create block 2 CSS editor
-    // TODO create block 3 HTML Viewer
-    // TODO Create block 4 Levels
+      // TODO create block 3 HTML Viewer
+      // TODO Create block 4 Levels
+    }
   }
 }
 

@@ -1,25 +1,67 @@
 .game-wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 // !Board
-.board__title {
-  font-size: 3rem;
-  margin-bottom: 30px;
+.board {
+  margin-bottom: 50px;
+
+  .board__title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+
+  .table {
+    display: flex;
+    justify-content: space-evenly;
+
+    pot {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-image: url(./assets/images/flower-pot.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
 }
 
-.table {
-  display: flex;
-  justify-content: space-evenly;
+// ! CSS Editor
+.code-wrapper {
+  width: 100%;
 
-  pot {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-image: url(./assets/images/flower-pot.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+  .editor {
+    width: 50%;
+    background-color: antiquewhite;
+
+    .editor__file-name {
+      float: right;
+    }
+
+    .editor__code {
+      display: flex;
+      background-color: aliceblue;
+      padding-top: 10px;
+    }
+
+    .code__line-numbers {
+      margin: 0;
+      list-style-type: none;
+      background-color: #d5e6f6;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: right;
+    }
+
+    .code__input {
+      margin-left: 15px;
+    }
+
+    .code__comments {
+      margin: 0;
+    }
   }
 }
 
