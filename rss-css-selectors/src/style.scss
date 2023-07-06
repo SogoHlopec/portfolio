@@ -1,7 +1,12 @@
+.main {
+  display: flex;
+}
+
 .game-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 // !Board
@@ -41,7 +46,9 @@
 
     .editor__header,
     .viewer__header {
+      margin: 0;
       padding: 10px 30px;
+      font-size: 1.2rem;
     }
 
     .editor__file-name,
@@ -83,6 +90,29 @@
 
     .code__window {
       margin: 0;
+    }
+  }
+}
+
+// ! Level
+.levels {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+
+  .levels__list {
+    padding: 0;
+    list-style-type: none;
+    font-size: 2rem;
+
+    .list__item::before {
+      content: "\2713";
+      width: 20px;
+      height: 20px;
+      margin-right: 16px;
+      color: red;
     }
   }
 }

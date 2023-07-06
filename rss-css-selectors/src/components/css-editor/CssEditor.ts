@@ -15,7 +15,7 @@ class CssEditor {
     const editor = new CreateElement("section", "editor");
     this.wrapper.appendElement(editor.getElement());
 
-    const header = new CreateElement("div", "editor__header");
+    const header = new CreateElement("h2", "editor__header");
     editor.appendElement(header.getElement());
     header.getElement().innerHTML = `CSS Editor <div class="editor__file-name">style.css</div>`;
 

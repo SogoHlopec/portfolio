@@ -15,7 +15,7 @@ class HtmlViewer {
     const editor = new CreateElement("section", "viewer");
     this.wrapper.appendElement(editor.getElement());
 
-    const header = new CreateElement("div", "viewer__header");
+    const header = new CreateElement("h2", "viewer__header");
     editor.appendElement(header.getElement());
     header.getElement().innerHTML = `HTML Viewer <div class="viewer__file-name">table.html</div>`;
 

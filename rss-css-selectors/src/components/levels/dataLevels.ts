@@ -10,13 +10,68 @@ const dataLevels = [
     <pot></pot>
   </div>
     `,
-    description: {
-      selectorName: "Type Selector",
-      title: "Select elements by their type",
-      syntax: "A",
-      hint: "Selects all elements of type 'A'. Type refers to the type of tag, so <div>, <p> and <ul> are all different element types.",
-      examples: "div selects all <div> elements. p selects all <p> elements.",
-    },
+  },
+  {
+    level: 2,
+    titleTask: "Select the pink flower pot",
+    html: `<pot></pot>
+    <pink class="animated"></pink>
+    <pot></pot>
+    `,
+    htmlForViewer: `  <div class="table">
+    <pot></pot>
+    <pink></pink>
+    <pot></pot>
+  </div>
+    `,
+  },
+  {
+    level: 3,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 4,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 5,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 6,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 7,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 8,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 9,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
+  },
+  {
+    level: 10,
+    titleTask: "",
+    html: "",
+    htmlForViewer: "",
   },
 ];
 
