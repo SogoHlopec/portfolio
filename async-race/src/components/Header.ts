@@ -27,14 +27,14 @@ class Header {
   }
 
   private event(): void {
-    // document
-    //   .querySelector<HTMLTemplateElement>(".btn__winners")
-    //   ?.addEventListener("click", () => {
-    //     const currentMain =
-    //       document.querySelector<HTMLTemplateElement>(".main");
-    //     const newMain = app.winners.main.getElement();
-    //     this.body?.replaceChild(newMain, currentMain);
-    //   });
+    document
+      .querySelector<HTMLTemplateElement>(".btn__winners")
+      ?.addEventListener("click", () => {
+        const currentMain =
+          document.querySelector<HTMLTemplateElement>(".main");
+        const newMain = app.winners.main.getElement();
+        if (currentMain) this.body?.replaceChild(newMain, currentMain);
+      });
 
     document
       .querySelector<HTMLTemplateElement>(".btn__garage")
