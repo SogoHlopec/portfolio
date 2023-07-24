@@ -7,24 +7,24 @@ class CreateElement {
     this.selector = selector;
   }
 
-  setClassSelector(classSelector: string) {
+  setClassSelector(classSelector: string): void {
     this.element.classList.add(classSelector);
   }
 
-  setInnerText(text: string) {
+  setInnerText(text: string): void {
     this.element.innerText = text;
   }
 
-  getElement() {
+  getElement(): HTMLElement {
     this.element.classList.add(this.selector);
     return this.element;
   }
 
-  prependElement(element: HTMLElement) {
+  prependElement(element: HTMLElement): void {
     this.element.prepend(element);
   }
 
-  appendElement(element: HTMLElement) {
+  appendElement(element: HTMLElement): void {
     this.element.append(element);
   }
 }

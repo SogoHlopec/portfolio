@@ -1,4 +1,8 @@
 import "./index.html";
 import "./style.scss";
+import { App } from "./components/App";
 
-console.log(1);
+const app = new App();
+app.start();
+
+export { app };
