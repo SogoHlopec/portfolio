@@ -8,29 +8,29 @@ class Winners {
     this.main = new CreateElement("main", "main");
   }
 
-  private async create() {
+  private async create(): Promise<void> {
     this.main.setClassSelector("main-winners");
 
-    const title = new CreateElement("h2", "main__title");
-    const counterWinners = await (await API.getWinners(1)).count;
+    const title: CreateElement = new CreateElement("h2", "main__title");
+    const counterWinners: string | null = (await API.getWinners(1)).count;
     title.setInnerText(`WINNERS(${counterWinners})`);
     this.main.appendElement(title.getElement());
 
-    const page = new CreateElement("p", "main__page");
+    const page: CreateElement = new CreateElement("p", "main__page");
     page.setClassSelector("page");
     page.setInnerText("Page #1");
     this.main.appendElement(page.getElement());
   }
 
-  async updateCounterWinners(page = 1) {
-    const title = this.main
+  async updateCounterWinners(page = 1): Promise<void> {
+    const title: HTMLTemplateElement | null = this.main
       .getElement()
       .querySelector<HTMLTemplateElement>(".main__title");
-    const counterWinners = (await API.getWinners(page)).count;
+    const counterWinners: string | null = (await API.getWinners(page)).count;
     if (title) title.innerText = `GARAGE(${counterWinners})`;
   }
 
-  render() {
+  render(): void {
     this.create();
   }
 }

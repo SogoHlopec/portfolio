@@ -14,7 +14,7 @@ class App {
     this.winners = new Winners();
   }
 
-  start() {
+  start(): void {
     this.header.render();
     this.garage.render();
     this.winners.render();
