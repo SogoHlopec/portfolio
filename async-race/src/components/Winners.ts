@@ -5,19 +5,16 @@ class Winners {
   main: CreateElement;
 
   constructor() {
-    this.main = new CreateElement("main", "main");
+    this.main = new CreateElement("main", "main-winners");
   }
 
   private async create(): Promise<void> {
-    this.main.setClassSelector("main-winners");
-
     const title: CreateElement = new CreateElement("h2", "main__title");
     const counterWinners: string | null = (await API.getWinners(1)).count;
     title.setInnerText(`WINNERS(${counterWinners})`);
     this.main.appendElement(title.getElement());
 
-    const page: CreateElement = new CreateElement("p", "main__page");
-    page.setClassSelector("page");
+    const page: CreateElement = new CreateElement("p", "main__page-number");
     page.setInnerText("Page #1");
     this.main.appendElement(page.getElement());
   }

@@ -25,7 +25,7 @@ class Api {
 
   async getCar(id: number): Promise<ICar> {
     try {
-      const response: Response = await fetch(`${this.url}/garage?_id=${id}`);
+      const response: Response = await fetch(`${this.url}/garage/${id}`);
       const car: ICar = await response.json();
       return car;
     } catch (error) {

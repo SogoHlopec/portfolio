@@ -31,7 +31,7 @@ class Header {
       .querySelector<HTMLTemplateElement>(".btn__winners")
       ?.addEventListener("click", () => {
         const currentMain: HTMLTemplateElement | null =
-          document.querySelector<HTMLTemplateElement>(".main");
+          document.querySelector<HTMLTemplateElement>("main");
         const newMain: HTMLElement = app.winners.main.getElement();
         if (currentMain) this.body?.replaceChild(newMain, currentMain);
       });
@@ -40,7 +40,7 @@ class Header {
       .querySelector<HTMLTemplateElement>(".btn__garage")
       ?.addEventListener("click", () => {
         const currentMain: HTMLTemplateElement | null =
-          document.querySelector<HTMLTemplateElement>(".main");
+          document.querySelector<HTMLTemplateElement>("main");
         const newMain: HTMLElement = app.garage.main.getElement();
         if (currentMain) this.body?.replaceChild(newMain, currentMain);
       });
