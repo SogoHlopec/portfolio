@@ -1,0 +1,124 @@
+@import "./styles/normalize";
+
+$color-background: gray;
+$color-shadow-cell: rgba(34, 60, 80, 1);
+$color-cell-checked: #dad4d4;
+$color-shadow-checked: rgb(162 172 181);
+$color-flag: #08ea08;
+$color-bomb: red;
+$color-background-modal: rgba(0, 0, 0, 0.5);
+$color-modal: #fefefe;
+$color-border-modal: #888;
+$color-modal-close: #aaa;
+$color-hover: black;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.header,
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.counter {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $color-background;
+
+  @media screen and (max-height: 768px) {
+    height: 500px;
+    width: 500px;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 80vh;
+    width: 90vw;
+  }
+
+  .grid__cell {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 5px $color-shadow-cell inset;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .cell_checked {
+    background-color: $color-cell-checked;
+    box-shadow: 0px 0px 0px 5px $color-shadow-checked inset;
+  }
+
+  // .cell_bomb {
+  //   background-color: orange;
+  // }
+
+  .cell_flag {
+    color: $color-flag;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: $color-background-modal;
+
+  .modal__content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-modal;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid $color-border-modal;
+    font-size: 1.5rem;
+  }
+
+  .modal__close {
+    color: $color-modal-close;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: $color-hover;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
