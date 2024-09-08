@@ -1,0 +1,43 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "RSS CSS Selectors",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "clear": "rd /s /q dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-webpack-plugin": "^4.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.1",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "validator": "^13.9.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
