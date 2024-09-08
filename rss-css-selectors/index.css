@@ -1,0 +1,139 @@
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss ***!
+  \*********************************************************************************************************/
+@charset "UTF-8";
+.main {
+  display: flex;
+}
+
+.game-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.board {
+  margin-bottom: 50px;
+}
+.board .board__title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.board .table {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f6cd97;
+}
+.board .table pot {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url(flower-pot..png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.code-wrapper {
+  width: 100%;
+  display: flex;
+}
+.code-wrapper .editor,
+.code-wrapper .viewer {
+  width: 50%;
+  background-color: antiquewhite;
+}
+.code-wrapper .editor .editor__header,
+.code-wrapper .editor .viewer__header,
+.code-wrapper .viewer .editor__header,
+.code-wrapper .viewer .viewer__header {
+  margin: 0;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+.code-wrapper .editor .editor__file-name,
+.code-wrapper .editor .viewer__file-name,
+.code-wrapper .viewer .editor__file-name,
+.code-wrapper .viewer .viewer__file-name {
+  float: right;
+}
+.code-wrapper .editor .editor__code,
+.code-wrapper .editor .viewer__code,
+.code-wrapper .viewer .editor__code,
+.code-wrapper .viewer .viewer__code {
+  display: flex;
+  background-color: aliceblue;
+}
+.code-wrapper .editor .code__line-numbers,
+.code-wrapper .viewer .code__line-numbers {
+  margin: 0;
+  list-style-type: none;
+  background-color: #d5e6f6;
+  padding: 10px 10px 0 10px;
+  text-align: right;
+}
+.code-wrapper .editor .code__window,
+.code-wrapper .viewer .code__window {
+  padding-top: 10px;
+}
+.code-wrapper .editor .code__input,
+.code-wrapper .viewer .code__input {
+  margin-left: 15px;
+}
+.code-wrapper .editor .code__comments,
+.code-wrapper .viewer .code__comments {
+  margin: 0;
+}
+.code-wrapper .viewer .viewer__code {
+  background-color: #c1c8ce;
+}
+.code-wrapper .viewer .code__window {
+  margin: 0;
+}
+
+.levels {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.levels .levels__list {
+  padding: 0;
+  list-style-type: none;
+  font-size: 2rem;
+}
+.levels .levels__list .list__item::before {
+  content: "✓";
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  color: red;
+}
+
+@keyframes animated {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.animated {
+  animation-name: animated;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: center bottom;
+}
+
+/*# sourceMappingURL=index.css.map*/
