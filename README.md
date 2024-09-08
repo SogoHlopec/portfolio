@@ -1,5 +1,5 @@
 # RS CSS selectors 
-In progress...
+# In progress...
 
 RS Selectors is a simulator for learning css selectors. This project was created while studying at RS SHOOL https://rs.school/index.html Stage 2 2023Q2.
 
