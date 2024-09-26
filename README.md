@@ -5,7 +5,7 @@ ___
 * **project 1** 
 
 ##### 2023
-* **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS, Evolution CMS)
+* **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS)
 ___
 
 
