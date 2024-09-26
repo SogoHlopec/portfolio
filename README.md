@@ -2,7 +2,7 @@
 
 [strit.by](https://strit.by/)
 
-**Technologies:** CMS ModX Revolution, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS  
+**Stack:** CMS ModX Revolution, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS  
 **ModX Packages:** ImportX, MIGX, ClientConfig, FetchIt, pdoTools, Translitor
 
 **Project Description:**
