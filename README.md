@@ -1,25 +1,25 @@
-### СТО СтритСервисАвто
+### STO StreetServiceAuto
 
 [strit.by](https://strit.by/)
 
-**Технологии:** CMS ModX Revolution, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS  
-**ModX пакеты:** ImportX, MIGX, ClientConfig, FetchIt, pdoTools, Translitor
+**Technologies:** CMS ModX Revolution, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS  
+**ModX Packages:** ImportX, MIGX, ClientConfig, FetchIt, pdoTools, Translitor
 
-**Описание проекта:**
-СТО СтритСервисАвто  – это сайт автосервиса, представляющий полный спектр услуг по ремонту автомобилей в г. Минске. Моя работа заключалась в полной верстке сайта с нуля, а также настройке различных функциональных элементов через ModX Revolution.
+**Project Description:**
+Service Station StreetServiceAuto is a site of car service center, representing a full range of car repair services in Minsk. My work consisted in the full layout of the site from scratch, as well as customization of various functional elements through ModX Revolution.
 
-**Моя роль:**
-- Полная разработка сайта: адаптивная и мобильная вёрстка
-- Перенос сайта на хостинг и подключение домена
-- Проектирование структуры сайта в ModX Revolution
-- Настройка добавления услуг с их динамической отрисовкой на разных страницах
-- Внедрение Google Maps + подключение и настройка Яндекс Карты API (отключение скролла и тач-реакции на мобильных устройствах)настройка форм в ModX
-- Разработка простого сниппета для условного вывода чанков
-- Работа с компонентом для импорта данных и создания ресурсов в ModX
-- Интеграция Notion API с ModX для автоматического управления ресурсами: загрузка, обновление и создание страниц через Notion API с использованием cURL
-- Автообновление кеша CSS, JS и PNG/JPG файлов
+**My role:**
+- Full development of the site: adaptive and mobile layout
+- Transferring the site to hosting and domain connection
+- Designing the structure of the site in ModX Revolution
+- Customization of adding services with their dynamic rendering on different pages
+- Implementation of Google Maps + connection and customization of Yandex Maps API (disabling scrolling and touch response on mobile devices) customization of forms in ModX
+- Developing a simple snippet for conditional output of chunks
+- Working with a component for importing data and creating resources in ModX
+- Integrating Notion API with ModX for automatic resource management: loading, updating and creating pages through Notion API using cURL
+- CSS, JS and PNG/JPG cache auto-update
 
-**Ключевые фичи:**
-- Управление контентом через Notion API
-- Полная адаптация сайта для мобильных устройств
-- Автоматическое обновление кеша для посетителей
+**Key features:**
+- Content management via Notion API
+- Full adaptation of the site for mobile devices
+- Automatic cache update for visitors
