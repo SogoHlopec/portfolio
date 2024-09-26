@@ -2,7 +2,7 @@
 
 [eko-serv.ru](https://eko-serv.ru)
 
-**Stack:** HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS, Evolution CMS
+**Stack:** Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS
 
 **Project Description:**
 EcoServe is a website dedicated to recycling and neutralization services for all types of waste for businesses and individuals throughout the Russian Federation. I participated in the development of the mobile version of the site, improving usability and functionality.
