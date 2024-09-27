@@ -23,3 +23,9 @@ Service Station StreetServiceAuto is a site of car service center, representing 
 - Content management via Notion API
 - Full adaptation of the site for mobile devices
 - Automatic cache update for visitors
+
+## Desktop
+![desktop](https://github.com/SogoHlopec/portfolio/blob/strit/desktop.jpg)
+
+## Mobile
+![mobile](https://github.com/SogoHlopec/portfolio/blob/strit/mobile.jpg)
