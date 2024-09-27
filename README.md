@@ -18,3 +18,9 @@ EcoServe is a website dedicated to recycling and neutralization services for all
 - Adaptive mobile menu
 - Ajax forms to improve user experience
 - Interactive elements based on Swiper and Lightbox JS
+
+## Desktop
+![desktop](https://github.com/SogoHlopec/portfolio/blob/eko-serv/desktop.jpg)
+
+## Mobile
+![mobile](https://github.com/SogoHlopec/portfolio/blob/eko-serv/mobile.jpg)
