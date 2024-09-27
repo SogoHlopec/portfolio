@@ -5,7 +5,7 @@ ___
 * **project 1** 
 
 ##### 2023
-* **[STO StreetServiceAuto](https://github.com/SogoHlopec/portfolio/tree/strit)** - Corporate site of the company for car repair in Minsk. (CMS ModX Revolution, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS, ImportX, MIGX, ClientConfig, FetchIt, pdoTools, Translitor)
+* **[STO StreetServiceAuto](https://github.com/SogoHlopec/portfolio/tree/strit)** - Corporate site of the company for car repair in Minsk. (CMS ModX, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS, ImportX, MIGX, ClientConfig, FetchIt, pdoTools, Translitor)
 * **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS)
 ___
 
