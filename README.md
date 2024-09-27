@@ -18,3 +18,9 @@ Minesweeper is my realization of the classic game of the same name. This project
 * DOM/Event
 * JS modules
 * Algorithm
+
+## Desktop
+![desktop](https://github.com/SogoHlopec/portfolio/blob/minesweeper/desktop.jpg)
+
+## Mobile
+![mobile](https://github.com/SogoHlopec/portfolio/blob/minesweeper/mobile.jpg)
