@@ -7,6 +7,9 @@
 ___
 
 ### ModX Revolution
+* **[getCurrentSeason](./modx-revolution/snippets/getCurrentSeason.php)** - Snippet for determining the season of the year by month.
+* **[formatDatesTable](./modx-revolution/snippets/formatDatesTable.php)** - A simple snippet to convert dates and display only actual dates.
+* **[formatDates](./modx-revolution/snippets/formatDates.php)** - A simple snippet for formatting dates.
 * **[updateURI](./modx-revolution/snippets/updateURI.php)** - Snippet to update alias resources.
 * **[updateThumb](./modx-revolution/snippets/updateThumb.php)** - Snippet for regenerating product previews.
 * **[snOneClickOrder](./modx-revolution/snippets/snOneClickOrder.php)** - Snippet for processing “Buy in 1 click” form.
@@ -36,6 +39,7 @@ ___
 ___
 
 ### HTML, CSS, JS
+* **[cookies](./html-css-js/cookies.js)** - A simple script to display a cookie window.
 * **[getModal](./html-css-js/getModal.js)** - Simple script for opening a modal window with ajax data loading.
 * **[Spinner](./html-css-js/spinner.js)** - A simple script to make the spinner work.
 * **[splitImageVertically](./html-css-js/splitImageVertically.js)** - Simple script to divide an image vertically into 2 parts.
