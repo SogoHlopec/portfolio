@@ -4,6 +4,9 @@
 ___
 
 ### ModX Revolution
+* **[getResourceAuthor](./modx-revolution/snippets/getResourceAuthor.php)** - Get and output the author of the resource.
+* **[debug](./modx-revolution/snippets/debug.php)** - simple snippet to display errors.
+* **[getModalResource](./modx-revolution/snippets/getModalResource.php)** - Snippet for processing ajax requests and outputting data for a modal window.
 * **[hasChildElements](./modx-revolution/snippets/versions.php)** - A simple snippet to output chunks depending on the presence of child resources.
 * **[versions](./modx-revolution/snippets/versions.php)** - A simple snippet to automatically update files for users by adding a version to the file.
 * **[Notion API](./modx-revolution/notion-api)** - Basic templates and code examples for working with notion API in ModX.
