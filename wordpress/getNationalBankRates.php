@@ -1,7 +1,7 @@
 <?php
 /*
-* Plugin Name: Toal Child Custom National Bank rates
-* Description: We get exchange rates from the National Bank and set prices for goods in BYN. Получаем курсы валют от нацбанка и ставим цены товарам в BYN.
+* Plugin Name: ThemeName get National Bank rates
+* Description: We get exchange rates from the National Bank. Получаем курсы валют от нацбанка.
 * Author URI: https://github.com/SogoHlopec
 * Author: Yura Daineka
 * Version: 1.0
