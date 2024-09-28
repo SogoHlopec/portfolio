@@ -26,7 +26,8 @@ ___
 ___
 
 ### Wordpress
-* **[Script 1](https://)** - mini description
+* **[custom-stamp](/wordpress/custom-stamp.php)** - Basic code of a custom plugin for a stamp and coupon system for shoppers.
+* **[getDataOrders](/wordpress/getDataOrders)** - Script for getting all data about orders in .csv file and downloading it by button in admin, also deleting this file by button in admin.
 ___
 
 ### HTML, CSS, JS
