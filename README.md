@@ -2,7 +2,7 @@
 
 [zehnderbel.by](https://zehnderbel.by/)
 
-**Stack:** CMS WordPress, CSS, JavaScript, PHP, jQuery, NBRB APIs  
+**Stack:** CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs  
 **WP plugins:** WP Bakery, Toolset, Duplicator, WP Cron
 
 **Project Description:**
