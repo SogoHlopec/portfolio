@@ -27,6 +27,7 @@ ___
 ___
 
 ### Wordpress
+* **[versions](/wordpress/versions.php)** - A simple script to automatically update files for users by adding a version to the file.
 * **[custom-stamp](/wordpress/custom-stamp.php)** - Basic code of a custom plugin for a stamp and coupon system for shoppers.
 * **[getDataOrders](/wordpress/getDataOrders)** - Script for getting all data about orders in .csv file and downloading it by button in admin, also deleting this file by button in admin.
 ___
