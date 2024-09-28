@@ -1,6 +1,6 @@
-### Samples/Bencher
+# Samples/Bencher
 
-**Stack:** ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP, MiniMasonry.js, DataTables.js
+**Stack:** ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP, MiniMasonry.js, DataTables.js  
 **ModX packages:** MixedImage, pdoTools, pThumb, resizer
 
 **Project Description:**
@@ -27,5 +27,5 @@ Samples Bencher is an internal project for the team to resurvey and analyze. The
 - Tabular display of data via DataTables.js
 - Maximum simplification and semi-automation of adding content to the site
 
-**Desktop**
-![desktop](https://github.com/SogoHlopec/Travel/blob/main/desktop.jpg)
+## Desktop
+![desktop](desktop.jpg)
