@@ -27,6 +27,7 @@ ___
 ___
 
 ### Wordpress
+* **[custom-national-bank-rates](/wordpress/custom-national-bank-rates.php)** - The plugin receives EUR exchange rate from NBRB, stores it in the site database and uses it to render EUR to BYN prices on pages via shortcode.
 * **[versions](/wordpress/versions.php)** - A simple script to automatically update files for users by adding a version to the file.
 * **[custom-stamp](/wordpress/custom-stamp.php)** - Basic code of a custom plugin for a stamp and coupon system for shoppers.
 * **[getDataOrders](/wordpress/getDataOrders)** - Script for getting all data about orders in .csv file and downloading it by button in admin, also deleting this file by button in admin.
