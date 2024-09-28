@@ -4,6 +4,10 @@
 ___
 
 ### ModX Revolution
+* **[updateURI](./modx-revolution/snippets/updateURI.php)** - Snippet to update alias resources.
+* **[updateThumb](./modx-revolution/snippets/updateThumb.php)** - Snippet for regenerating product previews.
+* **[snOneClickOrder](./modx-revolution/snippets/snOneClickOrder.php)** - Snippet for processing “Buy in 1 click” form.
+* **[outputVendorLogo](./modx-revolution/snippets/outputVendorLogo.php)** - Snippet for displaying manufacturers' logos.
 * **[changeImagePath](./modx-revolution/console/changeImagePath.php)** - Console script to change image paths in tv-parameter.
 * **[getCropImage](./modx-revolution/plugins/resizeImages/getCropImage.php)** - Snippet for image conversion.
 * **[imageRenameCompressor](./modx-revolution/plugins/resizeImages/imageRenameCompressor.php)** - Image conversion plugin.
