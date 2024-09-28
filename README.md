@@ -4,7 +4,7 @@
 **ModX packages:** MixedImage, pdoTools, pThumb, resizer
 
 **Project Description:**
-Samples Bencher is an internal project for the team to resurvey and analyze. The main task was to develop the structure of the site and implement various tools to automate the work of adding content to the site.
+Samples Bencher is an internal project for the research and analysis team. The main task was to develop the structure of the site and implement various tools to automate the work of adding content to the site.
 
 **My Role:**
 - Hosting and domain setup
