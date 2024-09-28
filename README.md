@@ -30,6 +30,7 @@ ___
 ___
 
 ### HTML, CSS, JS
+* **[getModal](./html-css-js/getModal.js)** - Simple script for opening a modal window with ajax data loading.
 * **[Spinner](./html-css-js/spinner.js)** - A simple script to make the spinner work.
 * **[splitImageVertically](./html-css-js/splitImageVertically.js)** - Simple script to divide an image vertically into 2 parts.
 ___
