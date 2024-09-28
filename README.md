@@ -2,7 +2,7 @@
 
 [aerodom.by](http://www.aerodom.by/) (in progress)
 
-**Stack:** CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Swiper.js, Webpack, Figma, PHP, DiDOM, PHPSpreadsheet, Google API, CURL, Cron  
+**Stack:** CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, DiDOM, PHPSpreadsheet, Google API, CURL, Cron  
 **ModX packages:** MiniShop2, mFilter2, Fenom, Batcher, FetchIt, looked, msaddfield, mSearch2, Translitor, pdoTools
 
 **Project Description:**
