@@ -1,14 +1,14 @@
-# Летра
+#Letra
 
 **Stack:** PHP, CURL, DiDOM, Composer, PHPSpreadsheet, cron, XML, YML
 
-**Описание проекта:**
-Создание парсинга данных из источника и формирование из этих данных Excel, XML и YML файлы. Основной задачей было автоматизировать процесс парсинга и преобразования данных в нужные форматы.
+**Project Description:**
+Create parsing data from a source and generate Excel, XML and YML files from that data. The main task was to automate the process of parsing and converting data into the required formats.
 
-**Моя роль:**
-- Парсинг данных из источника и их конвертация в форматы Excel, XML и YML
-- Настройка периодического выполнения скриптов парсинга через Cron на хостинге
+**My role:**
+- Parsing data from the source and converting it into Excel, XML and YML formats
+- Setting up periodic execution of parsing scripts via Cron on the hosting server
 
-**Ключевые фичи:**
-- Автоматизация парсинга данных с помощью cron для регулярного обновления данных
-- Экспорт данных в Excel, XML и YML
+**Key features:**
+- Automate data parsing with cron for regular data updates
+- Export data to Excel, XML and YML
