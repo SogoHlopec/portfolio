@@ -27,5 +27,5 @@ Samples Bencher is an internal project for the team to resurvey and analyze. The
 - Tabular display of data via DataTables.js
 - Maximum simplification and semi-automation of adding content to the site
 
-## Desktop
-![desktop](./desktop.jpg)
+**Desktop**
+![desktop](https://github.com/SogoHlopec/Travel/blob/main/desktop.jpg)
