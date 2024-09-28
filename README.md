@@ -6,7 +6,7 @@
 **WP plugins:** WP Bakery, Toolset, Duplicator
 
 **Project Description:**
-Cender is a website for a company dealing with climate control systems. Within the framework of the project were made edits to the functionality, added AJAX elements and configured automatic updating of prices depending on the exchange rate NBRB.
+Cender is a website for a company engaged in realization of heating system elements. Within the framework of the project were made edits to the functionality, added AJAX elements and configured automatic updating of prices depending on the exchange rate NBRB.
 
 **My role:**
 - Development of a simple AJAX-filter by product parameters
