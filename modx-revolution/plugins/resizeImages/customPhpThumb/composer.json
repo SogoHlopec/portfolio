@@ -1,0 +1,11 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    },
+    "require": {
+        "php": "<=7.4.33",
+        "phpthumb/phpthumb": "^2.2"
+    }
+}
