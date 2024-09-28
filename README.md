@@ -2,6 +2,7 @@
 ___
 ### Commercial projects
 ##### 2024
+* **[Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API, ClientConfig, FetchIt, pdoTools)
 * **[Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, Lightbox.js, Photoswipe.js, MiniMasonry.js, Swiper.js, PHP, Figma, ClientConfig, easyRedirects, FetchIt, MIGX, pdoTools, pThumb, reCaptchaV3, resizer, translit)
 * **[STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, CMS Joomla + ZOO, Google Sheets API, Yandex Map API, WPBakery, Toolset, Really Simple CSV Importer)
 * **[Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, WP Cron, NBRB APIs, WP Bakery, Toolset, Duplicator)
