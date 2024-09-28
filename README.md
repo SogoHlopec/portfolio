@@ -1,5 +1,6 @@
 # My useful scripts
 ### PHP native
+* **[parser-02](./php-native/parser-02)** - Example of data parser and data recording in Google Sheet.
 * **[parser-01](./php-native/parser-01)** - Example of data parser and writing data to Excel, YML table.
 * **[Read Tables](./php-native/readTables)** - Examples of reading Excel spreadsheets, Google Sheets.
 * **[Notion API](./php-native/notion-api)** - Basic templates and code examples for working with notion API in php native.
@@ -27,6 +28,7 @@ ___
 ___
 
 ### Wordpress
+* **[custom-coefficient](/wordpress/custom-coefficient.php)** - Simple plugin for entering custom coefficient in admin panel.
 * **[getNationalBankRates](/wordpress/getNationalBankRates.php)** - The plugin receives EUR exchange rate from NBRB, stores it in the site database and uses it to render EUR to BYN prices on pages via shortcode.
 * **[versions](/wordpress/versions.php)** - A simple script to automatically update files for users by adding a version to the file.
 * **[custom-stamp](/wordpress/custom-stamp.php)** - Basic code of a custom plugin for a stamp and coupon system for shoppers.
