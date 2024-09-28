@@ -1,4 +1,4 @@
-### STO StreetServiceAuto
+# STO StreetServiceAuto
 
 [strit.by](https://strit.by/)
 
@@ -25,7 +25,7 @@ Service Station StreetServiceAuto is a site of car service center, representing 
 - Automatic cache update for visitors
 
 ## Desktop
-![desktop](https://github.com/SogoHlopec/portfolio/blob/strit/desktop.jpg)
+![desktop](desktop.jpg)
 
 ## Mobile
-![mobile](https://github.com/SogoHlopec/portfolio/blob/strit/mobile.jpg)
+![mobile](mobile.jpg)
