@@ -1,5 +1,6 @@
 # My useful scripts
 ### PHP native
+* **[Read Tables](./php-native/readTables)** - Examples of reading Excel spreadsheets, Google Sheets.
 * **[Notion API](./php-native/notion-api)** - Basic templates and code examples for working with notion API in php native.
 ___
 
