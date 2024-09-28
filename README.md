@@ -2,6 +2,7 @@
 ___
 ### Commercial projects
 ##### 2024
+* **[ProSushi Krakow](https://github.com/SogoHlopec/portfolio/tree/prosushi-krakow)** - E-commerce cafe website for ordering sushi online. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP, Google Places API)
 * **[Laminar](https://github.com/SogoHlopec/portfolio/tree/laminar)** - Corporate multi-page website for a company specializing in industrial refrigeration equipment. (CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack, PhotoSwipe.js, Swiper.js, Inputmask.js, ClientConfig, FetchIt, MIGX, pdoTools, reCaptchaV3, Translitor)
 * **[Naozerah](https://github.com/SogoHlopec/portfolio/tree/naozerah)** - The site for booking vacations at the recreation center with integration of payment systems and online booking. (CMS ModX, HTML, SCSS, JavaScript, jQuery, AJAX, PUG, Webpack, PHP, MiniShop2, oneBooking, Alfa Bank Internet-acquiring)
 * **[Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, DiDOM, PHPSpreadsheet, Google API, CURL, Cron, MiniShop2, mFilter2, Fenom, Batcher, FetchIt, looked, msaddfield, mSearch2, Translitor, pdoTools)
