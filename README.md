@@ -2,8 +2,8 @@
 
 [zehnderbel.by](https://zehnderbel.by/)
 
-**Stack:** CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs  
-**WP plugins:** WP Bakery, Toolset, Duplicator, WP Cron
+**Stack:** CMS WordPress, CSS, JavaScript, jQuery, PHP, WP Cron, NBRB APIs  
+**WP plugins:** WP Bakery, Toolset, Duplicator
 
 **Project Description:**
 Cender is a website for a company dealing with climate control systems. Within the framework of the project were made edits to the functionality, added AJAX elements and configured automatic updating of prices depending on the exchange rate NBRB.
