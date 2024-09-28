@@ -1,4 +1,4 @@
-### EkoServ
+# EkoServ
 
 [eko-serv.ru](https://eko-serv.ru)
 
@@ -20,7 +20,7 @@ EcoServe is a website dedicated to recycling and neutralization services for all
 - Interactive elements based on Swiper and Lightbox JS
 
 ## Desktop
-![desktop](https://github.com/SogoHlopec/portfolio/blob/eko-serv/desktop.jpg)
+![desktop](desktop.jpg)
 
 ## Mobile
-![mobile](https://github.com/SogoHlopec/portfolio/blob/eko-serv/mobile.jpg)
+![mobile](mobile.jpg)
