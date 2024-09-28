@@ -2,7 +2,7 @@
 
 [laminar.by](https://laminar.by/)
 
-**Stack:** CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack, PhotoSwipe.js, Swiper.js, Inputmask.js
+**Stack:** CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack, PhotoSwipe.js, Swiper.js, Inputmask.js  
 **ModX Packages:** ClientConfig, FetchIt, MIGX, pdoTools, reCaptchaV3, Translitor
 
 **Project Description:**
