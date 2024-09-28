@@ -2,6 +2,7 @@
 ___
 ### Commercial projects
 ##### 2024
+* **[Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, DiDOM, PHPSpreadsheet, Google API, CURL, Cron, MiniShop2, mFilter2, Fenom, Batcher, FetchIt, looked, msaddfield, mSearch2, Translitor, pdoTools)
 * **[Samples/Bencher](https://github.com/SogoHlopec/portfolio/tree/bencher)** - An internal project for the research and analysis team. (ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP, MiniMasonry.js, DataTables.js, MixedImage, pdoTools, pThumb, resizer)
 
 ##### 2023
