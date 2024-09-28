@@ -2,6 +2,7 @@
 ___
 ### Commercial projects
 ##### 2024
+* **[Naozerah](https://github.com/SogoHlopec/portfolio/tree/naozerah)** - The site for booking vacations at the recreation center with integration of payment systems and online booking. (CMS ModX, HTML, SCSS, JavaScript, jQuery, AJAX, PUG, Webpack, PHP, MiniShop2, oneBooking, Alfa Bank Internet-acquiring)
 * **[Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, DiDOM, PHPSpreadsheet, Google API, CURL, Cron, MiniShop2, mFilter2, Fenom, Batcher, FetchIt, looked, msaddfield, mSearch2, Translitor, pdoTools)
 * **[Samples/Bencher](https://github.com/SogoHlopec/portfolio/tree/bencher)** - An internal project for the research and analysis team. (ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP, MiniMasonry.js, DataTables.js, MixedImage, pdoTools, pThumb, resizer)
 
