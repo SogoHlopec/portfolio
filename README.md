@@ -15,15 +15,12 @@ ProSushi Krakow is an e-commerce cafe website for ordering sushi online. The mai
 
 **Key features:**
 - Development of a stamp system for customers (receiving coupons for every N orders)
-- Setting up automatic sending of emails with coupons
-- Automatic creation and restriction of coupon application by email
-- Creating a custom page-table in the admin with data on buyers, their orders and stamps
-- HTML-email layout for sending coupons, customized for Gmail
-- Ability to manually change the number of stamps for customers
-
-**Key features:**
+    - Setting up automatic sending of emails with coupons
+    - Automatic creation and restriction of coupon application by email
+    - Creating a custom page-table in the admin with data on buyers, their orders and stamps
+    - HTML-email layout for sending coupons, customized for Gmail
+    - Ability to manually change the number of stamps for customers
 - Google Places API integration for hints in the address field
-- Loyalty system based on stamps and coupons
 
 ## Desktop
 ![desktop](desktop.jpg)
