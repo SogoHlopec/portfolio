@@ -2,6 +2,7 @@
 ___
 ### Commercial projects
 ##### 2024
+* **[Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, WP Cron, NBRB APIs, WP Bakery, Toolset, Duplicator)
 * **[Lebrama](https://github.com/SogoHlopec/portfolio/tree/lebrama)** - Corporate website for selling elements of heating systems. (CMS WordPress, CSS, JavaScript, PHP, jQuery, WP Bakery, Toolset, Duplicator)
 * **[ProSushi Krakow](https://github.com/SogoHlopec/portfolio/tree/prosushi-krakow)** - E-commerce cafe website for ordering sushi online. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP, Google Places API)
 * **[Laminar](https://github.com/SogoHlopec/portfolio/tree/laminar)** - Corporate multi-page website for a company specializing in industrial refrigeration equipment. (CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack, PhotoSwipe.js, Swiper.js, Inputmask.js, ClientConfig, FetchIt, MIGX, pdoTools, reCaptchaV3, Translitor)
