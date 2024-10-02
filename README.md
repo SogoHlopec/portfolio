@@ -6,7 +6,7 @@
 **ModX Packages:** easyRedirects, FetchIt, MIGX, pdoTools
 
 **Project Description:**
-Patience is a website of a company that provides financial services and products for life and business. The site features multi-language, currency converter and integration with various APIs. The site includes automation and data processing processes from the company's API to display up-to-date currency rates.
+Paytion is a website of a company that provides financial services and products for life and business. The site features multi-language, currency converter and integration with various APIs. The site includes automation and data processing processes from the company's API to display up-to-date currency rates.
 
 **My role:**
 - Parsing a source to determine favorable exchange rates with periodicity setting (Cron)
