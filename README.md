@@ -2,7 +2,7 @@
 
 [paytion.com](https://paytion.com/)
 
-**Stack:** CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron
+**Stack:** CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron  
 **ModX Packages:** easyRedirects, FetchIt, MIGX, pdoTools
 
 **Project Description:**
