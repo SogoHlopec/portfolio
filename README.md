@@ -2,6 +2,7 @@
 ___
 ### Commercial projects
 ##### 2024
+* **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron, easyRedirects, FetchIt, MIGX, pdoTools)
 * **[Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API, ClientConfig, FetchIt, pdoTools)
 * **[Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, Lightbox.js, Photoswipe.js, MiniMasonry.js, Swiper.js, PHP, Figma, ClientConfig, easyRedirects, FetchIt, MIGX, pdoTools, pThumb, reCaptchaV3, resizer, translit)
 * **[STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, CMS Joomla + ZOO, Google Sheets API, Yandex Map API, WPBakery, Toolset, Really Simple CSV Importer)
