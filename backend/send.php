@@ -35,7 +35,7 @@ if ($data['action'] === 'send') {
         if ($result) {
             echo json_encode([
                 'status' => 'success',
-                'message' => 'Заявка отправлена.',
+                'message' => 'Ваша заявка успешно отправлена и находится в обработке. Ожидайте email с подтверждением бронирования.',
             ]);
             die();
         } else {
