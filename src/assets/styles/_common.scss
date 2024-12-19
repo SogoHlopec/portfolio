@@ -1,0 +1,63 @@
+@use "variables";
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TTNorms Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/TTNorms-Medium.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: normal;
+    letter-spacing: 0em;
+}
+
+html,
+body {
+    height: 100%;
+    scrollbar-gutter: stable;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

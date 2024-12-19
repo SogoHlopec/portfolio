@@ -1,0 +1,22 @@
+include ../components/mixins.pug
+
+doctype html
+html(lang="ru")
+    include ../components/head.pug
+
+    body
+        .wrapper
+            header.header
+                .container
+                    a.logo(href="/") 
+                        img(src=require('../assets/images/logo.png'), alt="logo")
+
+            main.main
+                .container
+                    block main
+
+
+            footer.footer
+                .container
+                
+        include ../components/scripts.pug

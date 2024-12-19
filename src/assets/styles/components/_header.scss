@@ -1,0 +1,17 @@
+@use "../variables";
+
+.header {
+    width: 100%;
+
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 12px 0;
+    }
+
+    .logo {
+        img {
+            width: 100%;
+        }
+    }
+}
