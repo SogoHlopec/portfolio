@@ -13,7 +13,7 @@ block main
                 p.info__call-to-action Количество мест ограничено — успейте зарегистрироваться!
             .seminar__form
                 h2.form__title Отправить заявку
-                form#form-request(action="#").form-request
+                form#form-request(action="send.php" method="post").form-request
                     .form__row 
                         label(for="").form__label Ваше имя
                         input(type="text" name="name" id="name" placeholder="Иван Иванов").form__input
