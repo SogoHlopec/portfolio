@@ -1,6 +1,8 @@
 @use "../variables";
 
 .page-main {
+    margin-bottom: 40px;
+    
     h1 {
         font-family: "TTNorms Medium", Helvetica, Arial, sans-serif;
         color: variables.$color-default-bold;
