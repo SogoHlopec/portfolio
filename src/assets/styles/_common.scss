@@ -67,3 +67,22 @@ h3 {
         padding: 0 15px;
     }
 }
+
+.modal {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 2rem;
+    z-index: 1000;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+.modal.success {
+    background-color: #4caf50;
+}
+.modal.error {
+    background-color: #f44336;
+}

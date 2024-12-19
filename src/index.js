@@ -31,8 +31,30 @@ const sendData = async (url, data) => {
         if (!response.ok) {
             throw new Error('Ошибка на сервере. Попробуйте позже.');
         }
-
         return response.json();
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+const showNotification = (form, response) => {
+    try {
+        const modal = document.createElement('div');
+        modal.classList.add('modal');
+        if (response.status === 'success') {
+            form.reset();
+            modal.classList.add('success');
+        } else {
+            modal.classList.add('error');
+        }
+        modal.textContent = response.message;
+
+        document.body.appendChild(modal);
+        console.log(modal);
+
+        setTimeout(() => {
+            modal.remove();
+        }, 3000);
     } catch (error) {
         console.log(error);
     }
@@ -80,8 +102,9 @@ document.addEventListener('DOMContentLoaded', (e) => {
                     seminar: seminar,
                 };
 
-                const result = await sendData('send.php', data);
-                console.log(result);
+                const response = await sendData('send.php', data);
+                console.log(response);
+                showNotification(form, response);
             }
         });
     } catch (error) {

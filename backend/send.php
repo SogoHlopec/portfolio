@@ -1,8 +1,5 @@
 <?php
-
-// echo '<pre>';
-// var_dump($_POST);
-// echo '</pre>';
+header('Content-Type: application/json');
 $data = json_decode(file_get_contents('php://input'), true);
 
 if ($data['action'] === 'send') {
@@ -11,17 +8,19 @@ if ($data['action'] === 'send') {
     $seminar = trim($data['seminar']);
 
     if (empty($name) || empty($email) || empty($seminar)) {
-        return json_encode([
+        echo json_encode([
             'status' => 'error',
             'message' => 'Все поля должны быть заполнены.',
         ]);
+        die();
     }
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        return json_encode([
+        echo json_encode([
             'status' => 'error',
             'message' => 'Некорректный email.',
         ]);
+        die();
     }
 
     $to = $email;
@@ -29,22 +28,26 @@ if ($data['action'] === 'send') {
     $message = "Имя: $name\nEmail: $email\nСеминар: $seminar";
 
     try {
-        $result = mail($to, $subject, $message);
+        $result = mail($to, $subject, $message, $headers);
+        // $result = false;
         if ($result) {
-            return json_encode([
+            echo json_encode([
                 'status' => 'success',
                 'message' => 'Заявка отправлена.',
             ]);
+            die();
         } else {
-            return json_encode([
+            echo json_encode([
                 'status' => 'error',
                 'message' => 'Ошибка при отправке заявки. Попробуйте позже.',
             ]);
+            die();
         }
     } catch (\Throwable $th) {
-        return json_encode([
+        echo json_encode([
             'status' => 'error',
             'message' => 'Ошибка при отправке заявки. Попробуйте позже.',
         ]);
+        die();
     }
 }

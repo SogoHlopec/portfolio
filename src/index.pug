@@ -15,13 +15,13 @@ block main
                 h2.form__title Отправить заявку
                 form#form-request(action="send.php" method="post").form-request
                     .form__row 
-                        label(for="").form__label Ваше имя
+                        label(for="name").form__label Ваше имя
                         input(type="text" name="name" id="name" placeholder="Иван Иванов").form__input
                     .form__row 
-                        label(for="").form__label Контактный email
+                        label(for="email").form__label Контактный email
                         input(type="email" name="email" id="email" placeholder="ivan777@gmail.com").form__input
                     .form__row 
-                        label(for="").form__label Интересующий семинар
+                        label(for="seminar").form__label Интересующий семинар
                         select(name="seminar" id="seminar").form__select
                             option(value="") Выбрать 
                             option(value="недизайнер") неДизайнер 
