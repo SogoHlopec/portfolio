@@ -23,6 +23,8 @@ if ($data['action'] === 'send') {
         die();
     }
 
+    $headers = "From: site@simple-seminar.atservers.net\r\n";
+    $headers .= "Reply-To: $email\r\n";
     $to = $email;
     $subject = 'Заявка на семинар';
     $message = "Имя: $name\nEmail: $email\nСеминар: $seminar";
