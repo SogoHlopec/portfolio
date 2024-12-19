@@ -1,3 +1,30 @@
 extends ./templates/basic.pug
 block main
     .page-main
+        section.seminar
+            .seminar__info
+                h1.info__title Присоединяйтесь к нашему семинару!
+                p.info__text
+                    |Узнайте всё о 
+                    span Дизайне
+                    |: новые идеи, полезные знания и практические советы. Заполните форму справа, чтобы забронировать своё место. Организаторы свяжутся с Вами для подтверждения записи.
+                p.info__free Участие в семинаре 
+                    span бесплатное!
+                p.info__call-to-action Количество мест ограничено — успейте зарегистрироваться!
+            .seminar__form
+                h2.form__title Отправить заявку
+                form#form-request(action="#").form-request
+                    .form__row 
+                        label(for="").form__label Ваше имя
+                        input(type="text" name="name" id="name" placeholder="Иван Иванов").form__input
+                    .form__row 
+                        label(for="").form__label Контактный email
+                        input(type="email" name="email" id="email" placeholder="ivan777@gmail.com").form__input
+                    .form__row 
+                        label(for="").form__label Интересующий семинар
+                        select(name="seminar" id="seminar").form__select
+                            option(value="") Выбрать 
+                            option(value="недизайнер") неДизайнер 
+                            option(value="почти-дизайнер") почтиДизайнер
+                            option(value="почти-не-считается") почтиНеСчитается
+                    button#btn-submit.btn-submit Отправить

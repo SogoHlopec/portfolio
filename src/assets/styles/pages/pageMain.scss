@@ -1,4 +1,123 @@
 @use "../variables";
 
 .page-main {
+    h1 {
+        font-family: "TTNorms Medium", Helvetica, Arial, sans-serif;
+        color: variables.$color-default-bold;
+        font-size: 4rem;
+        line-height: normal;
+
+        @media screen and (max-width: 970px) {
+            font-size: 2.8rem;
+        }
+    }
+
+    .seminar {
+        display: flex;
+        gap: 40px 20px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        & > div {
+            width: 50%;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+    }
+
+    .seminar__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+        color: variables.$color-default-bold;
+        font-size: 1.6rem;
+        line-height: normal;
+
+        .info__text span {
+            font-weight: 700;
+        }
+
+        .info__free span {
+            text-decoration: underline;
+        }
+
+        .info__call-to-action {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+    }
+
+    .seminar__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 50px;
+        border-radius: 16px;
+        background-color: variables.$color-default-bold;
+        font-size: 1.6rem;
+
+        @media screen and (max-width: 480px) {
+            padding: 16px;
+        }
+
+        .form__title {
+            font-size: 4rem;
+            color: variables.$color-default;
+            line-height: normal;
+
+            @media screen and (max-width: 480px) {
+                font-size: 2.8rem;
+            }
+        }
+
+        .form-request {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+            color: variables.$color-default;
+        }
+
+        .form__row {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+
+            .form__input,
+            .form__select {
+                padding: 10px 12px;
+                border: none;
+                border-radius: 16px;
+                transition: all 0.3s ease;
+            }
+
+            .form__input::placeholder {
+                color: rgb(0, 0, 0, 0.4);
+            }
+        }
+
+        .btn-submit {
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px 12px;
+            border: none;
+            border-radius: 16px;
+            background-color: variables.$color-default;
+            color: variables.$color-default-bold;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 2rem;
+            font-weight: 700;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
 }

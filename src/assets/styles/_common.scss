@@ -32,6 +32,7 @@ body {
     line-height: 1.6;
     font-weight: normal;
     letter-spacing: 0em;
+    background-color: variables.$color-default;
 }
 
 html,
@@ -60,4 +61,9 @@ h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 25px;
+
+    @media screen and (max-width: 480px) {
+        padding: 0 15px;
+    }
 }
