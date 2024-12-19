@@ -100,6 +100,10 @@
             .form__input::placeholder {
                 color: rgb(0, 0, 0, 0.4);
             }
+
+            .error {
+                color: red;
+            }
         }
 
         .form__info {
