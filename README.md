@@ -37,6 +37,7 @@ ___
 
 ### All study projects
 ##### 2024
+* **17. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
 * **16. [Simple CRUD API](https://github.com/SogoHlopec/portfolio/tree/simple-crud-api)** A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. (Node.js, Jest, Typescript, Postman)
 * **15. [Basic testing](https://github.com/SogoHlopec/portfolio/tree/node-basic-testing)** Writing unit tests for an application in Node.js and Typescript. (Node.js, Jest, Typescript)
 * **14. [Node file manager](https://github.com/SogoHlopec/portfolio/tree/node-file-manager)** The application provides functionality for working with the file system, performing operations with files and folders, as well as working with streams and data hashing. (Node.js, CLI)
