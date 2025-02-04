@@ -14,7 +14,7 @@
 * **course 1**
 * **course 2**
 * **course 3**
-
+___
 ### All commercial projects
 ##### 2024
 * **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron, easyRedirects, FetchIt, MIGX, pdoTools)
