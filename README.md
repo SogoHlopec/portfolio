@@ -1,17 +1,21 @@
-# Node.js basics
-A learning project aimed at mastering the basic concepts of Node.js. The assignment involved implementing simple functions for working with the file system, reading and writing data, and creating a command line user interface.  . This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
+# Node file manager
+A tutorial project aimed at creating a file manager using Node.js API. The application provides functionality for working with the file system, performing operations with files and folders, as well as working with streams and data hashing. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
 
 ## Stack:
 * Node.js
 * CLI
 
 ## Task:
-* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md
 
 ## Repository:
-* https://github.com/SogoHlopec/node-nodejs-basics
+* https://github.com/SogoHlopec/node-file-manager
 
 ## Features:
-* Working with read and write streams
-* Implementation of simple file encryption and decryption
-* Support for CLI commands for various operations
+* CLI support
+* File operations: copying, moving, deleting, renaming
+* Using Streams API to process large files
+* Compress and decompress files
+* Getting information about host operating system
+* Calculating hashes for files
+* Error handling
