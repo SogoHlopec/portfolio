@@ -1,22 +1,17 @@
-# News API
-News API is a simple HTTP REST API for searching and retrieving news from across the Internet. This project was created while studying at RS SHOOL https://rs.school/ Stage 2 2023Q2.
+# Node.js basics
+A learning project aimed at mastering the basic concepts of Node.js. The assignment involved implementing simple functions for working with the file system, reading and writing data, and creating a command line user interface.  . This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
 
 ## Task:
-* https://github.com/rolling-scopes-school/tasks/blob/master/tasks/migration-newip-to-ts.md
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md
 
-## Deploy:
-* https://sogohlopec.github.io/portfolio/migration-newip-to-ts/
+## Repository:
+* https://github.com/SogoHlopec/node-nodejs-basics
 
 ## Stack:
-* HTML
-* CSS
-* JS
-* TS
-* Webpack
+* Node.js
+* CLI
 
 ## Features:
-* Classes
-* Modules
-* Migration JS to TS (Everyday Types and Enums, Generics, Object Types, Classes and access modifiers (private, public), Function Types)
-* Webpack for TS
-* ESLint is configured for TypeScript
+* Working with read and write streams
+* Implementation of simple file encryption and decryption
+* Support for CLI commands for various operations
