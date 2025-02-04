@@ -37,6 +37,7 @@ ___
 
 ### All study projects
 ##### 2024
+* **19. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** REST service for managing personal media library (Home Library Service), where users can create, view, edit and delete data about tracks, albums and artists, as well as add them to Favorites. (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
 * **18. [Node.js Graphql](https://github.com/SogoHlopec/portfolio/tree/node-graphql)** GraphQL service for interacting with data and providing a flexible interface for queries. (Node.js, Typescript, GraphQL, Postman)
 * **17. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
 * **16. [Simple CRUD API](https://github.com/SogoHlopec/portfolio/tree/simple-crud-api)** A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. (Node.js, Jest, Typescript, Postman)
