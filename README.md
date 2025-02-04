@@ -13,9 +13,9 @@ Server part for the game “Naval Combat” using WebSocket. This project was cr
 * https://github.com/SogoHlopec/ws-battleship
 
 ## Features:
-* Поддержка многопользовательских подключений через WebSocket
-* Регистрация игроков и обновление их состояния
-* Возможность игроков создавать игровые комнаты и присоединяться к ним
-* Установка кораблей, выполнение атак и проверка победителя
-* Обработка игровых событий и передачу информации между игроками
-* Реализация искусственного игрока для одиночного режима игры
+* Support for multiplayer connections via WebSocket
+* Player registration and status updates
+* Ability for players to create and join game rooms
+* Setting up ships, performing attacks and checking the winner
+* Handling game events and transferring information between players
+* Implementation of an artificial player for single player mode
