@@ -15,6 +15,7 @@
 * **course 2**
 * **course 3**
 ___
+
 ### All commercial projects
 ##### 2024
 * **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron, easyRedirects, FetchIt, MIGX, pdoTools)
@@ -34,16 +35,6 @@ ___
 * **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS)
 ___
 
-
-### TOP 3 my useful scripts
-* **script 1**
-* **script 2**
-* **script 3**
-
-    [More...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
-___
-
-
 ### All study projects
 ##### 2023
 * **12. [News API](https://github.com/SogoHlopec/portfolio/tree/migration-newip-to-ts)** Simple HTTP REST API for news from across the Internet. (HTML, CSS, JS, TS, Webpack)
@@ -62,6 +53,13 @@ ___
 * **1. [Travel](https://github.com/SogoHlopec/Travel)** Landing. (HTML, CSS, JS)
 ___
 
+### TOP 3 my useful scripts
+* **script 1**
+* **script 2**
+* **script 3**
+
+    [More...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
+___
 
 ### All completed courses
 ##### 2024
