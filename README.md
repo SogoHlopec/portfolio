@@ -1,18 +1,20 @@
-# Basic testing
-A learning project aimed at mastering application testing using Jest. The goal of the assignment is to write unit tests for a given application in Node.js using TypeScript. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
+# Simple CRUD API
+A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
 
 ## Stack:
 * Node.js
 * Jest
 * TypeScript
+* Postman
 
 ## Task:
-* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/basic-testing/assignment.md
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md
 
 ## Repository:
-* https://github.com/SogoHlopec/basic-testing
+* https://github.com/SogoHlopec/simple-crud-api/tree/develop
 
 ## Features:
-* Unit tests for various application functions and methods  
-* Configuring Jest to work with TypeScript  
-* Testing asynchronous code, handling promises and exceptions    
+* CRUD operations: get all users, get user by ID, create, update and delete user
+* Validation of incoming data
+* Return correct HTTP statuses and error messages
+* Code coverage with tests using Jest
