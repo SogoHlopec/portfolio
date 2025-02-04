@@ -1,21 +1,18 @@
-# Node file manager
-A tutorial project aimed at creating a file manager using Node.js API. The application provides functionality for working with the file system, performing operations with files and folders, as well as working with streams and data hashing. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
+# Basic testing
+A learning project aimed at mastering application testing using Jest. The goal of the assignment is to write unit tests for a given application in Node.js using TypeScript. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
 
 ## Stack:
 * Node.js
-* CLI
+* Jest
+* TypeScript
 
 ## Task:
-* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/basic-testing/assignment.md
 
 ## Repository:
-* https://github.com/SogoHlopec/node-file-manager
+* https://github.com/SogoHlopec/basic-testing
 
 ## Features:
-* CLI support
-* File operations: copying, moving, deleting, renaming
-* Using Streams API to process large files
-* Compress and decompress files
-* Getting information about host operating system
-* Calculating hashes for files
-* Error handling
+* Unit tests for various application functions and methods  
+* Configuring Jest to work with TypeScript  
+* Testing asynchronous code, handling promises and exceptions    
