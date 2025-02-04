@@ -36,6 +36,9 @@ ___
 ___
 
 ### All study projects
+##### 2024
+* **13. [Node.js basics](https://github.com/SogoHlopec/portfolio/tree/nodejs-basics)** Implementing simple functions for working with the file system, reading and writing data, and creating a command line user interface. (Node.js, CLI)
+
 ##### 2023
 * **12. [News API](https://github.com/SogoHlopec/portfolio/tree/migration-newip-to-ts)** Simple HTTP REST API for news from across the Internet. (HTML, CSS, JS, TS, Webpack)
 * **11. [Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** The classic game of the same name. (HTML, SCSS, JS, Webpack)
