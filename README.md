@@ -37,6 +37,7 @@ ___
 
 ### All study projects
 ##### 2024
+* **18. [Node.js Graphql](https://github.com/SogoHlopec/portfolio/tree/node-graphql)** GraphQL service for interacting with data and providing a flexible interface for queries. (Node.js, Typescript, GraphQL, Postman)
 * **17. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
 * **16. [Simple CRUD API](https://github.com/SogoHlopec/portfolio/tree/simple-crud-api)** A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. (Node.js, Jest, Typescript, Postman)
 * **15. [Basic testing](https://github.com/SogoHlopec/portfolio/tree/node-basic-testing)** Writing unit tests for an application in Node.js and Typescript. (Node.js, Jest, Typescript)
