@@ -40,7 +40,7 @@ ___
 * **script 2**
 * **script 3**
 
-    [More...](https://)
+    [More...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
 ___
 
 
