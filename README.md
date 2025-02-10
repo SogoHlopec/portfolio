@@ -1,9 +1,25 @@
-# Simple seminar signin
-___
+# Simple Seminar Sign-in
+A tutorial project for a test job for the Junior PHP Developer vacancy. The project allows users to register for the workshop by providing their details via a form. 
 
-Deploy: https://simple-seminar.atservers.net/
+## Stack:
+* HTML
+* CSS
+* JavaScript
+* PHP
 
-host: 178.159.240.174
+## Repository:
+* https://github.com/SogoHlopec/portfolio/tree/simple-seminar-signin
+
+## Deploy:
+* https://simple-seminar.atservers.net/ (178.159.240.174)
+
+
+## Features:
+* Validation of the registration form
+* Data processing on the server using PHP
+* Sending email to user's mail
+* Dynamic confirmation of successful application submission
+* Aaptive layout
 
 ## Desktop
 ![desktop](desktop.jpg)
