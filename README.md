@@ -37,29 +37,30 @@ ___
 
 ### All study projects
 ##### 2024
-* **19. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** REST service for managing personal media library (Home Library Service), where users can create, view, edit and delete data about tracks, albums and artists, as well as add them to Favorites. (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
-* **18. [Node.js Graphql](https://github.com/SogoHlopec/portfolio/tree/node-graphql)** GraphQL service for interacting with data and providing a flexible interface for queries. (Node.js, Typescript, GraphQL, Postman)
-* **17. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
-* **16. [Simple CRUD API](https://github.com/SogoHlopec/portfolio/tree/simple-crud-api)** A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. (Node.js, Jest, Typescript, Postman)
-* **15. [Basic testing](https://github.com/SogoHlopec/portfolio/tree/node-basic-testing)** Writing unit tests for an application in Node.js and Typescript. (Node.js, Jest, Typescript)
-* **14. [Node file manager](https://github.com/SogoHlopec/portfolio/tree/node-file-manager)** The application provides functionality for working with the file system, performing operations with files and folders, as well as working with streams and data hashing. (Node.js, CLI)
-* **13. [Node.js basics](https://github.com/SogoHlopec/portfolio/tree/nodejs-basics)** Implementing simple functions for working with the file system, reading and writing data, and creating a command line user interface. (Node.js, CLI)
+* **20. [Simple Seminar Sign-in](https://github.com/SogoHlopec/portfolio/tree/simple-seminar-signin)** - A simple project with simple form to register for the workshop and send an email. (HTML, CSS, JavaScript, PHP)
+* **19. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service), where users can create, view, edit and delete data about tracks, albums and artists, as well as add them to Favorites. (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
+* **18. [Node.js Graphql](https://github.com/SogoHlopec/portfolio/tree/node-graphql)** - GraphQL service for interacting with data and providing a flexible interface for queries. (Node.js, Typescript, GraphQL, Postman)
+* **17. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** - Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
+* **16. [Simple CRUD API](https://github.com/SogoHlopec/portfolio/tree/simple-crud-api)** - A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. (Node.js, Jest, Typescript, Postman)
+* **15. [Basic testing](https://github.com/SogoHlopec/portfolio/tree/node-basic-testing)** - Writing unit tests for an application in Node.js and Typescript. (Node.js, Jest, Typescript)
+* **14. [Node file manager](https://github.com/SogoHlopec/portfolio/tree/node-file-manager)** - The application provides functionality for working with the file system, performing operations with files and folders, as well as working with streams and data hashing. (Node.js, CLI)
+* **13. [Node.js basics](https://github.com/SogoHlopec/portfolio/tree/nodejs-basics)** - Implementing simple functions for working with the file system, reading and writing data, and creating a command line user interface. (Node.js, CLI)
 
 ##### 2023
-* **12. [News API](https://github.com/SogoHlopec/portfolio/tree/migration-newip-to-ts)** Simple HTTP REST API for news from across the Internet. (HTML, CSS, JS, TS, Webpack)
-* **11. [Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** The classic game of the same name. (HTML, SCSS, JS, Webpack)
-* **10. [Virtual keyboard](https://github.com/SogoHlopec/virtual-keyboard)** Virtual keyboard on the web. (HTML, SCSS, JS, Webpack)
-* **9. [Shelter](https://github.com/SogoHlopec/Shelter)** Two-page website. (HTML, SCSS, JS, Webpack)
-* **8. [CSS Bayan](https://github.com/SogoHlopec/cssBayan)** "Accordion" implemented only with html and css. (HTML, CSS)
-* **7. [Online Store](https://github.com/SogoHlopec/Online_Store)** Simple e-commerce SPA (teamwork, SPA, HTML, CSS, TS, Webpack)
+* **12. [News API](https://github.com/SogoHlopec/portfolio/tree/migration-newip-to-ts)** - Simple HTTP REST API for news from across the Internet. (HTML, CSS, JS, TS, Webpack)
+* **11. [Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** - The classic game of the same name. (HTML, SCSS, JS, Webpack)
+* **10. [Virtual keyboard](https://github.com/SogoHlopec/virtual-keyboard)** - Virtual keyboard on the web. (HTML, SCSS, JS, Webpack)
+* **9. [Shelter](https://github.com/SogoHlopec/Shelter)** - Two-page website. (HTML, SCSS, JS, Webpack)
+* **8. [CSS Bayan](https://github.com/SogoHlopec/cssBayan)** - "Accordion" implemented only with html and css. (HTML, CSS)
+* **7. [Online Store](https://github.com/SogoHlopec/Online_Store)** - Simple e-commerce SPA (teamwork, SPA, HTML, CSS, TS, Webpack)
 
 ##### 2022
-* **6. [Songbird](https://github.com/SogoHlopec/Songbird)** This is a quiz app for recognizing birds by their voices. (HTML, CSS, JS, Webpack)
-* **5. [Gem puzzle](https://github.com/SogoHlopec/Gem-puzzle)** This is a classic puzzle game. (SPA, HTML, CSS, JS, Webpack)
-* **4. [Online zoo](https://github.com/SogoHlopec/Online-zoo)** Two-page website. (HTML, CSS, JS)
-* **3. [Eldritch Horror](https://github.com/SogoHlopec/Codejam-Eldritch-Horror)** A project to build decks of cards for the eldritch horror board game. (HTML, CSS, JS)
-* **2. [Momentum](https://github.com/SogoHlopec/Momentum)** This project is a copy of the Google Chrome extension Momentum. (HTML, CSS, JS, API)
-* **1. [Travel](https://github.com/SogoHlopec/Travel)** Landing. (HTML, CSS, JS)
+* **6. [Songbird](https://github.com/SogoHlopec/Songbird)** - This is a quiz app for recognizing birds by their voices. (HTML, CSS, JS, Webpack)
+* **5. [Gem puzzle](https://github.com/SogoHlopec/Gem-puzzle)** - This is a classic puzzle game. (SPA, HTML, CSS, JS, Webpack)
+* **4. [Online zoo](https://github.com/SogoHlopec/Online-zoo)** - Two-page website. (HTML, CSS, JS)
+* **3. [Eldritch Horror](https://github.com/SogoHlopec/Codejam-Eldritch-Horror)** - A project to build decks of cards for the eldritch horror board game. (HTML, CSS, JS)
+* **2. [Momentum](https://github.com/SogoHlopec/Momentum)** - This project is a copy of the Google Chrome extension Momentum. (HTML, CSS, JS, API)
+* **1. [Travel](https://github.com/SogoHlopec/Travel)** - Landing. (HTML, CSS, JS)
 ___
 
 ### TOP 3 my useful scripts
