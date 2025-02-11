@@ -7,9 +7,6 @@ A tutorial project for a test job for the Junior PHP Developer vacancy. The proj
 * JavaScript
 * PHP
 
-## Repository:
-* https://github.com/SogoHlopec/portfolio/tree/simple-seminar-signin
-
 ## Deploy:
 * https://simple-seminar.atservers.net/ (178.159.240.174)
 
