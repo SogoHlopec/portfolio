@@ -73,6 +73,16 @@ ___
 
 ### All completed courses
 ##### 2024
+* **43. [RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
+    **My [certificate](https://app.rs.school/certificate/0atn8vt1)**
+* **42. [YouTube Playlist: Nest.js Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr&si=a0y9_7qtnaj6QiRy)**
+* **41. [YouTube video: Nestjs - a quick course on the best Node js framework](https://youtu.be/j2-GqaeSueA?si=p_Rc0Z27KvluYYoV)**
+* **40. [YouTube video: Nestjs review - the best framework on Node.js and TypeScript](https://youtu.be/AtCxtu8Suvc?si=o_zBpuDPwIkNmuI_)**
+* **39. [YouTube video: What is Rest API, RESTful API](https://youtu.be/v7zq1DntN_Y?si=BSRLcM_BxhyPD-b_)**
+* **38. [YouTube video: What is REST API? HTTP, Client-Server, Design, Development, Documentation, Swagger and OpenApi](https://youtu.be/mkpJIZWQlHY?si=x4Op3xDR5Vt6PsOa)**
+* **37. [YouTube video: What is REST really all about?](https://youtu.be/08-RlaLgWx4?si=Z-4NFmBIDAFJwdbw)**
+* **36. [YouTube Playlist: GraphQL Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9gUxtblNUahcsg0WLxmrK_y&si=8s-et4GAJZA2L2Ra)**
+* **35. [YouTube Playlist: Node.js First run](https://youtube.com/playlist?list=PLDqIkh1haws4QW9A0tAPY5YRa3Rr4CZgK&si=0S6n-SmcQcwAgUFR)**
 * **34. [YouTube video: PHP 8 in one hour. Basic PHP course](https://www.youtube.com/watch?v=7jws8EEmyHU)**
 * **33. [YouTube video: All SQL base for beginners in 1 hour](https://www.youtube.com/watch?v=5sG9kmXYsKU)**
 * **32. [YouTube video: SQL database lessons for beginners. SELECT, JOINS, GROUP BY, INSERT, UPDATE, WHERE](https://www.youtube.com/watch?v=IK6e1SFCdow)**
