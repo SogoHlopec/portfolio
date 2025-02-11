@@ -6,39 +6,42 @@
 * **project 3**
 
 ## TOP 3 my study projects
-* **project 1**
-* **project 2**
-* **project 3**
+* **1. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service). (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
+* **2. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** - Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
+* **3. [Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** - The classic game of the same name. (HTML, SCSS, JS, Webpack)
+
 
 ## TOP 3 my completed courses
-* **course 1**
-* **course 2**
-* **course 3**
+* **1. [RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
+    **My [certificate](https://app.rs.school/certificate/0atn8vt1)**
+* **2. [RS School: JavaScript / Front-end Pre-school RU 2022Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
+    **My [certificate](https://app.rs.school/certificate/xc1jcw36)**
+* **3. [RS School: JavaScript / Front-end RU 2023Q1 Stage 1-2](https://rs.school/courses/javascript-ru)**
 ___
 
 ### All commercial projects
 ##### 2024
-* **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron, easyRedirects, FetchIt, MIGX, pdoTools)
-* **[Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API, ClientConfig, FetchIt, pdoTools)
-* **[Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, Lightbox.js, Photoswipe.js, MiniMasonry.js, Swiper.js, PHP, Figma, ClientConfig, easyRedirects, FetchIt, MIGX, pdoTools, pThumb, reCaptchaV3, resizer, translit)
-* **[STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, CMS Joomla + ZOO, Google Sheets API, Yandex Map API, WPBakery, Toolset, Really Simple CSV Importer)
-* **[Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, WP Cron, NBRB APIs, WP Bakery, Toolset, Duplicator)
-* **[Lebrama](https://github.com/SogoHlopec/portfolio/tree/lebrama)** - Corporate website for selling elements of heating systems. (CMS WordPress, CSS, JavaScript, PHP, jQuery, WP Bakery, Toolset, Duplicator)
+* **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
+* **[Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API)
+* **[Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, PHP, Figma)
+* **[STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, Google Sheets API, Yandex Map API)
+* **[Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs)
+* **[Lebrama](https://github.com/SogoHlopec/portfolio/tree/lebrama)** - Corporate website for selling elements of heating systems. (CMS WordPress, CSS, JavaScript, PHP, jQuery)
 * **[ProSushi Krakow](https://github.com/SogoHlopec/portfolio/tree/prosushi-krakow)** - E-commerce cafe website for ordering sushi online. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP, Google Places API)
-* **[Laminar](https://github.com/SogoHlopec/portfolio/tree/laminar)** - Corporate multi-page website for a company specializing in industrial refrigeration equipment. (CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack, PhotoSwipe.js, Swiper.js, Inputmask.js, ClientConfig, FetchIt, MIGX, pdoTools, reCaptchaV3, Translitor)
-* **[Naozerah](https://github.com/SogoHlopec/portfolio/tree/naozerah)** - The site for booking vacations at the recreation center with integration of payment systems and online booking. (CMS ModX, HTML, SCSS, JavaScript, jQuery, AJAX, PUG, Webpack, PHP, MiniShop2, oneBooking, Alfa Bank Internet-acquiring)
-* **[Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, DiDOM, PHPSpreadsheet, Google API, CURL, Cron, MiniShop2, mFilter2, Fenom, Batcher, FetchIt, looked, msaddfield, mSearch2, Translitor, pdoTools)
-* **[Samples/Bencher](https://github.com/SogoHlopec/portfolio/tree/bencher)** - An internal project for the research and analysis team. (ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP, MiniMasonry.js, DataTables.js, MixedImage, pdoTools, pThumb, resizer)
+* **[Laminar](https://github.com/SogoHlopec/portfolio/tree/laminar)** - Corporate multi-page website for a company specializing in industrial refrigeration equipment. (CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack)
+* **[Naozerah](https://github.com/SogoHlopec/portfolio/tree/naozerah)** - The site for booking vacations at the recreation center with integration of payment systems and online booking. (CMS ModX, HTML, SCSS, JavaScript, jQuery, PUG, Webpack, PHP, Alfa Bank Internet-acquiring)
+* **[Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, Google API, Cron)
+* **[Samples/Bencher](https://github.com/SogoHlopec/portfolio/tree/bencher)** - An internal project for the research and analysis team. (ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP)
 
 ##### 2023
-* **[STO StreetServiceAuto](https://github.com/SogoHlopec/portfolio/tree/strit)** - Corporate site of the company for car repair in Minsk. (CMS ModX, HTML, CSS, JavaScript, PHP, Swiper JS, PhotoSwipe JS, Inputmask JS, ImportX, MIGX, ClientConfig, FetchIt, pdoTools, Translitor)
-* **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma, Swiper JS, Lightbox JS)
+* **[STO StreetServiceAuto](https://github.com/SogoHlopec/portfolio/tree/strit)** - Corporate site of the company for car repair in Minsk. (CMS ModX, HTML, CSS, JavaScript, PHP)
+* **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma)
 ___
 
 ### All study projects
 ##### 2024
 * **20. [Simple Seminar Sign-in](https://github.com/SogoHlopec/portfolio/tree/simple-seminar-signin)** - A simple project with simple form to register for the workshop and send an email. (HTML, CSS, JavaScript, PHP)
-* **19. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service), where users can create, view, edit and delete data about tracks, albums and artists, as well as add them to Favorites. (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
+* **19. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service). (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
 * **18. [Node.js Graphql](https://github.com/SogoHlopec/portfolio/tree/node-graphql)** - GraphQL service for interacting with data and providing a flexible interface for queries. (Node.js, Typescript, GraphQL, Postman)
 * **17. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** - Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
 * **16. [Simple CRUD API](https://github.com/SogoHlopec/portfolio/tree/simple-crud-api)** - A simple CRUD API using Node.js and TypeScript, powered by an in-memory database. (Node.js, Jest, Typescript, Postman)
