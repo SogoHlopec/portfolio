@@ -8,19 +8,27 @@
 ProSushi Krakow is an e-commerce cafe website for ordering sushi online. The main task was to make edits to the checkout functionality, as well as to develop a custom stamp system and work with coupons for loyal customers.
 
 **My Role:**
-- Style edits to the checkout page (buttons, coupon application)
-- Integration of address hints in the form via Google Places API Autocomplete
-- Implementation of the function of uploading data of all orders to the `data.csv` file by a button in the admin area
-- Edits to order placement logic
+- Integration of address autocompletion via Google Places API
+- Fix coupon application logic in orders
+- Export of order data to `.csv` by button in admin
+- Auto substitution of “0” value in the change field in case of cash payment
+- Development of custom plugin of stamp system for buyers:
+  - Automatic generation of coupons for every N orders
+  - Customization of sending email notifications with coupons
+  - Creating a custom page-table in the admin with data on buyers and stamps
+  - Email layout for Gmail
+  - Ability to manually change the number of stamps for a user
+  - Restriction of coupons by email and time, as well as prohibition to apply several coupons at the same time
+- Improving the layout of the checkout page and finalizing its logic
+- Removing information about the site developer in the footer
+- Recording a video tutorial on how to set up coupons for promotional items
+- Setting up coupon application notifications for users
 
 **Key features:**
-- Development of a stamp system for customers (receiving coupons for every N orders)
-    - Setting up automatic sending of emails with coupons
-    - Automatic creation and restriction of coupon application by email
-    - Creating a custom page-table in the admin with data on buyers, their orders and stamps
-    - HTML-email layout for sending coupons, customized for Gmail
-    - Ability to manually change the number of stamps for customers
-- Google Places API integration for hints in the address field
+- Integration with Google Places API for autocomplete form fields
+- Custom stamp system and automatic coupon creation
+- Export order data to CSV file  
+- Improved work with promotional items and coupons
 
 ## Desktop
 ![desktop](desktop.jpg)
