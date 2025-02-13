@@ -20,8 +20,6 @@ Corporate multi-page website for a company specializing in industrial refrigerat
 - Implementation of “Load More” button for dynamic rendering of products
 - Recording video tutorials on working with the site
 
-Translated with DeepL.com (free version)
-
 **Key features:**
 - Fully responsive layout
 - Forms spam protection with reCaptchaV3
