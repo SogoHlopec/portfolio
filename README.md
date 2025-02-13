@@ -21,21 +21,22 @@ ___
 
 ### All commercial projects
 ##### 2024
-* **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
-* **[Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API)
-* **[Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, PHP, Figma)
-* **[STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, Google Sheets API, Yandex Map API)
-* **[Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs)
-* **[Lebrama](https://github.com/SogoHlopec/portfolio/tree/lebrama)** - Corporate website for selling elements of heating systems. (CMS WordPress, CSS, JavaScript, PHP, jQuery)
-* **[ProSushi Krakow](https://github.com/SogoHlopec/portfolio/tree/prosushi-krakow)** - E-commerce cafe website for ordering sushi online. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP, Google Places API)
-* **[Laminar](https://github.com/SogoHlopec/portfolio/tree/laminar)** - Corporate multi-page website for a company specializing in industrial refrigeration equipment. (CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack)
-* **[Naozerah](https://github.com/SogoHlopec/portfolio/tree/naozerah)** - The site for booking vacations at the recreation center with integration of payment systems and online booking. (CMS ModX, HTML, SCSS, JavaScript, jQuery, PUG, Webpack, PHP, Alfa Bank Internet-acquiring)
-* **[Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, Google API, Cron)
-* **[Samples/Bencher](https://github.com/SogoHlopec/portfolio/tree/bencher)** - An internal project for the research and analysis team. (ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP)
+* **14. [Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
+* **13. [Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API)
+* **12. [Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, PHP, Figma)
+* **11. [STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, Google Sheets API, Yandex Map API)
+* **10. [Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs)
+* **9. [Lebrama](https://github.com/SogoHlopec/portfolio/tree/lebrama)** - Corporate website for selling elements of heating systems. (CMS WordPress, CSS, JavaScript, PHP, jQuery)
+* **8. [Letra](https://github.com/SogoHlopec/portfolio/tree/letra)** - Data parser from the source and generation of Excel, XML and YML files from this data. (PHP, cURL, DiDOM, Composer, Google Programmable Search Engine, PhpSpreadsheet, cron, Excel, XML, YML)
+* **7. [ProSushi Krakow](https://github.com/SogoHlopec/portfolio/tree/prosushi-krakow)** - E-commerce cafe website for ordering sushi online. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP, Google Places API)
+* **6. [Laminar](https://github.com/SogoHlopec/portfolio/tree/laminar)** - Corporate multi-page website for a company specializing in industrial refrigeration equipment. (CMS ModX, HTML, SCSS, PUG, JavaScript, jQuery, Webpack)
+* **5. [Naozerah](https://github.com/SogoHlopec/portfolio/tree/naozerah)** - The site for booking vacations at the recreation center with integration of payment systems and online booking. (CMS ModX, HTML, SCSS, JavaScript, jQuery, PUG, Webpack, PHP, Alfa Bank Internet-acquiring)
+* **4. [Aerodom](https://github.com/SogoHlopec/portfolio/tree/aerodom)** - Aerodom is an e-commerce offering climate control equipment. (CMS ModX, HTML, CSS, SCSS, PUG, JavaScript, Photoswipe.js, Inputmask.js, Swiper.js, Webpack, Figma, PHP, Google API, Cron)
+* **3. [Samples/Bencher](https://github.com/SogoHlopec/portfolio/tree/bencher)** - An internal project for the research and analysis team. (ModX, HTML, CSS, JavaScript, jQuery, AJAX, PHP)
 
 ##### 2023
-* **[STO StreetServiceAuto](https://github.com/SogoHlopec/portfolio/tree/strit)** - Corporate site of the company for car repair in Minsk. (CMS ModX, HTML, CSS, JavaScript, PHP)
-* **[EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma)
+* **2. [STO StreetServiceAuto](https://github.com/SogoHlopec/portfolio/tree/strit)** - Corporate site of the company for car repair in Minsk. (CMS ModX, HTML, CSS, JavaScript, PHP)
+* **1. [EkoServ](https://github.com/SogoHlopec/portfolio/tree/eko-serv)** - Corporate website of the company for utilization  and neutralization of all types of waste throughout the Russian Federation. (Evolution CMS, HTML, CSS, JavaScript, jQuery, Figma)
 ___
 
 ### All study projects
