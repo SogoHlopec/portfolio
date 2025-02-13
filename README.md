@@ -7,6 +7,7 @@
 ___
 
 ### ModX Revolution
+* **[renderProductsFromJSON](./modx-revolution/snippets/getCurrentSeason.php)** - Snippet for generate html products from a json file.
 * **[getCurrentSeason](./modx-revolution/snippets/getCurrentSeason.php)** - Snippet for determining the season of the year by month.
 * **[formatDatesTable](./modx-revolution/snippets/formatDatesTable.php)** - A simple snippet to convert dates and display only actual dates.
 * **[formatDates](./modx-revolution/snippets/formatDates.php)** - A simple snippet for formatting dates.
