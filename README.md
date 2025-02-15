@@ -8,25 +8,28 @@
 **Project Description:**
 Paytion is a website of a company that provides financial services and products for life and business. The site features multi-language, currency converter and integration with various APIs. The site includes automation and data processing processes from the company's API to display up-to-date currency rates.
 
-**My role:**
-- Parsing a source to determine favorable exchange rates with periodicity setting (Cron)
-- Developing currency table parsing via Google Apps Script
-- Setting up periodic generation of XML files with currency rates for the company's desktop software
-- Transfer of layout from Webflow to CMS ModX
-- Designing site structure in ModX
-- Setting up multi-language via ModX resources with JS-determination of user's language by browser and redirect to the required language
-- Displaying and auto-updating currency rates on the site every 15 minutes using company's API
-- Creation of custom currency converter in JavaScript
-- Modal window with feedback
-- Customization of selections with div elements
-- Currency exchange request modal window with Manychat, Telegram, Slack and Whatsapp integration for processing requests
+**My role:**  
+- Realization of currency rates parsing from source site using Google Apps Script
+- Realization of currency rates auto-updating on the site every 15 minutes  
+- Realization of XML document generation with exchange rates from client API (cron)
+- Implementation of exchange rates synchronization from Google Sheets and XML generation for desktop software (cron, every 30 minutes)  
+- Stretching Webflow layout on ModX  
+- Multilanguage implementation
+- Realization of auto-detection of user language by browser and automatic switching of site language
+- Realization of currency converter with sending orders
+- Setting up a chain of currency exchange requests: Manychat + Telegram Bot + Slack + WhatsApp
+- Implementation of modal windows
+- Realization of convenient adding videos by Vimeo ID  
+- Select customization and styling
+- Hiding site files for outsiders
+- Transfer of the site to Polish hosting, domain setup
 
-**Key features:**
-- Multilanguage with automatic detection of user's language
-- Auto-updated currency rates, custom converter based on pure JavaScript
-- Integration with Manychat, Slack and Telegram to process currency exchange requests
-- Convenient feedback system with video and sliders
-- Automation of creating XML documents with exchange rates for desktop software
+**Key Features:**  
+- Automated parsing and updating of exchange rates  
+- Multilingual site
+- Interactive currency converter  
+- Manychat, Telegram API, Slack API integration for request processing
+- Interactive modal windows and responsive adaptive layout
 
 ## Desktop
 ![desktop](desktop.jpg)
