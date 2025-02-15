@@ -21,11 +21,12 @@ ___
 
 ### All commercial projects
 ##### 2024
-* **14. [Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
-* **13. [Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API)
-* **12. [Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, PHP, Figma)
-* **11. [STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, Google Sheets API, Yandex Map API)
-* **10. [Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs)
+* **15. [Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
+* **14. [Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API)
+* **13. [Stour](https://github.com/SogoHlopec/portfolio/tree/stour)** - Corporate site of the company, engaged in realization of tours on vacation. (CMS ModX, HTML, CSS, JavaScript, PHP, Figma)
+* **12. [STH](https://github.com/SogoHlopec/portfolio/tree/sth)** - Corporate website of the company providing services of installation of heating systems. (CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, Google Sheets API, Yandex Map API)
+* **11. [Zehnderbel](https://github.com/SogoHlopec/portfolio/tree/zehnderbel)** - The website for a company engaged in realization of heating system elements. (CMS WordPress, CSS, JavaScript, jQuery, PHP, NBRB APIs)
+* **10. [Euroteplo](https://github.com/SogoHlopec/portfolio/tree/euroteplo)** - Corporate website for the installation of heating systems.   (CMS WordPress, CSS, JavaScript, PHP, jQuery)
 * **9. [Lebrama](https://github.com/SogoHlopec/portfolio/tree/lebrama)** - Corporate website for selling elements of heating systems. (CMS WordPress, CSS, JavaScript, PHP, jQuery)
 * **8. [Letra](https://github.com/SogoHlopec/portfolio/tree/letra)** - Data parser from the source and generation of Excel, XML and YML files from this data. (PHP, cURL, DiDOM, Composer, Google Programmable Search Engine, PhpSpreadsheet, cron, Excel, XML, YML)
 * **7. [ProSushi Krakow](https://github.com/SogoHlopec/portfolio/tree/prosushi-krakow)** - E-commerce cafe website for ordering sushi online. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP, Google Places API)
