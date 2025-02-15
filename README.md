@@ -21,6 +21,7 @@ ___
 
 ### All commercial projects
 ##### 2024
+* **17. [Dialmet](https://github.com/SogoHlopec/portfolio/tree/dialmet)** - Site catalog of rolled metal products with advanced filtering system, import of goods from various sources. (CMS ModX, MiniShop2, HTML, CSS, SCSS, PUG, JavaScript, PHP, Fenom, Google Sheets API, Telegram API, Figma)
 * **16. [Sdelectro](https://github.com/SogoHlopec/portfolio/tree/sdelectro)** - Website catalog with products for a company specializing in the sale of radio electronic components. (CMS ModX, MiniShop2, Fenom, HTML, SCSS, PUG, Webpack, JavaScript, jQuery, Swiper.js, PhotoSwipe.js, PHP)
 * **15. [Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
 * **14. [Lismedia](https://github.com/SogoHlopec/portfolio/tree/lismedia)** - Website lending for advertising agency. (CMS ModX, HTML, CSS, JavaScript, PHP, Yandex Map API)
