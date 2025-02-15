@@ -1,8 +1,9 @@
 # STH
 
-[sth.by](https://sth.by/) | [lebrama.site](https://lebrama.site/) (test site, in progress)
+[sth.by](https://sth.by/)
 
 **Stack:** CMS WordPress, HTML, CSS, JavaScript, PHP, jQuery, CMS Joomla + ZOO, Google Sheets API, Yandex Map API, Telegram API
+
 **WP plugins:** WPBakery, Toolset, Really Simple CSV Importer, Duplicator
 
 **Project Description:**
