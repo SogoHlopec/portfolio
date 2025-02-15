@@ -1,5 +1,6 @@
 # My useful scripts
 ### PHP native
+* **[parser-03](./php-native/parser-03)** - Example of data parser and data recording in Google Sheet.
 * **[parser-02](./php-native/parser-02)** - Example of data parser and data recording in Google Sheet.
 * **[parser-01](./php-native/parser-01)** - Example of data parser and writing data to Excel, YML table.
 * **[Read Tables](./php-native/readTables)** - Examples of reading Excel spreadsheets, Google Sheets.
@@ -7,6 +8,12 @@
 ___
 
 ### ModX Revolution
+* **[updateAlias](./modx-revolution/console/updateAlias.php)** - Console utility for setting id as alias for resources.
+* **[publishParentAndChild](./modx-revolution/console/publishParentAndChild.php)** - Console utility for publishing a parent and its child resources.
+* **[importCSVLimitOnlyNew](./modx-revolution/console/importCSVLimitOnlyNew.php)** - Console utility for importing products from a .csv file.
+* **[deleteChildResources](./modx-revolution/console/deleteChildResources.php)** - Console utility to remove child resources from a parent.
+* **[importFromGoogleSheet](./modx-revolution/console/importFromGoogleSheet)** - Several console utilities for importing goods from Google tables.
+* **[autoSetIdAsAliasProduct](./modx-revolution/plugins/autoSetIdAsAliasProduct.php)** - Plugin sets id as alias when saving a resource.
 * **[sendTosendToTelegramSlack](./modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
 * **[sendToSlack](./modx-revolution/snippets/sendToSlack.php)** - snippet for sending a message to Slack.
 * **[renderProductsFromJSON](./modx-revolution/snippets/renderProductsFromJSON.php)** - Snippet for generate html products from a json file.

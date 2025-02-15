@@ -1,0 +1,12 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    },
+    "require": {
+        "php": "<=7.4.33",
+        "imangazaliev/didom": "^2.0",
+        "google/apiclient": "^2.16"
+    }
+}
