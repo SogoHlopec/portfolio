@@ -3,6 +3,7 @@
 [euroteplo.by](https://euroteplo.by/)
 
 **Stack:** CMS WordPress, CSS, JavaScript, jQuery, PHP
+
 **WP plugins:** WP Bakery, Toolset
 
 **Project Description:**
