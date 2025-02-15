@@ -1,35 +1,35 @@
-# Paytion
+# Dialmet
 
-[paytion.com](https://paytion.com/)
+[dmet.by](https://dmet.by/)
 
-**Stack:** CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Fenom, Manychat API, Slack API, Telegram API, Google Sheets API, Cron  
-**ModX Packages:** easyRedirects, FetchIt, MIGX, pdoTools
+**Stack:** CMS ModX, MiniShop2, HTML, CSS, SCSS, PUG, JavaScript, PHP, Fenom, Google Sheets API, Telegram API, Figma  
+**ModX Packages:** Minishop2, ClientConfig, Console, FetchIt, MIGX, msaddfield, mSearch2, msMCD, pdoTools, Translitor, mFilter2  
 
 **Project Description:**
-Paytion is a website of a company that provides financial services and products for life and business. The site features multi-language, currency converter and integration with various APIs. The site includes automation and data processing processes from the company's API to display up-to-date currency rates.
+Site catalog of rolled metal products with advanced filtering system, import of goods from various sources.  
 
 **My role:**  
-- Realization of currency rates parsing from source site using Google Apps Script
-- Realization of currency rates auto-updating on the site every 15 minutes  
-- Realization of XML document generation with exchange rates from client API (cron)
-- Implementation of exchange rates synchronization from Google Sheets and XML generation for desktop software (cron, every 30 minutes)  
-- Stretching Webflow layout on ModX  
-- Multilanguage implementation
-- Realization of auto-detection of user language by browser and automatic switching of site language
-- Realization of currency converter with sending orders
-- Setting up a chain of currency exchange requests: Manychat + Telegram Bot + Slack + WhatsApp
-- Implementation of modal windows
-- Realization of convenient adding videos by Vimeo ID  
-- Select customization and styling
-- Hiding site files for outsiders
-- Transfer of the site to Polish hosting, domain setup
+- Adaptive and mobile responsive website design based on Figma layout
+- Hosting and domain setup  
+- Designing site structure in ModX  
+- MiniShop2 setup and customization (cart, orders, mini-cart)  
+- Importing goods from CSV and Google Sheets  
+- Generation of virtual goods when clicking on the “Add” button
+- Implementation of dependent and independent filters  
+- Regeneration of URI of all products  
+- Parsing product data from source sites into Google Sheets  
+- Duplication of requests from forms to Telegram-bot
+- Notifications about MiniShop2 orders in Telegram-bot
+- Recording video tutorials on importing products and catalog management  
+- Protect forms from spam  
 
 **Key Features:**  
-- Automated parsing and updating of exchange rates  
-- Multilingual site
-- Interactive currency converter  
-- Manychat, Telegram API, Slack API integration for request processing
-- Interactive modal windows and responsive adaptive layout
+- Flexible filtering system
+- Support for importing products from various sources (CSV, Google Sheets)  
+- Generation and management of virtual products  
+- Interactive modal windows with additional functions  
+- Sending orders and requests to Telegram-bot  
+- Site search
 
 ## Desktop
 ![desktop](desktop.jpg)
