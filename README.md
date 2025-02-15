@@ -7,6 +7,8 @@
 ___
 
 ### ModX Revolution
+* **[sendTosendToTelegramSlack](./modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
+* **[sendToSlack](./modx-revolution/snippets/sendToSlack.php)** - snippet for sending a message to Slack.
 * **[renderProductsFromJSON](./modx-revolution/snippets/renderProductsFromJSON.php)** - Snippet for generate html products from a json file.
 * **[getCurrentSeason](./modx-revolution/snippets/getCurrentSeason.php)** - Snippet for determining the season of the year by month.
 * **[formatDatesTable](./modx-revolution/snippets/formatDatesTable.php)** - A simple snippet to convert dates and display only actual dates.
