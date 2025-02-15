@@ -6,7 +6,8 @@ copy [elcotroniks.by](https://elcotroniks.by/) |
 copy [prime-netto.com](https://prime-netto.com/) | 
 copy [electrocomponent.eu](https://electrocomponent.eu/)
 
-**Stack:** CMS ModX + MiniShop2 + Fenom, HTML, SCSS, PUG, Webpack, JavaScript, jQuery, Swiper.js, PhotoSwipe.js, PHP   
+**Stack:** CMS ModX + MiniShop2 + Fenom, HTML, SCSS, PUG, Webpack, JavaScript, jQuery, Swiper.js, PhotoSwipe.js, PHP
+
 **ModX Packages:** MiniShop2, ClientConfig, FetchIt, pdoTools, reCaptchaV3, Translitor
 
 **Project Description:**
