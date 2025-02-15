@@ -6,17 +6,17 @@
 * **project 3**
 
 ## TOP 3 my study projects
-* **1. [REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service). (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
-* **2. [WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** - Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
-* **3. [Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** - The classic game of the same name. (HTML, SCSS, JS, Webpack)
+* **[REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service). (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
+* **[WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** - Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
+* **[Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** - The classic game of the same name. (HTML, SCSS, JS, Webpack)
 
 
 ## TOP 3 my completed courses
-* **1. [RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
+* **[RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
     **My [certificate](https://app.rs.school/certificate/0atn8vt1)**
-* **2. [RS School: JavaScript / Front-end Pre-school RU 2022Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
+* **[RS School: JavaScript / Front-end RU 2023Q1 Stage 1-2](https://rs.school/courses/javascript-ru)**
+* **[RS School: JavaScript / Front-end Pre-school RU 2022Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
     **My [certificate](https://app.rs.school/certificate/xc1jcw36)**
-* **3. [RS School: JavaScript / Front-end RU 2023Q1 Stage 1-2](https://rs.school/courses/javascript-ru)**
 ___
 
 ### All commercial projects
