@@ -32,6 +32,7 @@ ___
 ___
 
 ### Wordpress
+* **[sendInTelegramBot](/wordpress/sendInTelegramBot.php)** - A simple function to send a message in Telegram.
 * **[custom-coefficient](/wordpress/custom-coefficient.php)** - Simple plugin for entering custom coefficient in admin panel.
 * **[getNationalBankRates](/wordpress/getNationalBankRates.php)** - The plugin receives EUR exchange rate from NBRB, stores it in the site database and uses it to render EUR to BYN prices on pages via shortcode.
 * **[versions](/wordpress/versions.php)** - A simple script to automatically update files for users by adding a version to the file.
