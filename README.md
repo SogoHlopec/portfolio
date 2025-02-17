@@ -21,6 +21,7 @@ ___
 
 ### All commercial projects
 ##### 2024
+* **21. [Stark House](https://github.com/SogoHlopec/portfolio/tree/asmart)** - An online store selling fences and generators. The main task was to improve the UX of the product card. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP)
 * **20. [Asmart](https://github.com/SogoHlopec/portfolio/tree/asmart)** - Corporate website of a car repair company. The main task was to migrate the site to another hosting service. (CMS Wordpress)
 * **19. [Kolumb](https://github.com/SogoHlopec/portfolio/tree/kolumb)** - Development and customization of a travel agency website based on a copy of another project. (CMS ModX, HTML, CSS, JavaScript, PHP)
 * **18. [Oststar](https://github.com/SogoHlopec/portfolio/tree/oststar)** - Corporate website of a company for fire safety of facilities. (CMS Wordpress, HTML, CSS, JavaScript, PHP, Telegram API)
