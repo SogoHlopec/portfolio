@@ -21,6 +21,7 @@ ___
 
 ### All commercial projects
 ##### 2024
+* **19. [Kolumb](https://github.com/SogoHlopec/portfolio/tree/kolumb)** - Development and customization of a travel agency website based on a copy of another project. (CMS ModX, HTML, CSS, JavaScript, PHP)
 * **18. [Oststar](https://github.com/SogoHlopec/portfolio/tree/oststar)** - Corporate website of a company for fire safety of facilities. (CMS Wordpress, HTML, CSS, JavaScript, PHP, Telegram API)
 * **17. [Dialmet](https://github.com/SogoHlopec/portfolio/tree/dialmet)** - Site catalog of rolled metal products with advanced filtering system, import of goods from various sources. (CMS ModX, MiniShop2, HTML, CSS, SCSS, PUG, JavaScript, PHP, Fenom, Google Sheets API, Telegram API, Figma)
 * **16. [Sdelectro](https://github.com/SogoHlopec/portfolio/tree/sdelectro)** - Website catalog with products for a company specializing in the sale of radio electronic components. (CMS ModX, MiniShop2, Fenom, HTML, SCSS, PUG, Webpack, JavaScript, jQuery, Swiper.js, PhotoSwipe.js, PHP)
