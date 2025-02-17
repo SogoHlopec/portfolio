@@ -85,9 +85,9 @@ ___
 ___
 
 ### My TOP useful scripts
-* **[parser-03](./php-native/parser-03)** - Example of data parser and data recording in Google Sheet.
-* **[import-csv-sql](./modx-revolution/console/import-csv-sql.php)** - Console utility for importing product from .csv file directly into database and importing pictures.
-* **[sendToTelegram](./modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
+* **[parser-03](https://github.com/SogoHlopec/portfolio/tree/useful-scripts/php-native/parser-03)** - Example of data parser and data recording in Google Sheet.
+* **[import-csv-sql](https://github.com/SogoHlopec/portfolio/blob/useful-scripts/modx-revolution/console/import-csv-sql.php)** - Console utility for importing product from .csv file directly into database and importing pictures.
+* **[sendToTelegram](https://github.com/SogoHlopec/portfolio/blob/useful-scripts/modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
 
     [More scripts...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
 ___
