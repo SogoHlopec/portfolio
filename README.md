@@ -1,16 +1,24 @@
-# Asmart
+# Stark House
 
-[asmart.by](https://asmart.by/)
+[stark-house.pl](https://stark-house.pl/)
 
-**Stack:** CMS WordPress  
-**Wordpress plugins:** Duplicator  
+**Stack:** CMS WordPress, HTML, CSS, JavaScript, PHP  
+**Wordpress plugins:** WooCommerce  
 
 **Project Description:**
-Corporate website of a car repair company.  
+An online store selling fences and generators. The main task was to improve the UX of the product card. 
 
 **My role:**  
-- Migration of the site to another hosting  
-- Setting up mail for correct form submission  
+- Implementation of changing the product image in the slider when selecting a color  
+- Restriction of displaying only “Products of the same series” section in the product card  
+- Creating a video tutorial on working with the product card  
+
+**Key Features:**  
+- Dynamic change of product image depending on color selection  
+- Optimized product card interface  
 
 ## Desktop
 ![desktop](desktop.jpg)
+
+## Mobile
+![mobile](mobile.jpg)
