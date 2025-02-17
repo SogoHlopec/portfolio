@@ -1,5 +1,6 @@
 <?php
 // Send a message to telegram
+// FetchIt snippet's hook
 
 $CHAT_ID = 'YOUR_CHAT_ID';
 $TELEGRAM_TOKEN = 'YOR_TOKEN';
