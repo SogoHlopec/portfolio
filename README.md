@@ -1,5 +1,6 @@
 # My useful scripts
 ### PHP native
+* **[giveJsonResponse](./php-native/giveJsonResponse.php)** - Simple function for json response.
 * **[parser-03](./php-native/parser-03)** - Example of data parser and data recording in Google Sheet.
 * **[parser-02](./php-native/parser-02)** - Example of data parser and data recording in Google Sheet.
 * **[parser-01](./php-native/parser-01)** - Example of data parser and writing data to Excel, YML table.
@@ -8,6 +9,10 @@
 ___
 
 ### ModX Revolution
+* **[export-csv](./modx-revolution/console/export-csv.php)** - Console utility for exporting product data to a .csv file.
+* **[import-csv-images](./modx-revolution/console/import-csv-images.php)** - Console utility for uploading images for products.
+* **[import-update](./modx-revolution/console/import-update.php)** - Console utility for product updates.
+* **[import-csv-sql](./modx-revolution/console/import-csv-sql.php)** - Console utility for importing product from .csv file directly into database and importing pictures.
 * **[updateAlias](./modx-revolution/console/updateAlias.php)** - Console utility for setting id as alias for resources.
 * **[publishParentAndChild](./modx-revolution/console/publishParentAndChild.php)** - Console utility for publishing a parent and its child resources.
 * **[importCSVLimitOnlyNew](./modx-revolution/console/importCSVLimitOnlyNew.php)** - Console utility for importing products from a .csv file.
@@ -50,6 +55,8 @@ ___
 ___
 
 ### HTML, CSS, JS
+* **[fetchGetData](./html-css-js/fetchGetData.js)** - A simple function for fetching data via fetch request.
+* **[createElement](./html-css-js/createElement.js)** - A simple function for creating an html element.
 * **[cookies](./html-css-js/cookies.js)** - A simple script to display a cookie window.
 * **[getModal](./html-css-js/getModal.js)** - Simple script for opening a modal window with ajax data loading.
 * **[Spinner](./html-css-js/spinner.js)** - A simple script to make the spinner work.
