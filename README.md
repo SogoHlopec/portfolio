@@ -1,4 +1,10 @@
 # My useful scripts
+
+- [PHP native](#php-native)
+- [ModX Revolution](#modx-revolution)
+- [Wordpress](#wordpress)
+- [HTML CSS JS](#html-css-js)
+
 ### PHP native
 * **[giveJsonResponse](./php-native/giveJsonResponse.php)** - Simple function for json response.
 * **[parser-03](./php-native/parser-03)** - Example of data parser and data recording in Google Sheet.
@@ -54,7 +60,7 @@ ___
 * **[getDataOrders](/wordpress/getDataOrders)** - Script for getting all data about orders in .csv file and downloading it by button in admin, also deleting this file by button in admin.
 ___
 
-### HTML, CSS, JS
+### HTML CSS JS
 * **[fetchGetData](./html-css-js/fetchGetData.js)** - A simple function for fetching data via fetch request.
 * **[createElement](./html-css-js/createElement.js)** - A simple function for creating an html element.
 * **[cookies](./html-css-js/cookies.js)** - A simple script to display a cookie window.
