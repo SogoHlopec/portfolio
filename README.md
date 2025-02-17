@@ -19,7 +19,7 @@ ___
 * **[deleteChildResources](./modx-revolution/console/deleteChildResources.php)** - Console utility to remove child resources from a parent.
 * **[importFromGoogleSheet](./modx-revolution/console/importFromGoogleSheet)** - Several console utilities for importing goods from Google tables.
 * **[autoSetIdAsAliasProduct](./modx-revolution/plugins/autoSetIdAsAliasProduct.php)** - Plugin sets id as alias when saving a resource.
-* **[sendTosendToTelegramSlack](./modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
+* **[sendToTelegram](./modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
 * **[sendToSlack](./modx-revolution/snippets/sendToSlack.php)** - snippet for sending a message to Slack.
 * **[renderProductsFromJSON](./modx-revolution/snippets/renderProductsFromJSON.php)** - Snippet for generate html products from a json file.
 * **[getCurrentSeason](./modx-revolution/snippets/getCurrentSeason.php)** - Snippet for determining the season of the year by month.
