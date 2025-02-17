@@ -1,15 +1,22 @@
 # My portfolio
 
+- [My TOP commercial projects](#my-top-commercial-projects)
+- [My TOP study projects](#my-top-study-projects)
+- [My TOP completed courses](#my-top-completed-courses)
+- [All commercial projects](#all-commercial-projects)
+- [All study projects](#all-study-projects)
+- [My TOP useful scripts](#my-top-useful-scripts)
+- [All completed courses](#all-completed-courses)
+
 ## My TOP commercial projects
-* **project 1**
-* **project 2**
-* **project 3**
+* **[Zennek](https://github.com/SogoHlopec/portfolio/tree/zennek)** - Development and refinement of online store of auto parts, customization of product search by article and VIN, integration with Laximo API, migration and server configuration, multi-lingualism. (CMS ModX, MiniShop2, mSearch2, Localizator, VPS (Linux Ubuntu), HTML, CSS, JavaScript, AJAX, PHP, Laximo API)
+* **[Paytion](https://github.com/SogoHlopec/portfolio/tree/paytion)** - Paytion is a website of a company that provides financial services and products for life and business. (CMS ModX, HTML, CSS, SCSS, JavaScript, PHP, Manychat API, Slack API, Telegram API, Google Sheets API)
+* **[Dialmet](https://github.com/SogoHlopec/portfolio/tree/dialmet)** - Site catalog of rolled metal products with advanced filtering system, import of goods from various sources. (CMS ModX, MiniShop2, HTML, CSS, SCSS, PUG, JavaScript, PHP, Fenom, Google Sheets API, Telegram API, Figma)
 
 ## My TOP study projects
 * **[REST Service (Home Library Service)](https://github.com/SogoHlopec/portfolio/tree/home-library-service)** - REST service for managing personal media library (Home Library Service). (Node.js, Nest.js, REST API, TypeScript, Postman, OpenAPI, Swagger, Docker + Docker Compose, WSL + Linux Ubuntu, PostgreSQL, Prisma, JWT)
 * **[WebSocket Battleship](https://github.com/SogoHlopec/portfolio/tree/ws-battleship)** - Server part for the game "Battleship" using WebSocket. (Node.js, Typescript, WebSocket)
 * **[Minesweeper](https://github.com/SogoHlopec/portfolio/tree/minesweeper)** - The classic game of the same name. (HTML, SCSS, JS, Webpack)
-
 
 ## My TOP completed courses
 * **[RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
@@ -77,12 +84,12 @@ ___
 * **1. [Travel](https://github.com/SogoHlopec/Travel)** - Landing. (HTML, CSS, JS)
 ___
 
-### TOP 3 my useful scripts
-* **script 1**
-* **script 2**
-* **script 3**
+### My TOP useful scripts
+* **[parser-03](./php-native/parser-03)** - Example of data parser and data recording in Google Sheet.
+* **[import-csv-sql](./modx-revolution/console/import-csv-sql.php)** - Console utility for importing product from .csv file directly into database and importing pictures.
+* **[sendToTelegram](./modx-revolution/snippets/sendToTelegram.php)** - snippet for sending a message to Telegram.
 
-    [More...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
+    [More scripts...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
 ___
 
 ### All completed courses
