@@ -1,35 +1,23 @@
-# Dialmet
+# Kolumb
 
-[dmet.by](https://dmet.by/)
+[kolumb.by](https://kolumb.by/)
 
-**Stack:** CMS ModX, MiniShop2, HTML, CSS, SCSS, PUG, JavaScript, PHP, Fenom, Google Sheets API, Telegram API, Figma  
-**ModX Packages:** Minishop2, ClientConfig, Console, FetchIt, MIGX, msaddfield, mSearch2, msMCD, pdoTools, Translitor, mFilter2  
+**Stack:** CMS ModX, HTML, CSS, JavaScript, PHP  
 
 **Project Description:**
-Site catalog of rolled metal products with advanced filtering system, import of goods from various sources.  
+Development and customization of a travel agency website based on a copy of another project. Improvement of functionality, layout edits and improvement of SEO settings.  
 
 **My role:**  
-- Adaptive and mobile responsive website design based on Figma layout
-- Hosting and domain setup  
-- Designing site structure in ModX  
-- MiniShop2 setup and customization (cart, orders, mini-cart)  
-- Importing goods from CSV and Google Sheets  
-- Generation of virtual goods when clicking on the “Add” button
-- Implementation of dependent and independent filters  
-- Regeneration of URI of all products  
-- Parsing product data from source sites into Google Sheets  
-- Duplication of requests from forms to Telegram-bot
-- Notifications about MiniShop2 orders in Telegram-bot
-- Recording video tutorials on importing products and catalog management  
-- Protect forms from spam  
+- Transferring a copy of the site to a new hosting and customizing it  
+- Customization and refinement of feedback forms  
+- Changing the layout and edits to the site content
+- Changing the layout of the cookie pop-up window
+- Improvement of tours functionality: possibility to include a tour in several destinations  
+- Adding SEO fields in the admin and displaying them on the site pages  
 
 **Key Features:**  
-- Flexible filtering system
-- Support for importing products from various sources (CSV, Google Sheets)  
-- Generation and management of virtual products  
-- Interactive modal windows with additional functions  
-- Sending orders and requests to Telegram-bot  
-- Site search
+- Adaptive and mobile-friendly layout
+- Convenient work with tours in the admin area
 
 ## Desktop
 ![desktop](desktop.jpg)
