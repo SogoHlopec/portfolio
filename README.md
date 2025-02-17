@@ -20,6 +20,9 @@
 ___
 
 ### All commercial projects
+##### 2025
+* **22. [Zennek](https://github.com/SogoHlopec/portfolio/tree/zennek)** - Development and refinement of online store of auto parts, customization of product search by article and VIN, integration with Laximo API, migration and server configuration, multi-lingualism. (CMS ModX, MiniShop2, mSearch2, Localizator, VPS (Linux Ubuntu), HTML, CSS, JavaScript, AJAX, PHP, Laximo API)
+
 ##### 2024
 * **21. [Stark House](https://github.com/SogoHlopec/portfolio/tree/asmart)** - An online store selling fences and generators. The main task was to improve the UX of the product card. (CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP)
 * **20. [Asmart](https://github.com/SogoHlopec/portfolio/tree/asmart)** - Corporate website of a car repair company. The main task was to migrate the site to another hosting service. (CMS Wordpress)
