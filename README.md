@@ -1,26 +1,16 @@
-# Kolumb
+# Asmart
 
-[kolumb.by](https://kolumb.by/)
+[asmart.by](https://asmart.by/)
 
-**Stack:** CMS ModX, HTML, CSS, JavaScript, PHP  
+**Stack:** CMS WordPress  
+**Wordpress plugins:** Duplicator  
 
 **Project Description:**
-Development and customization of a travel agency website based on a copy of another project. Improvement of functionality, layout edits and improvement of SEO settings.  
+Corporate website of a car repair company.  
 
 **My role:**  
-- Transferring a copy of the site to a new hosting and customizing it  
-- Customization and refinement of feedback forms  
-- Changing the layout and edits to the site content
-- Changing the layout of the cookie pop-up window
-- Improvement of tours functionality: possibility to include a tour in several destinations  
-- Adding SEO fields in the admin and displaying them on the site pages  
-
-**Key Features:**  
-- Adaptive and mobile-friendly layout
-- Convenient work with tours in the admin area
+- Migration of the site to another hosting  
+- Setting up mail for correct form submission  
 
 ## Desktop
 ![desktop](desktop.jpg)
-
-## Mobile
-![mobile](mobile.jpg)
