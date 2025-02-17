@@ -3,7 +3,7 @@
 [zennek.parts](https://zennek.parts/)
 
 **Stack:** CMS ModX, VPS (Linux Ubuntu), HTML, CSS, JavaScript, AJAX, PHP, Laximo API    
-**ModX Packages:** Minishop2, ClientConfig, Console, FetchIt, MIGX, msaddfield, mSearch2, msMCD, pdoTools, Translitor, mFilter2  
+**ModX Packages:** MiniShop2, mSearch2, Localizator  
 
 **Project Description:**
 Development and refinement of online store of auto parts, customization of product search by article and VIN, integration with Laximo API, migration and server configuration, multi-lingualism.  
