@@ -27,8 +27,8 @@
 ## My TOP completed courses
 * **[RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
     **My [certificate](https://app.rs.school/certificate/0atn8vt1)**
-* **[RS School: JavaScript / Front-end RU 2023Q1 Stage 1-2](https://rs.school/courses/javascript-ru)**
-* **[RS School: JavaScript / Front-end Pre-school RU 2022Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
+* **[RS School: JavaScript / Front-end RU 2023 Q1 Stage 1-2](https://rs.school/courses/javascript-ru)**
+* **[RS School: JavaScript / Front-end Pre-school RU 2022 Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
     **My [certificate](https://app.rs.school/certificate/xc1jcw36)**
 ___
 
@@ -174,15 +174,15 @@ ___
 * **16. [RS School: JavaScript / Front-end RU 2023Q1 Stage 1](https://rs.school/courses/javascript-ru)**
 
 ##### 2022
-* **15. [RS School: JavaScript / Front-end RU 2022Q3 Stage 2](https://rs.school/courses/javascript-ru)**
-* **14. [RS School: JavaScript / Front-end RU 2022Q3 Stage 1](https://rs.school/courses/javascript-ru)**
+* **15. [RS School: JavaScript / Front-end RU 2022 Q3 Stage 2](https://rs.school/courses/javascript-ru)**
+* **14. [RS School: JavaScript / Front-end RU 2022 Q3 Stage 1](https://rs.school/courses/javascript-ru)**
 * **13. [Microsoft learn: Creating JavaScript applications with TypeScript](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/)**
 * **12. [YouTube Playlist: Webpack & TypeScript Setup](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC)**
 * **11. [Flexbox CSS simulator](https://flexboxfroggy.com/)**
 * **10. [Learning CSS markup](https://ru.learnlayout.com/)**
 * **9. [Git Trainer](https://learngitbranching.js.org/)**
 * **8. [YouTube playlist: Website layout from scratch in Figma](https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--)**
-* **7. [RS School: JavaScript / Front-end Pre-school RU 2022Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
+* **7. [RS School: JavaScript / Front-end Pre-school RU 2022 Q2 Stage 0](https://rs.school/courses/javascript-preschool-ru)**
     **My [certificate](https://app.rs.school/certificate/xc1jcw36)**
 
 ##### 2021
