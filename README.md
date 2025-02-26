@@ -6,13 +6,13 @@ A learning project aimed at mastering application testing using Jest. The goal o
 * Jest
 * TypeScript
 
+## Features:
+* Unit tests for various application functions and methods  
+* Configuring Jest to work with TypeScript  
+* Testing asynchronous code, handling promises and exceptions
+
 ## Task:
 * https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/basic-testing/assignment.md
 
 ## Repository:
 * https://github.com/SogoHlopec/basic-testing
-
-## Features:
-* Unit tests for various application functions and methods  
-* Configuring Jest to work with TypeScript  
-* Testing asynchronous code, handling promises and exceptions    
