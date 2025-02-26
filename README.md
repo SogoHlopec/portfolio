@@ -15,6 +15,14 @@ The project is a REST service for managing personal media library (Home Library 
 * Prisma
 * JWT
 
+## Features:
+* REST API: implementation of CRUD operations for user, artist, album and track entities
+* Database customization and interaction via Prisma ORM
+* Deploy and run all services via Docker Compose
+* JWT authentication and authorization, registration, login and update tokens, API route protection with access and update tokens
+* API documentation with Swagger
+* Log collection and error monitoring
+
 ## Tasks:
 * https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/assignment.md
 * https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/containerization/assignment.md
@@ -24,11 +32,3 @@ The project is a REST service for managing personal media library (Home Library 
 
 ## Repository:
 * https://github.com/SogoHlopec/nodejs2024Q3-service
-
-## Features:
-* REST API: implementation of CRUD operations for user, artist, album and track entities
-* Database customization and interaction via Prisma ORM
-* Deploy and run all services via Docker Compose
-* JWT authentication and authorization, registration, login and update tokens, API route protection with access and update tokens
-* API documentation with Swagger
-* Log collection and error monitoring
