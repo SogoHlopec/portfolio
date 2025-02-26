@@ -5,13 +5,13 @@ A learning project aimed at mastering the basic concepts of Node.js. The assignm
 * Node.js
 * CLI
 
+## Features:
+* Working with read and write streams
+* Implementation of simple file encryption and decryption
+* Support for CLI commands for various operations
+
 ## Task:
 * https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md
 
 ## Repository:
 * https://github.com/SogoHlopec/node-nodejs-basics
-
-## Features:
-* Working with read and write streams
-* Implementation of simple file encryption and decryption
-* Support for CLI commands for various operations
