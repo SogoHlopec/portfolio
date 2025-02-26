@@ -1,12 +1,6 @@
 # Minesweeper
 Minesweeper is my realization of the classic game of the same name. This project was created while studying at RS SHOOL https://rs.school/index.html Stage 1 2023Q1.
 
-## Task:
-* https://github.com/rolling-scopes-school/tasks/tree/master/tasks/minesweeper
-
-## Deploy:
-* https://sogohlopec.github.io/portfolio/minesweeper/
-
 ## Stack:
 * HTML
 * SCSS
@@ -18,6 +12,12 @@ Minesweeper is my realization of the classic game of the same name. This project
 * DOM/Event
 * JS modules
 * Algorithm
+
+## Task:
+* https://github.com/rolling-scopes-school/tasks/tree/master/tasks/minesweeper
+
+## Deploy:
+* https://sogohlopec.github.io/portfolio/minesweeper/
 
 ## Desktop
 ![desktop](https://github.com/SogoHlopec/portfolio/blob/minesweeper/desktop.jpg)
