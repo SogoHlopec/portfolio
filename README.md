@@ -5,12 +5,6 @@ A tutorial project aimed at creating a file manager using Node.js API. The appli
 * Node.js
 * CLI
 
-## Task:
-* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md
-
-## Repository:
-* https://github.com/SogoHlopec/node-file-manager
-
 ## Features:
 * CLI support
 * File operations: copying, moving, deleting, renaming
@@ -19,3 +13,9 @@ A tutorial project aimed at creating a file manager using Node.js API. The appli
 * Getting information about host operating system
 * Calculating hashes for files
 * Error handling
+
+## Task:
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md
+
+## Repository:
+* https://github.com/SogoHlopec/node-file-manager
