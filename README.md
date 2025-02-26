@@ -7,14 +7,14 @@ A simple CRUD API using Node.js and TypeScript, powered by an in-memory database
 * TypeScript
 * Postman
 
-## Task:
-* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md
-
-## Repository:
-* https://github.com/SogoHlopec/simple-crud-api/tree/develop
-
 ## Features:
 * CRUD operations: get all users, get user by ID, create, update and delete user
 * Validation of incoming data
 * Return correct HTTP statuses and error messages
 * Code coverage with tests using Jest
+
+## Task:
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md
+
+## Repository:
+* https://github.com/SogoHlopec/simple-crud-api/tree/develop
