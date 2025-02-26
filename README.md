@@ -6,12 +6,6 @@ Server part for the game “Naval Combat” using WebSocket. This project was cr
 * TypeScript
 * WebSocket
 
-## Task:
-* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/battleship/assignment.md
-
-## Repository:
-* https://github.com/SogoHlopec/ws-battleship
-
 ## Features:
 * Support for multiplayer connections via WebSocket
 * Player registration and status updates
@@ -19,3 +13,9 @@ Server part for the game “Naval Combat” using WebSocket. This project was cr
 * Setting up ships, performing attacks and checking the winner
 * Handling game events and transferring information between players
 * Implementation of an artificial player for single player mode
+
+## Task:
+* https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/battleship/assignment.md
+
+## Repository:
+* https://github.com/SogoHlopec/ws-battleship
