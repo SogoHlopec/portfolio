@@ -1,5 +1,5 @@
 # WebSocket Battleship
-Server part for the game “Naval Combat” using WebSocket. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
+Server part for the game “Battleship” using WebSocket. This project was created while studying at RS SHOOL https://rs.school/ NodeJS 2024Q3.
 
 ## Stack:
 * Node.js
