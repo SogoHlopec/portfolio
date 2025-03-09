@@ -6,7 +6,7 @@
 - [All commercial projects](#all-commercial-projects)
 - [All study projects](#all-study-projects)
 - [My TOP useful scripts](#my-top-useful-scripts)
-- [My Solutions to codewars and other tasks](#my-solutions-to-codewars-and-other-tasks)
+- [My solutions to codewars and other tasks](#my-solutions-to-codewars-and-other-tasks)
 - [All completed courses](#all-completed-courses)
 
 ## My TOP commercial projects
@@ -141,7 +141,7 @@ ___
     [More scripts...](https://github.com/SogoHlopec/portfolio/tree/useful-scripts)
 ___
 
-### My Solutions to codewars and other tasks
+### My solutions to codewars and other tasks
 [Full solutions...](https://github.com/SogoHlopec/Solutions-to-exercises)
 ___
 
