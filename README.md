@@ -7,7 +7,7 @@
 - [All study projects](#all-study-projects)
 - [My TOP useful scripts](#my-top-useful-scripts)
 - [My solutions to codewars and other tasks](#my-solutions-to-codewars-and-other-tasks)
-- [All completed courses](#all-completed-courses)
+- [My roadmap](#my-roadmap)
 
 ## My TOP commercial projects
 * **[Zennek](https://github.com/SogoHlopec/portfolio/tree/zennek)** - Development and refinement of online store of auto parts, customization of product search by article and VIN, integration with Laximo API, migration and server configuration, multi-lingualism.  
@@ -145,7 +145,7 @@ ___
 [Full solutions...](https://github.com/SogoHlopec/Solutions-to-exercises)
 ___
 
-### All completed courses
+### My roadmap
 ##### 2024
 * **43. [RS School: Node.js Course EN 2024 Q3](https://rs.school/courses/nodejs)**
     **My [certificate](https://app.rs.school/certificate/0atn8vt1)**
