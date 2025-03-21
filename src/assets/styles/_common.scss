@@ -65,6 +65,10 @@ h3 {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
+
+    @media screen and (width >= 768px) {
+        max-width: 678px;
+    }
 }
 
 .title {
@@ -76,8 +80,12 @@ h3 {
 .pagination {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0 5px;
+
+    @media screen and (width >= 768px) {
+        gap: 0 7px;
+    }
 
     .pagination__btn {
         width: 16px;
@@ -87,8 +95,27 @@ h3 {
         cursor: pointer;
         transition: all 0.3s ease;
 
+        @media screen and (width >= 768px) {
+            width: max-content;
+            height: auto;
+
+            svg {
+                display: none;
+            }
+        }
+
         &:hover {
             transform: scale(90%);
+        }
+
+        span {
+            display: none;
+            font-weight: 700;
+            text-align: center;
+
+            @media screen and (width >= 768px) {
+                display: inline-block;
+            }
         }
     }
 
@@ -114,7 +141,7 @@ h3 {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                color: #ffffff;
+                color: variables.$color-default-1;
                 text-decoration: none;
                 transition: all 0.3s ease;
             }
@@ -131,7 +158,7 @@ h3 {
                 background-color: variables.$color-default-1;
 
                 a {
-                    color: variables.$color-bg;
+                    color: #ffffff;
                 }
             }
         }
@@ -139,7 +166,7 @@ h3 {
             background-color: variables.$color-default-1;
 
             a {
-                color: variables.$color-bg;
+                color: #ffffff;
             }
         }
     }

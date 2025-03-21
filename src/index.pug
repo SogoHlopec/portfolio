@@ -118,6 +118,7 @@ block main
 
                     nav.pagination.articles__pagination
                         button.pagination__btn.pagination__btn-prev 
+                            span Назад
                             <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.68091 1.66598L3.59843 8.01937L9.64225 14.4118L8.05374 16L0.305926 8.05818L8.01563 -5.34786e-05L9.68091 1.66598Z" fill="black" />
                             </svg>
@@ -137,9 +138,11 @@ block main
                             li.pagination__item
                                 a(href="#").item 10
                         button.pagination__btn.pagination__btn-next
+                            span Вперед
                             <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.319091 1.66598L6.40157 8.01937L0.357753 14.4118L1.94626 16L9.69407 8.05818L1.98437 -5.34786e-05L0.319091 1.66598Z" fill="black" />
                             </svg>
                         
         aside.sidebar 
-            h2.title Sidebar
+            .container
+                h2.title Sidebar
