@@ -1,4 +1,145 @@
 extends ./templates/basic.pug
 block main
     .page-main
-        h1 Главная
+        section.articles
+            .container
+                h1.title.articles__title Статьи
+                .articles__list 
+                    .articles__card
+                        .articles__card-image 
+                             img(src=require('./assets/images/article-card-image-1.jpg'), alt="Картинка статьи")
+                        .articles__card-content 
+                            p.articles__card-title GoPractice разработали симулятор работы с SQL для продактов
+                            p.articles__card-description Зачем он нужен и чем может быть полезен профессионалу
+                            .articles__card-footer
+                                p.articles__card-author Автор: 
+                                    span GoPractice
+                                .articles__card-btns
+                                    .btn.btn-like
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7201_144)">
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" fill="#43B05C" />
+                                            <path d="M11 5.72V16.72" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16.5 11H5.5" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7201_144">
+                                            <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                        </svg>
+                                    .btn-count 23
+                                    .btn.btn-dislike
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7201_149)">
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" fill="#ED8A19" />
+                                            <path d="M16.72 11H5.28003" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7201_149">
+                                            <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                        </svg>
+                    
+                    .articles__card
+                        .articles__card-image 
+                             img(src=require('./assets/images/article-card-image-2.jpg'), alt="Картинка статьи")
+                        .articles__card-content 
+                            p.articles__card-title Как agile coach помогает полностью оптимизировать процессы в одной отдельно взятой команде
+                            p.articles__card-description Кейс «Магнита»
+                            .articles__card-footer
+                                p.articles__card-author Автор: 
+                                    span Magnit IT
+                                .articles__card-btns
+                                    .btn.btn-like
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7201_144)">
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" fill="#43B05C" />
+                                            <path d="M11 5.72V16.72" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16.5 11H5.5" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7201_144">
+                                            <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                        </svg>
+                                    .btn-count 103
+                                    .btn.btn-dislike
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7201_149)">
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" fill="#ED8A19" />
+                                            <path d="M16.72 11H5.28003" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7201_149">
+                                            <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                        </svg>
+                    
+                    .articles__card
+                        .articles__card-image 
+                             img(src=require('./assets/images/article-card-image-3.jpg'), alt="Картинка статьи")
+                        .articles__card-content 
+                            p.articles__card-title Как не сделать команду сплочённой и эффективной
+                            p.articles__card-description 16 вредных советов.
+                            .articles__card-footer
+                                p.articles__card-author Автор: 
+                                    span GoPractice
+                                .articles__card-btns
+                                    .btn.btn-like
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7201_144)">
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" fill="#43B05C" />
+                                            <path d="M11 5.72V16.72" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16.5 11H5.5" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7201_144">
+                                            <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                        </svg>
+                                    .btn-count 3
+                                    .btn.btn-dislike.btn_disable
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7201_149)">
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" fill="#ED8A19" />
+                                            <path d="M16.72 11H5.28003" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7201_149">
+                                            <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                        </svg>
+
+                    nav.pagination.articles__pagination
+                        button.pagination__btn.pagination__btn-prev 
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.68091 1.66598L3.59843 8.01937L9.64225 14.4118L8.05374 16L0.305926 8.05818L8.01563 -5.34786e-05L9.68091 1.66598Z" fill="black" />
+                            </svg>
+                        ul.pagination__list 
+                            li.pagination__item
+                                a(href="#").item 1
+                            li.pagination__item
+                                a(href="#").item 2
+                            li.pagination__item.pagination__item_active
+                                a(href="#").item 3
+                            li.pagination__item.pagination__itme-dots
+                                span ...
+                            li.pagination__item
+                                a(href="#").item 8
+                            li.pagination__item
+                                a(href="#").item 9
+                            li.pagination__item
+                                a(href="#").item 10
+                        button.pagination__btn.pagination__btn-next
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.319091 1.66598L6.40157 8.01937L0.357753 14.4118L1.94626 16L9.69407 8.05818L1.98437 -5.34786e-05L0.319091 1.66598Z" fill="black" />
+                            </svg>
+                        
+        aside.sidebar 
+            h2.title Sidebar

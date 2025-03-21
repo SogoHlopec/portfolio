@@ -1,5 +1,100 @@
 @use "../variables";
 
 .page-main {
+    .articles {
+        background-color: variables.$color-bg;
+        padding: 15px;
+        margin-bottom: 30px;
 
+        .articles__title {
+            margin-bottom: 30px;
+        }
+    }
+
+    .articles__list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px 0;
+    }
+
+    .articles__card {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+
+        .articles__card-image {
+            width: 100%;
+            height: 170px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .articles__card-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .articles__card-title {
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 133%;
+        }
+
+        .articles__card-description {
+            line-height: 143%;
+            color: variables.$color-default-2;
+        }
+
+        .articles__card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .articles__card-author {
+            font-style: italic;
+            line-height: 157%;
+            color: variables.$color-default-2;
+
+            span {
+                color: variables.$color-default-1;
+            }
+        }
+
+        .articles__card-btns {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-count {
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 122%;
+            color: variables.$color-default-3;
+        }
+
+        .btn {
+            cursor: pointer;
+            transition: all 0.3 ease;
+        }
+        .btn:hover {
+            transform: scale(90%);
+            opacity: 1;
+        }
+        .btn_disable {
+            opacity: 0.5;
+        }
+    }
+
+    .sidebar {
+        padding: 30px;
+        margin-bottom: 50px;
+        background-color: variables.$color-bg;
+    }
 }

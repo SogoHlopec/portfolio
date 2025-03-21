@@ -1,39 +1,7 @@
 @use "../variables";
 
 .footer {
+    width: 100%;
+    padding: 30px;
     background-color: variables.$color-bg;
-    padding: 36px 0;
-
-    .footer-wrapper {
-        display: flex;
-        gap: 100px;
-        justify-content: space-between;
-        align-items: center;
-        color: variables.$color-default-1;
-    }
-
-    .footer__menu ul {
-        max-width: 800px;
-        display: flex;
-        gap: 8px 16px;
-        flex-wrap: wrap;
-
-        li {
-            list-style-type: none;
-
-            &.active a {
-                color: #0c50c6;
-            }
-        }
-
-        a {
-            text-decoration: none;
-            color: variables.$color-default-1;
-
-            &:hover,
-            &.active {
-                color: variables.$color-default-2;
-            }
-        }
-    }
 }

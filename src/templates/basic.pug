@@ -8,7 +8,7 @@ html(lang="ru")
         .wrapper
             header.header
                 .container
-                    p.header__title Header
+                    p.title.header__title Header
                 nav.header__menu.menu
                     .container
                         ul.menu__list
@@ -18,15 +18,11 @@ html(lang="ru")
 
 
             main.main
-                .container
-                    block main
+                block main
 
 
             footer.footer
                 .container
-                    .footer-wrapper
-                        nav.footer__menu.menu
-                            ul.menu__list
-                                +liLink('#', 'Меню', '')
+                    p.title.header__title Footer
 
         include ../components/scripts.pug

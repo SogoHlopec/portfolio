@@ -7,10 +7,7 @@
 
     .header__title {
         width: 100%;
-        padding: 15px;
-        font-weight: 400;
-        font-size: 3.2rem;
-        line-height: 119%;
+        padding: 15px 0;
     }
     .header__menu {
         display: flex;
@@ -20,13 +17,13 @@
         ul {
             display: flex;
             flex-wrap: wrap;
-            gap: 0 20px;
+            gap: 0 40px;
+            padding-left: 5px;
         }
 
         li {
             display: flex;
             list-style-type: none;
-            padding: 0px 10px;
 
             &.active > a {
                 color: variables.$color-default-2;
