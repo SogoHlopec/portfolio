@@ -9,7 +9,7 @@
         gap: 100px;
         justify-content: space-between;
         align-items: center;
-        color: variables.$color-link-gray;
+        color: variables.$color-default-1;
     }
 
     .footer__menu ul {
@@ -28,11 +28,11 @@
 
         a {
             text-decoration: none;
-            color: variables.$color-link-gray;
+            color: variables.$color-default-1;
 
             &:hover,
             &.active {
-                color: variables.$color-link-hover;
+                color: variables.$color-default-2;
             }
         }
     }

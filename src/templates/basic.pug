@@ -8,11 +8,13 @@ html(lang="ru")
         .wrapper
             header.header
                 .container
-                    a.logo(href="/") 
-                        img(src=require('../assets/images/logo.png'), alt="logo")
-                    nav.header__menu.menu
+                    p.header__title Header
+                nav.header__menu.menu
+                    .container
                         ul.menu__list
-                            +liLink('#', 'Меню', '')
+                            +liLink('#', 'Главная', '')
+                            +liLink('#', 'Статьи', '')
+                            +liLink('#', 'Новости', '')
 
 
             main.main
