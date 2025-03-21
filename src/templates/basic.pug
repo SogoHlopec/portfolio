@@ -1,0 +1,30 @@
+include ../components/mixins.pug
+
+doctype html
+html(lang="ru")
+    include ../components/head.pug
+
+    body
+        .wrapper
+            header.header
+                .container
+                    a.logo(href="/") 
+                        img(src=require('../assets/images/logo.png'), alt="logo")
+                    nav.header__menu.menu
+                        ul.menu__list
+                            +liLink('#', 'Меню', '')
+
+
+            main.main
+                .container
+                    block main
+
+
+            footer.footer
+                .container
+                    .footer-wrapper
+                        nav.footer__menu.menu
+                            ul.menu__list
+                                +liLink('#', 'Меню', '')
+
+        include ../components/scripts.pug
