@@ -5,11 +5,11 @@ block main
             .container
                 h1.title.articles__title Статьи
                 .articles__list 
-                    .articles__card
-                        .articles__card-image 
+                    div(data-id="1").articles__card
+                        a(href="#").articles__card-image 
                              img(src=require('./assets/images/article-card-image-1.jpg'), alt="Картинка статьи")
                         .articles__card-content 
-                            p.articles__card-title GoPractice разработали симулятор работы с SQL для продактов
+                            a(href="#").articles__card-title GoPractice разработали симулятор работы с SQL для продактов
                             p.articles__card-description Зачем он нужен и чем может быть полезен профессионалу
                             .articles__card-footer
                                 p.articles__card-author Автор: 
@@ -42,11 +42,11 @@ block main
                                         </defs>
                                         </svg>
                     
-                    .articles__card
-                        .articles__card-image 
+                    div(data-id="2").articles__card
+                        a(href="#").articles__card-image 
                              img(src=require('./assets/images/article-card-image-2.jpg'), alt="Картинка статьи")
                         .articles__card-content 
-                            p.articles__card-title Как agile coach помогает полностью оптимизировать процессы в одной отдельно взятой команде
+                            a(href="#").articles__card-title Как agile coach помогает полностью оптимизировать процессы в одной отдельно взятой команде
                             p.articles__card-description Кейс «Магнита»
                             .articles__card-footer
                                 p.articles__card-author Автор: 
@@ -79,11 +79,11 @@ block main
                                         </defs>
                                         </svg>
                     
-                    .articles__card
-                        .articles__card-image 
+                    div(data-id="2").articles__card
+                        a(href="#").articles__card-image 
                              img(src=require('./assets/images/article-card-image-3.jpg'), alt="Картинка статьи")
                         .articles__card-content 
-                            p.articles__card-title Как не сделать команду сплочённой и эффективной
+                            a(href="#").articles__card-title Как не сделать команду сплочённой и эффективной
                             p.articles__card-description 16 вредных советов.
                             .articles__card-footer
                                 p.articles__card-author Автор: 
