@@ -19,8 +19,34 @@ function add_js_and_css()
     );
 }
 
-add_action('after_setup_theme', 'sogohlopec_likes_theme_system_setup');
-function sogohlopec_likes_theme_system_setup()
+add_action('after_setup_theme', 'sogohlopec_likes_system_setup_theme');
+function sogohlopec_likes_system_setup_theme()
 {
     add_theme_support('post-thumbnails');
+}
+
+// Add a table to the DB
+add_action('after_setup_theme', 'sogohlopec_likes_system_setup_table');
+function sogohlopec_likes_system_setup_table()
+{
+    global $wpdb;
+
+    $table_name = $wpdb->prefix . 'sogohlopec_likes';
+    $charset_collate = $wpdb->get_charset_collate();
+
+    if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
+        $sql = "CREATE TABLE $table_name (
+            id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+            post_id BIGINT(20) UNSIGNED NOT NULL,
+            user_ip VARCHAR(45) NOT NULL,
+            vote_type ENUM('like', 'dislike') NOT NULL,
+            vote_time DATETIME NOT NULL,
+            PRIMARY KEY (id),
+            KEY post_id (post_id),
+            KEY user_ip (user_ip)
+        ) $charset_collate;";
+
+        require_once ABSPATH . 'wp-admin/includes/upgrade.php';
+        dbDelta($sql);
+    }
 }
