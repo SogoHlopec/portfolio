@@ -26,7 +26,7 @@
                     </svg></div>
                 <?php
                 $post_id = get_the_ID();
-                $votes = get_number_of_votes($post_id);
+                $votes = sogohlopec_likes_system_get_number_of_votes($post_id);
 
                 if ($votes > 0) {
                 ?>

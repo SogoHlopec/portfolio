@@ -21,19 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
-                    body: `action=handle_vote&post_id=${postId}&vote_type=${voteType}&nonce=${voteAjax.nonce}`,
+                    body: `action=sogohlopec_likes_system_handle_vote&post_id=${postId}&vote_type=${voteType}`,
                 });
 
                 const data = await response.json();
 
                 if (data.success) {
-                    const votes = data.data.votes;
+                    const votes = data.data;
                     const counter = card.querySelector('.likes-number');
                     counter.textContent = votes;
                     if (votes > 0) {
-                        counter.classList.replace('dislikes', 'likes');
+                        counter.className = '';
+                        counter.classList.add('likes-number', 'likes');
                     } else if (votes < 0) {
-                        counter.classList.replace('likes', 'dislikes');
+                        counter.className = '';
+                        counter.classList.add('likes-number', 'dislikes');
                     } else {
                         counter.className = '';
                         counter.classList.add('likes-number');
