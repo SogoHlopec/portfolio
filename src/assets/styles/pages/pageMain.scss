@@ -125,11 +125,17 @@
             gap: 10px;
         }
 
-        .btn-count {
+        .likes-number {
             font-weight: 700;
             font-size: 1.8rem;
             line-height: 122%;
+            color: variables.$color-default-1
+        }
+        .likes-number.likes {
             color: variables.$color-default-3;
+        }
+        .likes-number.dislikes {
+            color: #ff0000;
         }
 
         .btn {

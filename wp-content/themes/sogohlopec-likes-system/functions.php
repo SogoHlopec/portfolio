@@ -50,3 +50,25 @@ function sogohlopec_likes_system_setup_table()
         dbDelta($sql);
     }
 }
+
+// Get post likes number
+function get_number_of_votes($post_id)
+{
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'sogohlopec_likes';
+
+    $likes = $wpdb->get_var($wpdb->prepare(
+        "SELECT COUNT(*) FROM $table_name WHERE post_id = %d AND vote_type = 'like'",
+        $post_id
+    ));
+    $likes = $likes ? $likes : 0;
+
+    $dislikes = $wpdb->get_var($wpdb->prepare(
+        "SELECT COUNT(*) FROM $table_name WHERE post_id = %d AND vote_type = 'dislike'",
+        $post_id
+    ));
+    $dislikes = $dislikes ? $dislikes : 0;
+
+    $votes = $likes - $dislikes;
+    return $votes;
+}

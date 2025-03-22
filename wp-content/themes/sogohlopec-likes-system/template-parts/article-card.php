@@ -24,7 +24,24 @@
                             </clipPath>
                         </defs>
                     </svg></div>
-                <div class="btn-count">23</div>
+                <?php
+                $post_id = get_the_ID();
+                $votes = get_number_of_votes($post_id);
+
+                if ($votes > 0) {
+                ?>
+                    <div class="likes-number likes"><?php echo $votes ?></div>
+                <?php
+                } else if ($votes < 0) {
+                ?>
+                    <div class="likes-number dislikes"><?php echo $votes ?></div>
+                <?php
+                } else {
+                ?>
+                    <div class="likes-number"><?php echo $votes ?></div>
+                <?php
+                }
+                ?>
                 <div class="btn btn-dislike"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_7201_149)">
