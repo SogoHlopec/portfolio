@@ -17,6 +17,10 @@ function add_js_and_css()
         time(),
         true
     );
+    wp_localize_script('index_js', 'voteAjax', [
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('vote_nonce')
+    ]);
 }
 
 add_action('after_setup_theme', 'sogohlopec_likes_system_setup_theme');
@@ -51,7 +55,7 @@ function sogohlopec_likes_system_setup_table()
     }
 }
 
-// Get post likes number
+// Get the number of votes of the post
 function get_number_of_votes($post_id)
 {
     global $wpdb;
