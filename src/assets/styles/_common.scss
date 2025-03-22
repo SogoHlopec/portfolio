@@ -117,9 +117,14 @@ h3 {
             transform: scale(90%);
         }
 
+        a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+        }
+
         span {
             display: none;
-            font-weight: 700;
             text-align: center;
 
             @media screen and (width >= 768px) {
@@ -174,7 +179,7 @@ h3 {
         .pagination__item_active {
             background-color: variables.$color-default-1;
 
-            a {
+            span {
                 color: #ffffff;
             }
         }
