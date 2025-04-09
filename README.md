@@ -39,7 +39,7 @@ ___
 Stack: CMS ModX, MiniShop2, mSearch2, Localizator, VPS (Linux Ubuntu), HTML, CSS, JavaScript, AJAX, PHP, Laximo API
 
 ##### 2024
-* **21. [Stark House](https://github.com/SogoHlopec/portfolio/tree/asmart)** - An online store selling fences and generators. The main task was to improve the UX of the product card.  
+* **21. [Stark House](https://github.com/SogoHlopec/portfolio/tree/stark-house)** - An online store selling fences and generators. The main task was to improve the UX of the product card.  
 Stack: CMS WordPress, WooCommerce, HTML, CSS, JavaScript, PHP
 * **20. [Asmart](https://github.com/SogoHlopec/portfolio/tree/asmart)** - Corporate website of a car repair company. The main task was to migrate the site to another hosting service.  
 Stack: CMS Wordpress
