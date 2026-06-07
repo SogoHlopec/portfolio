@@ -1,5 +1,13 @@
 import Image from 'next/image';
 
+/**
+ * Render the default Home page layout for the application root.
+ *
+ * Displays a centered container with Next.js and Vercel branding, a heading prompting edits to page.tsx,
+ * links to Templates and Learning resources, and action buttons for "Deploy Now" and "Documentation".
+ *
+ * @returns The React element for the Home page.
+ */
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
