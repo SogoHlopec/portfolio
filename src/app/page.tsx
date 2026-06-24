@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 /**
  * Render the default Home page layout for the application root.
@@ -11,6 +12,10 @@ import { Button } from '@/components/ui/button';
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-background text-foreground">
+            <div className="absolute top-6 right-6">
+                <ThemeToggle />
+            </div>
+
             <div className="flex flex-col items-center gap-6">
                 <h1 className="text-4xl font-bold tracking-tight">SogoHlopec Portfolio V2</h1>
                 <p className="text-muted-foreground text-center max-w-md">
