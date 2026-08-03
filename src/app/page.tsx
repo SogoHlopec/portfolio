@@ -17,10 +17,15 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center gap-6">
-                <h1 className="text-4xl font-bold tracking-tight">SogoHlopec Portfolio V2</h1>
-                <p className="text-muted-foreground text-center max-w-md">
-                    Проект успешно инициализирован. Базовые стили и дизайн-система shadcn/ui
-                    настроены.
+                <span className="font-mono text-xs px-3 py-1 rounded-full bg-muted text-muted-foreground border border-border">
+                    Status: Ready for Phase 3 (i18n)
+                </span>
+                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+                    SogoHlopec Portfolio V2
+                </h1>
+
+                <p className="text-muted-foreground max-w-md">
+                    Привет! Это обновленное портфолио на Next.js, TypeScript и Tailwind CSS.
                 </p>
                 <div className="flex gap-4">
                     <Button variant="default">Связаться</Button>

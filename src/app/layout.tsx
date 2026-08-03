@@ -1,17 +1,8 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { fontSans, fontMono } from '@/lib/fonts';
+import { cn } from '@/lib/utils';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
-
-const geistSans = Geist({
-    variable: '--font-geist-sans',
-    subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-    variable: '--font-geist-mono',
-    subsets: ['latin'],
-});
 
 export const metadata: Metadata = {
     title: 'Developer Portfolio',
@@ -27,7 +18,11 @@ export default function RootLayout({
         <html
             lang="en"
             suppressHydrationWarning
-            className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+            className={cn(
+                'min-h-screen bg-background font-sans antialiased',
+                fontSans.variable,
+                fontMono.variable
+            )}
         >
             <body className="min-h-full flex flex-col">
                 <ThemeProvider
