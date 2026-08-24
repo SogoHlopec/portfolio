@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Дмитрий Крылов — Portfolio</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            :root {
+                --bg: #f5f5f5;
+                --card: #ffffff;
+                --text: #111111;
+                --secondary: #6b7280;
+                --border: #e5e7eb;
+                --accent: #21c55d;
+
+                --radius: 18px;
+            }
+
+            body {
+                font-family: 'Inter', sans-serif;
+                background: var(--bg);
+                color: var(--text);
+                line-height: 1.4;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            img {
+                display: block;
+                width: 100%;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 1220px;
+                margin: 0 auto;
+                padding: 0 24px;
+            }
+
+            /* ========================================= */
+
+            .header {
+                padding: 28px 0;
+            }
+
+            .header-inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .logo {
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+            }
+
+            .nav {
+                display: flex;
+                align-items: center;
+                gap: 42px;
+            }
+
+            .nav a {
+                font-size: 15px;
+                font-weight: 600;
+                color: #6b7280;
+                position: relative;
+                transition: 0.2s;
+            }
+
+            .nav a:hover {
+                color: #111;
+            }
+
+            .nav a.active {
+                color: #111;
+            }
+
+            .nav a.active::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -12px;
+                width: 100%;
+                height: 2px;
+                background: #111;
+                border-radius: 999px;
+            }
+
+            .header-right {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+            }
+
+            .lang-switcher {
+                display: flex;
+                gap: 8px;
+            }
+
+            .lang-btn {
+                width: 40px;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                background: white;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                font-size: 14px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+            .lang-btn.active {
+                background: #111;
+                color: white;
+                border-color: #111;
+            }
+
+            .theme-btn {
+                width: 40px;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                background: white;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                cursor: pointer;
+            }
+
+            /* ========================================= */
+
+            .hero {
+                padding-top: 30px;
+            }
+
+            .hero-inner {
+                display: grid;
+                grid-template-columns: 1fr 470px;
+                gap: 60px;
+                align-items: center;
+            }
+
+            .hero-title {
+                font-size: 76px;
+                line-height: 0.95;
+                letter-spacing: -0.06em;
+                font-weight: 800;
+                max-width: 560px;
+                margin-bottom: 28px;
+            }
+
+            .hero-description {
+                font-size: 28px;
+                line-height: 1.5;
+                color: #4b5563;
+                max-width: 700px;
+                margin-bottom: 42px;
+                font-weight: 500;
+            }
+
+            .socials {
+                display: flex;
+                align-items: center;
+                gap: 34px;
+                flex-wrap: wrap;
+            }
+
+            .social-link {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                font-size: 18px;
+                font-weight: 500;
+                color: #374151;
+
+                transition: 0.2s;
+            }
+
+            .social-link:hover {
+                opacity: 0.7;
+            }
+
+            .social-link svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            /* ========================================= */
+
+            .hero-image-wrapper {
+                position: relative;
+            }
+
+            .hero-image {
+                border-radius: 24px;
+                overflow: hidden;
+                box-shadow:
+                    0 2px 10px rgba(0, 0, 0, 0.03),
+                    0 20px 40px rgba(0, 0, 0, 0.06);
+            }
+
+            .hero-image img {
+                height: 600px;
+                object-fit: cover;
+            }
+
+            .experience-badge {
+                position: absolute;
+                right: -24px;
+                bottom: 30px;
+
+                background: white;
+                border: 1px solid var(--border);
+
+                border-radius: 18px;
+
+                padding: 18px 22px;
+
+                min-width: 210px;
+
+                display: flex;
+                align-items: center;
+                gap: 14px;
+
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            }
+
+            .experience-badge-dot {
+                width: 12px;
+                height: 12px;
+                background: var(--accent);
+                border-radius: 50%;
+            }
+
+            .experience-badge h4 {
+                font-size: 26px;
+                font-weight: 800;
+                line-height: 1;
+                margin-bottom: 4px;
+            }
+
+            .experience-badge p {
+                font-size: 13px;
+                color: #6b7280;
+                font-weight: 500;
+            }
+
+            /* ========================================= */
+
+            .about-card {
+                margin-top: 48px;
+
+                background: white;
+                border: 1px solid var(--border);
+                border-radius: 24px;
+
+                padding: 34px 42px;
+
+                display: grid;
+                grid-template-columns: 1fr 520px;
+                gap: 42px;
+
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+            }
+
+            .about-card p {
+                font-size: 24px;
+                line-height: 1.7;
+                color: #4b5563;
+                font-weight: 500;
+            }
+
+            .stats {
+                display: flex;
+                justify-content: space-between;
+                gap: 22px;
+            }
+
+            .stat {
+                flex: 1;
+            }
+
+            .stat-top {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                margin-bottom: 10px;
+            }
+
+            .stat-top svg {
+                width: 20px;
+                height: 20px;
+                color: #111;
+            }
+
+            .stat-value {
+                font-size: 48px;
+                line-height: 1;
+                font-weight: 800;
+                letter-spacing: -0.05em;
+            }
+
+            .stat-label {
+                font-size: 18px;
+                color: #6b7280;
+                margin-top: 10px;
+                font-weight: 500;
+            }
+
+            /* ========================================= */
+
+            .section {
+                margin-top: 70px;
+            }
+
+            .section-title {
+                font-size: 42px;
+                font-weight: 800;
+                letter-spacing: -0.04em;
+                margin-bottom: 30px;
+            }
+
+            /* ========================================= */
+
+            .timeline {
+                position: relative;
+                padding-left: 28px;
+            }
+
+            .timeline::before {
+                content: '';
+                position: absolute;
+                left: 5px;
+                top: 10px;
+                bottom: 10px;
+                border-left: 2px dashed #d1d5db;
+            }
+
+            .timeline-item {
+                position: relative;
+
+                display: grid;
+                grid-template-columns: 190px 280px 1fr;
+
+                gap: 32px;
+
+                background: white;
+                border: 1px solid var(--border);
+                border-radius: 18px;
+
+                padding: 28px 30px;
+
+                margin-bottom: 18px;
+            }
+
+            .timeline-dot {
+                position: absolute;
+                left: -28px;
+                top: 40px;
+
+                width: 12px;
+                height: 12px;
+
+                background: var(--accent);
+                border-radius: 50%;
+                border: 3px solid var(--bg);
+            }
+
+            .timeline-date {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.5;
+            }
+
+            .timeline-position h3 {
+                font-size: 34px;
+                line-height: 1.1;
+                letter-spacing: -0.03em;
+                margin-bottom: 10px;
+                font-weight: 800;
+            }
+
+            .timeline-position p {
+                font-size: 18px;
+                color: #6b7280;
+                font-weight: 500;
+            }
+
+            .timeline-description {
+                font-size: 19px;
+                color: #4b5563;
+                line-height: 1.7;
+                font-weight: 500;
+            }
+
+            /* ========================================= */
+
+            .skills-grid {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 18px;
+            }
+
+            .skill-card {
+                background: white;
+                border: 1px solid var(--border);
+                border-radius: 18px;
+
+                padding: 26px;
+            }
+
+            .skill-header {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 18px;
+            }
+
+            .skill-header svg {
+                width: 18px;
+                height: 18px;
+            }
+
+            .skill-header h3 {
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+            .skill-description {
+                font-size: 16px;
+                line-height: 1.6;
+                color: #6b7280;
+
+                margin-bottom: 24px;
+            }
+
+            .skill-tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .skill-tag {
+                padding: 10px 14px;
+                background: #f3f4f6;
+                border-radius: 10px;
+
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            /* ========================================= */
+
+            .projects-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+
+            .project-card {
+                position: relative;
+                overflow: hidden;
+
+                min-height: 300px;
+
+                border-radius: 22px;
+
+                padding: 28px;
+
+                color: white;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                background-size: cover;
+                background-position: center;
+
+                box-shadow:
+                    0 4px 10px rgba(0, 0, 0, 0.05),
+                    0 20px 40px rgba(0, 0, 0, 0.12);
+
+                transition: transform 0.2s ease;
+            }
+
+            .project-card:hover {
+                transform: translateY(-4px);
+            }
+
+            .project-card::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+            }
+
+            .project-card > * {
+                position: relative;
+                z-index: 2;
+            }
+
+            .project-arrow {
+                position: absolute;
+                top: 22px;
+                right: 22px;
+                z-index: 3;
+            }
+
+            .project-arrow svg {
+                width: 22px;
+                height: 22px;
+            }
+
+            .project-title {
+                font-size: 36px;
+                line-height: 1.1;
+                font-weight: 800;
+
+                margin-bottom: 16px;
+                letter-spacing: -0.04em;
+            }
+
+            .project-description {
+                font-size: 18px;
+                line-height: 1.6;
+
+                margin-bottom: 24px;
+
+                color: rgba(255, 255, 255, 0.82);
+            }
+
+            .project-tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .project-tag {
+                background: rgba(255, 255, 255, 0.16);
+                backdrop-filter: blur(10px);
+
+                border-radius: 999px;
+
+                padding: 10px 14px;
+
+                font-size: 13px;
+                font-weight: 600;
+            }
+
+            /* ========================================= */
+
+            .footer {
+                margin-top: 70px;
+                padding: 34px 0 60px;
+            }
+
+            .footer-inner {
+                border-top: 1px solid var(--border);
+
+                padding-top: 30px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 24px;
+                flex-wrap: wrap;
+            }
+
+            .footer-copy {
+                color: #6b7280;
+                font-size: 15px;
+                font-weight: 500;
+            }
+
+            .footer-links {
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+            }
+
+            .footer-links a {
+                font-size: 15px;
+                color: #6b7280;
+                font-weight: 500;
+                transition: 0.2s;
+            }
+
+            .footer-links a:hover {
+                color: #111;
+            }
+
+            /* ========================================= */
+
+            @media (max-width: 1200px) {
+                .hero-inner {
+                    grid-template-columns: 1fr;
+                }
+
+                .hero-image-wrapper {
+                    max-width: 600px;
+                }
+
+                .skills-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                .projects-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .about-card {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            @media (max-width: 900px) {
+                .timeline-item {
+                    grid-template-columns: 1fr;
+                }
+
+                .stats {
+                    flex-direction: column;
+                }
+
+                .skills-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .hero-title {
+                    font-size: 52px;
+                }
+
+                .section-title {
+                    font-size: 34px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="logo">Дмитрий Крылов</div>
+
+                    <nav class="nav">
+                        <a href="#" class="active">Главная</a>
+                        <a href="#">Проекты</a>
+                        <a href="#">Опыт</a>
+                        <a href="#">Roadmap</a>
+                    </nav>
+
+                    <div class="header-right">
+                        <div class="lang-switcher">
+                            <button class="lang-btn">EN</button>
+                            <button class="lang-btn active">RU</button>
+                            <button class="lang-btn">BE</button>
+                        </div>
+
+                        <button class="theme-btn">🌙</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- HERO -->
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Разрабатываю<br />
+                            надёжные<br />
+                            веб-решения
+                        </h1>
+
+                        <p class="hero-description">
+                            Frontend, Backend и CMS. Делаю сайты, которые работают стабильно, быстро
+                            и приносят пользу бизнесу.
+                        </p>
+
+                        <div class="socials">
+                            <a href="#" class="social-link">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-4a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                    />
+                                </svg>
+                                GitHub
+                            </a>
+
+                            <a href="#" class="social-link">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                    />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                                LinkedIn
+                            </a>
+
+                            <a href="#" class="social-link">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path d="m22 2-7 20-4-9-9-4Z" />
+                                    <path d="M22 2 11 13" />
+                                </svg>
+                                Telegram
+                            </a>
+
+                            <a href="#" class="social-link">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="m8 12 2 2 4-4" />
+                                </svg>
+                                Codewars
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
+                                alt=""
+                            />
+                        </div>
+
+                        <div class="experience-badge">
+                            <div class="experience-badge-dot"></div>
+
+                            <div>
+                                <h4>7+ лет</h4>
+                                <p>опыта разработки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT CARD -->
+
+                <div class="about-card">
+                    <p>
+                        Последний год работаю преимущественно с WordPress и 1C-Bitrix: сайты,
+                        интеграции, оптимизация, поддержка и хостинги. Пишу чистый код, настраиваю
+                        окружение и довожу задачи до результата.
+                    </p>
+
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-top">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path d="M3 3h18v18H3z" />
+                                </svg>
+
+                                <div class="stat-value">25+</div>
+                            </div>
+
+                            <div class="stat-label">проектов</div>
+                        </div>
+
+                        <div class="stat">
+                            <div class="stat-top">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                </svg>
+
+                                <div class="stat-value">7+</div>
+                            </div>
+
+                            <div class="stat-label">лет опыта</div>
+                        </div>
+
+                        <div class="stat">
+                            <div class="stat-top">
+                                <svg
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path d="M12 20V10" />
+                                    <path d="m18 20-6-6-6 6" />
+                                    <path d="M12 4v6" />
+                                </svg>
+
+                                <div class="stat-value">90%</div>
+                            </div>
+
+                            <div class="stat-label">WordPress & Bitrix</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Опыт работы</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">2024 — настоящее время</div>
+
+                        <div class="timeline-position">
+                            <h3>Веб-разработчик</h3>
+                            <p>Фриланс / Партнёрства</p>
+                        </div>
+
+                        <div class="timeline-description">
+                            Разработка и поддержка сайтов на WordPress и 1C-Bitrix. Интеграции и
+                            оптимизация.
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">2021 — 2024</div>
+
+                        <div class="timeline-position">
+                            <h3>Full-Stack разработчик</h3>
+                            <p>Веб-студия</p>
+                        </div>
+
+                        <div class="timeline-description">
+                            Проекты на PHP + JS. Интеграции с API, настройка серверов, DevOps.
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">2018 — 2021</div>
+
+                        <div class="timeline-position">
+                            <h3>Backend разработчик</h3>
+                            <p>Digital-агентство</p>
+                        </div>
+
+                        <div class="timeline-description">
+                            Разработка REST API, работа с базами данных, интеграции, автоматизация.
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">2016 — 2018</div>
+
+                        <div class="timeline-position">
+                            <h3>Младший разработчик</h3>
+                            <p>Веб-студия</p>
+                        </div>
+
+                        <div class="timeline-description">
+                            Вёрстка, PHP, CMS, доработка готовых решений.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Стек технологий</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <rect x="2" y="3" width="20" height="14" rx="2" />
+                                <path d="M8 21h8" />
+                                <path d="M12 17v4" />
+                            </svg>
+
+                            <h3>Frontend</h3>
+                        </div>
+
+                        <p class="skill-description">
+                            HTML, CSS, JS/TS и современные инструменты для интерфейсов.
+                        </p>
+
+                        <div class="skill-tags">
+                            <div class="skill-tag">HTML5</div>
+                            <div class="skill-tag">CSS3</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">TypeScript</div>
+                            <div class="skill-tag">SCSS</div>
+                            <div class="skill-tag">BEM</div>
+                            <div class="skill-tag">Grid</div>
+                            <div class="skill-tag">Swiper</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M20 7h-9" />
+                                <path d="M14 17H5" />
+                                <circle cx="17" cy="17" r="3" />
+                                <circle cx="7" cy="7" r="3" />
+                            </svg>
+
+                            <h3>Backend</h3>
+                        </div>
+
+                        <p class="skill-description">PHP и Node.js для серверной логики и API.</p>
+
+                        <div class="skill-tags">
+                            <div class="skill-tag">PHP 7.4+</div>
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Nest.js</div>
+                            <div class="skill-tag">GraphQL</div>
+                            <div class="skill-tag">REST API</div>
+                            <div class="skill-tag">JWT</div>
+                            <div class="skill-tag">Jest</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <rect x="4" y="4" width="16" height="16" rx="2" />
+                                <path d="M8 8h8" />
+                                <path d="M8 12h8" />
+                                <path d="M8 16h5" />
+                            </svg>
+
+                            <h3>CMS</h3>
+                        </div>
+
+                        <p class="skill-description">Опыт с популярными CMS и их экосистемой.</p>
+
+                        <div class="skill-tags">
+                            <div class="skill-tag">WordPress</div>
+                            <div class="skill-tag">ACF</div>
+                            <div class="skill-tag">WooCommerce</div>
+                            <div class="skill-tag">1C-Bitrix</div>
+                            <div class="skill-tag">DIAFAN</div>
+                            <div class="skill-tag">CMS Evolution</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5" />
+                                <path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3" />
+                            </svg>
+
+                            <h3>Базы данных</h3>
+                        </div>
+
+                        <p class="skill-description">SQL-базы данных и ORM.</p>
+
+                        <div class="skill-tags">
+                            <div class="skill-tag">MySQL</div>
+                            <div class="skill-tag">PostgreSQL</div>
+                            <div class="skill-tag">Prisma ORM</div>
+                            <div class="skill-tag">SQL</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M12 2 2 7l10 5 10-5-10-5Z" />
+                                <path d="m2 17 10 5 10-5" />
+                                <path d="m2 12 10 5 10-5" />
+                            </svg>
+
+                            <h3>Инструменты</h3>
+                        </div>
+
+                        <p class="skill-description">
+                            Сборка, тестирование, дизайн и другие сервисы.
+                        </p>
+
+                        <div class="skill-tags">
+                            <div class="skill-tag">Webpack</div>
+                            <div class="skill-tag">Docker</div>
+                            <div class="skill-tag">Git</div>
+                            <div class="skill-tag">ESLint</div>
+                            <div class="skill-tag">Prettier</div>
+                            <div class="skill-tag">Figma</div>
+                            <div class="skill-tag">Postman</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Топ проектов</h2>
+
+                <div class="projects-grid">
+                    <article
+                        class="project-card"
+                        style="
+                            background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop');
+                        "
+                    >
+                        <div class="project-arrow">↗</div>
+
+                        <h3 class="project-title">
+                            Корпоративный сайт<br />
+                            на 1C-Bitrix
+                        </h3>
+
+                        <p class="project-description">
+                            Разработка, интеграции, высокая нагрузка, мультирегиональность.
+                        </p>
+
+                        <div class="project-tags">
+                            <div class="project-tag">1C-Bitrix</div>
+                            <div class="project-tag">PHP</div>
+                            <div class="project-tag">MySQL</div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="project-card"
+                        style="
+                            background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop');
+                        "
+                    >
+                        <div class="project-arrow">↗</div>
+
+                        <h3 class="project-title">
+                            Интернет-магазин<br />
+                            на WordPress
+                        </h3>
+
+                        <p class="project-description">
+                            WooCommerce + ACF, фильтры, оптимизация скорости.
+                        </p>
+
+                        <div class="project-tags">
+                            <div class="project-tag">WordPress</div>
+                            <div class="project-tag">WooCommerce</div>
+                            <div class="project-tag">ACF</div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="project-card"
+                        style="
+                            background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop');
+                        "
+                    >
+                        <div class="project-arrow">↗</div>
+
+                        <h3 class="project-title">
+                            Интеграция с Google<br />
+                            Sheets и Telegram
+                        </h3>
+
+                        <p class="project-description">
+                            Автоматизация заявок и отчётов для бизнеса.
+                        </p>
+
+                        <div class="project-tags">
+                            <div class="project-tag">Google Sheets</div>
+                            <div class="project-tag">Telegram</div>
+                            <div class="project-tag">PHP</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-copy">© 2025 Дмитрий Крылов. Все права защищены.</div>
+
+                    <div class="footer-links">
+                        <a href="#">GitHub</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Telegram</a>
+                        <a href="#">Codewars</a>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="#">Публичная оферта</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
