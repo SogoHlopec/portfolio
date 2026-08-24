@@ -3,3 +3,6 @@ out
 node_modules
 package-lock.json
 public
+
+# vendored OKF skills (kept verbatim from upstream)
+.opencode/skills/
