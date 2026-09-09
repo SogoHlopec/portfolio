@@ -10,4 +10,5 @@ okf_version: '0.2'
 - [Процессы и решения](/process/) - Git flow, i18n стратегия, тестирование
 - [Архитектурные решения](/decisions/) - полная дорожная карта проекта
 - Рабочие заметки
+    - [2026-09-10 — Настройка AI-агентов Next.js](/work/2026-09-10-ai-agents-setup.md) - managed-блок nextjs-agent-rules в AGENTS.md, logging.browserToTerminal, MCP-сервер next-devtools для opencode.
     - [2026-08-25 — Настройка OKF-инструментария](/work/2026-08-25-okf-tooling-setup.md) - установлены OKF-скиллы, создана команда `/okf-note`, Obsidian выбран как просмотрщик.

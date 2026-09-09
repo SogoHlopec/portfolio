@@ -1,5 +1,9 @@
 # Журнал изменений
 
+## 2026-09-10
+
+- **Рабочая заметка**: подключена интеграция Next.js для AI-агентов — managed-блок `nextjs-agent-rules` в `AGENTS.md`, `logging.browserToTerminal` в `next.config.ts`, MCP-сервер `next-devtools` в `.opencode/opencode.json` (только для opencode). См. [Настройка AI-агентов Next.js](/work/2026-09-10-ai-agents-setup.md).
+
 ## 2026-08-27
 
 - **Создание**: Добавлены концепты архитектуры и фаз реализации в OKF бандл:
