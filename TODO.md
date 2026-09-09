@@ -29,7 +29,7 @@
 - [x] feat(ui): implement ThemeToggle component
 - [x] chore(styles): define CSS variables in globals.css for light/dark modes based on shadcn tokens
 - [x] feat(layout): create base RootLayout with custom fonts (next/font)
-- [ ] Creating AGENTS.md agent rules and TODO.md task structure. Creating a project documentation database.
+- [x] Creating AGENTS.md agent rules and TODO.md task structure. Creating a project documentation database.
 
 ---
 

@@ -32,8 +32,14 @@ Next.js 16 (App Router) + React 19 + TypeScript 5.9 + Tailwind CSS v4 portfolio 
 - `next/font/google`: Inter + JetBrains Mono, both with the **`cyrillic` subset** (content is partly Russian — keep it when touching fonts).
 - Static export constraints in `next.config.ts`: `output: 'export'`, `basePath`/`assetPrefix` `/portfolio` only in production, `trailingSlash: true`, `images.unoptimized: true`. No API routes or dynamic SSR — every page must be statically exportable. Production links resolve under `/portfolio/`, dev links at root.
 
+## Project context
+
+- OKF knowledge bundle lives in `docs/knowledge/` — start at `docs/knowledge/index.md` for progressive disclosure. Roadmap is in `TODO.md`.
+- Keep the bundle in sync after code changes: record work notes via the `/okf-note` command, check conformance with the `validate` skill.
+- Full git workflow (branch types, PRs, CodeRabbit review) is documented in `docs/knowledge/process/git-flow.md`.
+
 ## Conventions
 
 - Conventional Commits: `feat(scope):`, `fix(scope):`, `chore(scope):`, `docs:` (see git log).
-- Feature work happens on `feat/*` or `chore/*` branches merged into `main` via PRs.
+- Branches per git-flow docs: `feature/*`, `fix/*`, `chore/*`, `content/*`, `refactor/*`, merged into `main` via PRs.
 - No env files or secrets needed for this app.
