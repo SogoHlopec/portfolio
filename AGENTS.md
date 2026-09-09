@@ -1,3 +1,11 @@
+<!-- BEGIN:nextjs-agent-rules -->
+
+# Next.js: ALWAYS read docs before coding
+
+Before any Next.js work, find and read the relevant doc in `node_modules/next/dist/docs/`. Your training data is outdated — the docs are the source of truth.
+
+<!-- END:nextjs-agent-rules -->
+
 # AGENTS.md
 
 Next.js 16 (App Router) + React 19 + TypeScript 5.9 + Tailwind CSS v4 portfolio site (V2). Static export deployed to GitHub Pages. Old version lives on the `portfolio_old` branch. Site content mixes English and Russian.
