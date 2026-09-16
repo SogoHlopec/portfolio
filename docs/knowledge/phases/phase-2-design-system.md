@@ -24,17 +24,17 @@ sources:
       author: human:sogohlopec
       last_modified: '2026-06-23'
     - id: phase2-toggle
-      resource: /home/projects/portfolio/docs/notes/Реализация Phase 2 Design System & Theming feat(ui) implement ThemeToggle component (кнопка переключения)..md
+      resource: /docs/notes/Реализация Phase 2 Design System & Theming feat(ui) implement ThemeToggle component (кнопка переключения)..md
       title: ThemeToggle компонент (raw notes)
       author: human:sogohlopec
       last_modified: '2026-06-24'
     - id: phase2-css
-      resource: /home/projects/portfolio/docs/notes/Реализация Phase 2 - Design System & Theming chore(styles) - define CSS variables in globals.css for light-dark modes based on shadcn tokens..md
+      resource: /docs/notes/Реализация Phase 2 - Design System & Theming chore(styles) - define CSS variables in globals.css for light-dark modes based on shadcn tokens..md
       title: CSS переменные для тем (raw notes)
       author: human:sogohlopec
       last_modified: '2026-07-15'
     - id: phase2-fonts
-      resource: /home/projects/portfolio/docs/notes/Реализация Phase 2 Design System & Theming feat(layout) create base RootLayout with custom fonts (next/font).md
+      resource: /docs/notes/Реализация Phase 2 Design System & Theming feat(layout) create base RootLayout with custom fonts (next/font).md
       title: Кастомные шрифты next/font (raw notes)
       author: human:sogohlopec
       last_modified: '2026-06-23'
