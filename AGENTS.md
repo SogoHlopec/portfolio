@@ -14,7 +14,8 @@ Next.js 16 (App Router) + React 19 + TypeScript 5.9 + Tailwind CSS v4 portfolio 
 
 - `npm run dev` — dev server (runs at site root, no base path)
 - `npm run build` — production build; **this is the typecheck gate** (no separate `tsc` script). Output goes to `out/`.
-- `npm run lint` — ESLint (includes prettier rules)
+- `npm run lint` — ESLint. `eslint-config-prettier` disables ESLint rules that
+  conflict with Prettier; it does not run or enforce Prettier formatting.
 - `npm run start` — serve production build
 - No test suite.
 
