@@ -40,4 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-docs
+# opencode local runtime
+.opencode/node_modules/

@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const isProd = process.env.NODE_ENV === 'production';
 const repoName = '/portfolio';
@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
     basePath: isProd ? repoName : '',
     assetPrefix: isProd ? `${repoName}/` : '',
     reactCompiler: true,
+    logging: {
+        browserToTerminal: true,
+    },
 };
 
 export default nextConfig;
