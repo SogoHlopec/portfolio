@@ -64,5 +64,5 @@ in Russian. Keep YAML frontmatter keys and values (`type`, `title`,
     Resolve every ERROR. Fix warnings too when cheap; if some remain, re-run
     without `--strict` to confirm zero errors, then report the leftovers. If
     `uv` is unavailable, fall back to
-    `python3 -m pip install --quiet pyyaml && python3 <script>`.
+    `python3 -m pip install --quiet pyyaml && python3 .opencode/skills/validate/scripts/okf_validate.py docs/knowledge --strict`.
 8. Report which files were created or updated.
