@@ -37,7 +37,7 @@ Next.js 16 (App Router) + React 19 + TypeScript 5.9 + Tailwind CSS v4 portfolio 
 
 - OKF knowledge bundle lives in `docs/knowledge/` — start at `docs/knowledge/index.md` for progressive disclosure. Roadmap is in `TODO.md`.
 - Keep the bundle in sync after code changes: record work notes via the `/okf-note` command, check conformance with the `validate` skill.
-- Full git workflow (branch types, PRs, CodeRabbit review) is documented in `docs/knowledge/process/git-flow.md`.
+- Full git workflow (branch types, PRs, agent review via ponytail) is documented in `docs/knowledge/process/git-flow.md`.
 
 ## Conventions
 

@@ -1,5 +1,9 @@
 # Журнал изменений
 
+## 2026-11-06
+
+- **Удаление CodeRabbit AI**: конфиг `.coderabbit.yaml` удалён из репозитория; ревью PR выполняет агент — ponytail (`/ponytail-review`), плагин запинан в `.opencode/opencode.json` (все команды ponytail). Актуальный процесс: [Git Flow](/process/git-flow.md). [Phase 0](/phases/phase-0-planning-devops.md) помечена как superseded. Остаётся ручной шаг вне репо: uninstall GitHub App CodeRabbit (Settings → Applications) и удаление ветки `coderabbitai/docstrings/f23bb86`.
+
 ## 2026-09-10
 
 - **Рабочая заметка**: подключена интеграция Next.js для AI-агентов — managed-блок `nextjs-agent-rules` в `AGENTS.md`, `logging.browserToTerminal` в `next.config.ts`, MCP-сервер `next-devtools` в `.opencode/opencode.json` (только для opencode). См. [Настройка AI-агентов Next.js](/work/2026-09-10-ai-agents-setup.md).

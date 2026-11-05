@@ -11,6 +11,7 @@
 
 - [x] chore(repo) init github repository and setup branch protection rules
 - [x] chore(ci): install CodeRabbit AI app to the repository
+- [x] chore(ci): remove CodeRabbit AI, adopt ponytail agent review (`.opencode/opencode.json` plugins)
 - [x] create Next.js app with App Router, TypeScript, and Tailwind
 
 ---

@@ -1,13 +1,14 @@
 ---
 type: Process
 title: Git Flow & Conventional Commits
-description: Стратегия веток, формат коммитов, работа через Pull Requests с CodeRabbit AI
+description: Стратегия веток, формат коммитов, работа через Pull Requests с AI-ревью агента (ponytail)
 tags:
     - git
     - workflow
     - conventional-commits
     - pull-requests
-    - coderabbit
+    - ponytail
+    - code-review
 status: stable
 generated:
     by: opencode/okf-note
@@ -87,12 +88,12 @@ sources:
     ```
 
 4. **Открыть Pull Request** на GitHub: `feature/*` → `main`.
-    - Заполнить PR template (`.github/PULL_REQUEST_TEMPLATE.md`): что сделано, скриншоты, проверено ли на мобильной.
-    - CodeRabbit AI автоматически запускает ревью: пишет саммари, указывает на баги, security, style nits.
+    - Описать PR: что сделано, скриншоты, проверено ли на мобильной.
+    - Запустить ревью агентом: `/ponytail-review` (дифф ветки или ссылка на PR). Плагин ponytail подключён в `.opencode/opencode.json`.
 
 5. **Self-review**: просмотреть свои же изменения во вкладке _Files changed_.
 
-6. **Исправить замечания** (если есть) → новые коммиты в ту же ветку → пуш → CodeRabbit перепроверяет.
+6. **Исправить замечания** (если есть) → новые коммиты в ту же ветку → пуш → повторить `/ponytail-review`.
 
 7. **Merge**: _Squash and merge_ (история чистая, один коммит на PR).
 
@@ -115,16 +116,19 @@ sources:
 - ✅ Require branches to be up to date before merging
 - ✅ Do not allow bypassing the above settings
 
-**Результат**: Прямой пуш в `main` невозможен. Любой код проходит PR + CI + CodeRabbit.
+**Результат**: Прямой пуш в `main` невозможен. Любой код проходит PR + CI + ревью агентом.
 
 ---
 
-# CodeRabbit AI
+# Agent review (ponytail)
 
-- Установлен как GitHub App на репозиторий.
-- Конфиг: `.github/coderabbit.yaml` (профиль `chill`, high-level summary, без poems).
-- Работает на каждом PR: комментирует файлы, ставит галочки "Resolved" на исправленные замечания.
-- **Правило**: не слепо применять правки бота. Если бот ошибается (как с Radix UI unified package) — аргументированно ответить в комментарии и нажать _Resolve conversation_.
+- Подключён как OpenCode-плагин в `.opencode/opencode.json` (ключ `plugins`, точная версия запинана), файл коммитится — плагин подтянется автоматически при старте opencode.
+- Ревью по запросу: `/ponytail-review` — читает дифф **и** связанный код (callers, тесты, потоки данных), а не только изменённые строки. Находит баги, security, гонки/нагрузку, недостающие тесты, медленные пути и лишний код. Отчёт без правок кода: _Must fix / Should fix / Nice to have_ + `Verdict: Ship.` или `Verdict: fix 1 and 3 first.`
+- Сопутствующие команды: `/ponytail-audit` (аудит всего репозитория, ранжированный), `/ponytail-debt` (реестр `shortcut:` комментариев), `/ponytail-help`.
+- Плагин также инжектирует always-on ruleset («ленивый сеньор»: меньше лишнего кода) каждый ход и в субагентов. Уровень по умолчанию — `full`; переключается `/ponytail lite|full|ultra|off` (`off` отключает ruleset, команды работают). Машинный дефолт: `PONYTAIL_DEFAULT_MODE` или `~/.config/ponytail/config.json`.
+- **Правило**: не слепо применять замечания агента — те же требования, что были к CodeRabbit: если агент ошибается (как бот с Radix UI unified package) — аргументированно отклонить и зафиксировать почему.
+
+> Заменил CodeRabbit AI (удалён 2026-11-06: `.coderabbit.yaml` удалён, GitHub App подлежит uninstall — см. `log.md`).
 
 ---
 
@@ -139,7 +143,7 @@ sources:
 
 # Связанные концепты
 
-- [Phase 0 Planning & DevOps](/phases/phase-0-planning-devops.md) — где настраивалась защита веток и CodeRabbit
+- [Phase 0 Planning & DevOps](/phases/phase-0-planning-devops.md) — где настраивалась защита веток (ревью с тех пор переведено с CodeRabbit на ponytail)
 - [Project Plan](/decisions/project-plan.md) — полная дорожная карта с привязкой к типам веток
 
 [^git-flow-note]: Git flow (raw notes)
