@@ -87,7 +87,7 @@ sources:
     git push origin feature/имя-задачи
     ```
 
-4. **Открыть Pull Request** на GitHub: `feature/*` → `main`.
+4. **Открыть Pull Request** на GitHub: `feature/*` → `main` (удобнее — скиллом `/create-pr`).
     - Описать PR: что сделано, скриншоты, проверено ли на мобильной.
     - Запустить ревью агентом: `/ponytail-review` (дифф ветки или ссылка на PR). Плагин ponytail подключён в `.opencode/opencode.json`.
 
