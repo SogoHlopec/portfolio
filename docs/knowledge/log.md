@@ -2,7 +2,7 @@
 
 ## 2026-11-06
 
-- **Удаление CodeRabbit AI**: конфиг `.coderabbit.yaml` удалён из репозитория; ревью PR выполняет агент — ponytail (`/ponytail-review`), плагин запинан в `.opencode/opencode.json` (все команды ponytail). Актуальный процесс: [Git Flow](/process/git-flow.md). [Phase 0](/phases/phase-0-planning-devops.md) помечена как superseded. Остаётся ручной шаг вне репо: uninstall GitHub App CodeRabbit (Settings → Applications) и удаление ветки `coderabbitai/docstrings/f23bb86`.
+- **Удаление CodeRabbit AI**: конфиг `.coderabbit.yaml` удалён из репозитория; ревью PR выполняет агент — ponytail (`/ponytail-review`), плагин запинан в `.opencode/opencode.json` (все команды ponytail). Актуальный процесс: [Git Flow](/process/git-flow.md). [Phase 0](/phases/phase-0-planning-devops.md) помечена как deprecated. GitHub App CodeRabbit uninstalled владельцем; ветка `coderabbitai/docstrings/f23bb86` на GitHub отсутствует (локальный stale-ref — отдельная локальная чистка, на репо не влияет).
 
 ## 2026-09-10
 

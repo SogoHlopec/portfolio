@@ -128,7 +128,7 @@ sources:
 - Плагин также инжектирует always-on ruleset («ленивый сеньор»: меньше лишнего кода) каждый ход и в субагентов. Уровень по умолчанию — `full`; переключается `/ponytail lite|full|ultra|off` (`off` отключает ruleset, команды работают). Машинный дефолт: `PONYTAIL_DEFAULT_MODE` или `~/.config/ponytail/config.json`.
 - **Правило**: не слепо применять замечания агента — те же требования, что были к CodeRabbit: если агент ошибается (как бот с Radix UI unified package) — аргументированно отклонить и зафиксировать почему.
 
-> Заменил CodeRabbit AI (удалён 2026-11-06: `.coderabbit.yaml` удалён, GitHub App подлежит uninstall — см. `log.md`).
+> Заменил CodeRabbit AI (удалён 2026-11-06: `.coderabbit.yaml` удалён; GitHub App uninstalled владельцем — см. `log.md`).
 
 ---
 

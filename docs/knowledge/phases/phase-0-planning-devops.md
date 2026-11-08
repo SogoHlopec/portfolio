@@ -31,7 +31,7 @@ sources:
 
 # Обзор
 
-> **Обновление 2026-11-06 (superseded)**: CodeRabbit AI удалён из проекта — `.coderabbit.yaml` удалён, GitHub App подлежит uninstall. Ревью PR теперь выполняет агент: ponytail (`/ponytail-review`), плагин в `.opencode/opencode.json`. Актуальный процесс: [Git Flow](/process/git-flow.md). Ниже — историческая запись Phase 0.
+> **Обновление 2026-11-06 (superseded)**: CodeRabbit AI удалён из проекта — `.coderabbit.yaml` удалён, GitHub App uninstalled владельцем. Ревью PR теперь выполняет агент: ponytail (`/ponytail-review`), плагин в `.opencode/opencode.json`. Актуальный процесс: [Git Flow](/process/git-flow.md). Ниже — историческая запись Phase 0.
 
 Phase 0 подготовила инфраструктуру репозитория перед началом разработки. Основные шаги: создание GitHub репозитория, настройка защиты ветки `main`, подключение CodeRabbit AI для авторевью PR.
 
