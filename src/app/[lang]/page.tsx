@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { LanguageSwitcher } from '@/components/language-switcher';
 import { getDictionary, hasLocale } from '@/lib/i18n';
 
 export default async function Home({
@@ -18,7 +19,8 @@ export default async function Home({
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-background text-foreground">
-            <div className="absolute top-6 right-6">
+            <div className="absolute top-6 right-6 flex items-center gap-2">
+                <LanguageSwitcher lang={lang} />
                 <ThemeToggle />
             </div>
 
