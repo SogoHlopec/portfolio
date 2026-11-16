@@ -127,9 +127,9 @@ git commit -m "feat(scope): описание изменения"  # Husky: lint 
 
 # 4. Пуш и PR
 git push origin feature/имя-задачи
-# GitHub: New PR → main, заполнить template
+# GitHub: New PR → main
 
-# 5. CodeRabbit AI ревью (авто)
+# 5. Ревью агентом (ponytail, `/ponytail-review`) — заменило CodeRabbit AI (удалён 2026-11-06)
 # 6. Self-review (Files changed)
 # 7. Исправить замечания → push (авто-обновление PR)
 
@@ -275,15 +275,15 @@ export async function generateStaticParams() {
 
 # Валидация архитектуры (из исходного промпта)
 
-| Аспект                | Вердикт              | Детали                                         |
-| --------------------- | -------------------- | ---------------------------------------------- |
-| Next.js Static Export | ✅ Tier-1            | Идеален для GH Pages, мгновенная загрузка      |
-| Vite                  | ❌ Не нужен          | Next.js имеет свой bundler (Turbopack/Webpack) |
-| Tailwind + shadcn/ui  | ✅ Лучший выбор      | Enterprise design system, a11y из коробки      |
-| CodeRabbit AI         | ✅ Отличная практика | Имитирует командный ревью для соло-разработки  |
-| Риск: Images          | ⚠️ Решено            | `unoptimized: true` в next.config.ts           |
-| Риск: `_next` folder  | ⚠️ Решено            | `public/.nojekyll`                             |
-| Риск: i18n в export   | ⚠️ Решено            | Паттерн `[lang]` + `generateStaticParams`      |
+| Аспект                 | Вердикт              | Детали                                                                                    |
+| ---------------------- | -------------------- | ----------------------------------------------------------------------------------------- |
+| Next.js Static Export  | ✅ Tier-1            | Идеален для GH Pages, мгновенная загрузка                                                 |
+| Vite                   | ❌ Не нужен          | Next.js имеет свой bundler (Turbopack/Webpack)                                            |
+| Tailwind + shadcn/ui   | ✅ Лучший выбор      | Enterprise design system, a11y из коробки                                                 |
+| AI-ревью PR (ponytail) | ✅ Отличная практика | Имитирует командный ревью для соло-разработки (заменило CodeRabbit AI, удалён 2026-11-06) |
+| Риск: Images           | ⚠️ Решено            | `unoptimized: true` в next.config.ts                                                      |
+| Риск: `_next` folder   | ⚠️ Решено            | `public/.nojekyll`                                                                        |
+| Риск: i18n в export    | ⚠️ Решено            | Паттерн `[lang]` + `generateStaticParams`                                                 |
 
 ---
 

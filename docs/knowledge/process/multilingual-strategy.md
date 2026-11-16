@@ -190,7 +190,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 4. [ ] Добавить язык в `LanguageSwitcher`.
 5. [ ] Добавить `alternateLocales` в metadata.
 6. [ ] Проверить билд: `npm run build` → `out/xx/` существует.
-7. [ ] PR → CodeRabbit → Merge.
+7. [ ] PR → `/ponytail-review` → Merge.
 
 ---
 

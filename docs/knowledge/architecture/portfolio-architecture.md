@@ -31,18 +31,18 @@ sources:
 
 # Стек технологий
 
-| Слой        | Технология             | Версия / Детали                                      |
-| ----------- | ---------------------- | ---------------------------------------------------- |
-| Фреймворк   | Next.js                | 16.x (App Router, React Server Components)           |
-| Язык        | TypeScript             | 5.9                                                  |
-| Стили       | Tailwind CSS           | v4 (CSS-first, нет `tailwind.config.ts`)             |
-| UI-кит      | shadcn/ui              | style `radix-nova`, компоненты в `src/components/ui` |
-| Темизация   | next-themes            | класс `.dark` на `<html>`                            |
-| Шрифты      | next/font/google       | Inter + JetBrains Mono (подмножество `cyrillic`)     |
-| Анимации    | View Transitions API   | через `next-view-transitions`                        |
-| Деплой      | GitHub Pages + Actions | `output: 'export'`, `basePath: '/portfolio'` в проде |
-| CI/CD       | GitHub Actions         | билд + деплой артефакта `out/`                       |
-| Code Review | CodeRabbit AI          | настраивается через `.github/coderabbit.yaml`        |
+| Слой        | Технология             | Версия / Детали                                        |
+| ----------- | ---------------------- | ------------------------------------------------------ |
+| Фреймворк   | Next.js                | 16.x (App Router, React Server Components)             |
+| Язык        | TypeScript             | 5.9                                                    |
+| Стили       | Tailwind CSS           | v4 (CSS-first, нет `tailwind.config.ts`)               |
+| UI-кит      | shadcn/ui              | style `radix-nova`, компоненты в `src/components/ui`   |
+| Темизация   | next-themes            | класс `.dark` на `<html>`                              |
+| Шрифты      | next/font/google       | Inter + JetBrains Mono (подмножество `cyrillic`)       |
+| Анимации    | View Transitions API   | через `next-view-transitions`                          |
+| Деплой      | GitHub Pages + Actions | `output: 'export'`, `basePath: '/portfolio'` в проде   |
+| CI/CD       | GitHub Actions         | билд + деплой артефакта `out/`                         |
+| Code Review | ponytail (OpenCode)    | плагин в `.opencode/opencode.json`, `/ponytail-review` |
 
 ---
 
@@ -115,9 +115,9 @@ src/app/[lang]/
 ```text
 portfolio/
 ├── .github/
-│   ├── workflows/deploy.yml
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── coderabbit.yaml
+│   └── workflows/deploy.yml
+├── .opencode/
+│   └── opencode.json          # MCP + plugins (ponytail)
 ├── public/
 │   ├── images/, icons/, favicon.ico, .nojekyll
 ├── src/
@@ -160,7 +160,7 @@ portfolio/
 
 Ветки: `main` (production-ready), `feature/*`, `fix/*`, `chore/*`, `content/*`, `refactor/*`.
 Коммиты: Conventional Commits (`feat(scope):`, `fix(scope):`, `chore(scope):`, `docs:`).
-Все изменения — только через PR с CodeRabbit AI review.
+Все изменения — только через PR с ревью агентом (ponytail `/ponytail-review`).
 
 ---
 

@@ -1,14 +1,15 @@
 ---
 type: Phase Notes
 title: Phase 0 — Planning & DevOps Setup
-description: Инициализация GitHub репозитория, настройка branch protection, установка CodeRabbit AI
+description: Историческая запись — инициализация репозитория, branch protection, AI-ревью PR (CodeRabbit; superseded ponytail 2026-11-06)
 tags:
     - phase-0
     - planning
     - devops
     - github
     - coderabbit
-status: stable
+    - superseded-by: ponytail
+status: deprecated
 generated:
     by: opencode/okf-note
     at: '2026-08-27T10:00:00Z'
@@ -29,6 +30,8 @@ sources:
 ---
 
 # Обзор
+
+> **Обновление 2026-11-06 (superseded)**: CodeRabbit AI удалён из проекта — `.coderabbit.yaml` удалён, GitHub App uninstalled владельцем. Ревью PR теперь выполняет агент: ponytail (`/ponytail-review`), плагин в `.opencode/opencode.json`. Актуальный процесс: [Git Flow](/process/git-flow.md). Ниже — историческая запись Phase 0.
 
 Phase 0 подготовила инфраструктуру репозитория перед началом разработки. Основные шаги: создание GitHub репозитория, настройка защиты ветки `main`, подключение CodeRabbit AI для авторевью PR.
 
