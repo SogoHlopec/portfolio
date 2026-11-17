@@ -1,0 +1,9 @@
+{
+    "home": {
+        "status": "Status: Ready for Phase 3 (i18n)",
+        "title": "SogoHlopec Portfolio V2",
+        "subtitle": "Hi! This is the updated portfolio built with Next.js, TypeScript, and Tailwind CSS.",
+        "ctaContact": "Contact",
+        "ctaProjects": "My projects"
+    }
+}
