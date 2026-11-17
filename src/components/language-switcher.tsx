@@ -63,7 +63,7 @@ export function LanguageSwitcher({ lang }: { lang: string }) {
                 <div
                     role="menu"
                     aria-label="Languages"
-                    className="absolute right-0 top-full z-50 mt-2 min-w-32 rounded-md border border-border bg-popover py-1 text-popover-foreground shadow-md"
+                    className="absolute right-0 top-full z-50 mt-2 min-w-32 rounded-md border border-border bg-popover text-popover-foreground shadow-md"
                 >
                     {LANGUAGES.map(({ code, label }) => (
                         <Link
